@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Play Activity Dashboard | Chachi Apolinario</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; background: #f5f5f5; color: #1a1a1a; font-size: 14px; line-height: 1.6; }
+
+    .header { background: #008060; color: white; padding: 32px 48px; display: flex; justify-content: space-between; align-items: flex-end; }
+    .header h1 { font-size: 22px; font-weight: 700; letter-spacing: -0.3px; }
+    .header p { margin-top: 4px; font-size: 13px; opacity: 0.8; }
+    .header-meta { text-align: right; font-size: 12px; opacity: 0.7; line-height: 1.8; }
+
+    .container { max-width: 1000px; margin: 0 auto; padding: 36px 48px; }
+
+    /* Weekly KPI bar */
+    .kpi-bar { background: white; border-radius: 8px; padding: 24px 28px; margin-bottom: 24px; border: 1px solid #e5e5e5; display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+    .kpi { text-align: center; }
+    .kpi-label { font-size: 11px; color: #888; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px; }
+    .kpi-value { font-size: 28px; font-weight: 700; color: #1a1a1a; }
+    .kpi-target { font-size: 11px; color: #aaa; margin-top: 2px; }
+    .kpi-value.green { color: #008060; }
+    .kpi-value.amber { color: #e67e22; }
+    .kpi-value.red { color: #c0392b; }
+
+    /* Progress bar */
+    .progress-wrap { margin-top: 8px; background: #f0f0f0; border-radius: 4px; height: 6px; overflow: hidden; }
+    .progress-bar { height: 6px; border-radius: 4px; background: #008060; }
+    .progress-bar.amber { background: #e67e22; }
+    .progress-bar.red { background: #c0392b; }
+
+    /* Play cards */
+    .play-section { background: white; border-radius: 8px; padding: 28px 32px; margin-bottom: 20px; border: 1px solid #e5e5e5; }
+    .play-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; padding-bottom: 14px; border-bottom: 2px solid #f0f0f0; }
+    .play-title { font-size: 15px; font-weight: 700; color: #1a1a1a; }
+    .play-stats { display: flex; gap: 20px; }
+    .play-stat { text-align: center; }
+    .play-stat-value { font-size: 20px; font-weight: 700; color: #008060; }
+    .play-stat-label { font-size: 10px; color: #aaa; text-transform: uppercase; letter-spacing: 0.4px; }
+
+    table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    th { background: #f5f5f5; text-align: left; padding: 9px 12px; font-weight: 600; color: #555; border-bottom: 2px solid #e5e5e5; font-size: 11px; text-transform: uppercase; letter-spacing: 0.3px; }
+    td { padding: 10px 12px; border-bottom: 1px solid #f0f0f0; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #fafafa; }
+
+    .tag { display: inline-block; background: #e8f5f0; color: #008060; padding: 2px 8px; border-radius: 12px; font-size: 11px; font-weight: 600; }
+    .tag.blue { background: #eaf2fb; color: #2980b9; }
+    .tag.amber { background: #fef5e7; color: #e67e22; }
+    .tag.red { background: #fdf0ef; color: #c0392b; }
+    .tag.grey { background: #f0f0f0; color: #666; }
+
+    .note { background: #f9f9f9; border-left: 3px solid #008060; padding: 10px 14px; border-radius: 0 6px 6px 0; font-size: 12px; color: #666; margin-top: 14px; }
+    .note.amber { border-left-color: #e67e22; }
+
+    .update-guide { background: #eaf2fb; border: 1px solid #c5d9f0; border-radius: 8px; padding: 20px 24px; margin-bottom: 24px; font-size: 13px; color: #2c3e50; }
+    .update-guide h3 { font-size: 13px; font-weight: 700; margin-bottom: 8px; color: #2980b9; text-transform: uppercase; letter-spacing: 0.3px; }
+    .update-guide code { background: #d6eaf8; padding: 1px 6px; border-radius: 3px; font-family: monospace; font-size: 12px; }
+
+    @media (max-width: 768px) {
+      .kpi-bar { grid-template-columns: repeat(2, 1fr); }
+      .play-header { flex-direction: column; gap: 12px; align-items: flex-start; }
+      .container { padding: 24px 20px; }
+      .header { padding: 24px 20px; flex-direction: column; gap: 8px; }
+    }
+  </style>
+</head>
+<body>
+
+<script>
+// ============================================================
+// UPDATE THIS BLOCK EACH WEEK
+// ============================================================
+const data = {
+  weekOf: "May 5 – 9, 2026",
+  updatedAt: "May 7, 2026",
+
+  // Weekly KPI actuals (reset each Monday)
+  weekly: {
+    callsMade: 12,
+    callsTarget: 50,   // 10 calls/day x 5 days
+    emailsSent: 18,
+    emailsTarget: 35,  // 7 emails/day x 5 days
+  },
+
+  // Vertical Play (Health & Beauty)
+  vertical: {
+    callsMade: 18,
+    emailsSent: 14,
+    responses: 4,
+    accounts: [
+      { name: "Gr8 Health",                  type: "Email",           date: "Apr 24", response: "Replied — open to a convo in Q3",                            next: "Follow up late May with ANZ health case study" },
+      { name: "Mishkah",                     type: "Email",           date: "Apr 21", response: "Opened, no reply",                                           next: "Re-engage May with partner social proof" },
+      { name: "NAK Hair",                    type: "Call",            date: "Apr 23", response: "Voicemail left",                                             next: "Email follow-up; retry call in 2 weeks" },
+      { name: "Health & beauty retailer (NSW)", type: "Call",         date: "Apr 30", response: "Connected — not right timing, revisit Q3",                  next: "Nurture; check back July" },
+      { name: "Wellness brand (VIC)",        type: "Email + LinkedIn", date: "May 2",  response: "LinkedIn connection accepted, no email reply",              next: "DM on LinkedIn; share Shopify health vertical story" },
+    ]
+  },
+
+  // Closed Lost Re-engagement Play
+  closedLost: {
+    totalList: 70,
+    dialed: 50,
+    oppsReturned: 2,
+    accounts: [
+      { name: "50 accounts dialed (70 total list)",         type: "Call",  date: "Apr – May", response: "2 opportunities re-opened from 50 dials",                   next: "20 remaining to dial in May" },
+      { name: "Returned Opportunity #1 (health merchant)",  type: "Call",  date: "May 1",     response: "Back in convo — renewed interest after competitor issue",     next: "Book discovery call; assess platform pain" },
+      { name: "Returned Opportunity #2 (fashion retailer)", type: "Email", date: "May 5",     response: "Re-engaged after 6 months; asking about Plus pricing",        next: "Send pricing summary; loop in Toby" },
+    ]
+  },
+
+  // BigCommerce Migration Play
+  bigcommerce: {
+    callsMade: 6,
+    emailsSent: 8,
+    responses: 2,
+    accounts: [
+      { name: "Pillow Talk",                    type: "Active pipeline", date: "Ongoing", response: "In Solution stage — working on C-suite access",           next: "Push for exec meeting; VPF reduction in progress" },
+      { name: "BC merchant (fashion, QLD)",     type: "Email",           date: "Apr 22",  response: "Opened, no reply",                                        next: "Follow up with BC open payment fee context (June 2026)" },
+      { name: "BC merchant (homewares, VIC)",   type: "Call",            date: "May 1",   response: "Connected — on BC contract, renewal Dec",                 next: "Nurture to renewal; flag for Q3 pipeline" },
+      { name: "BC merchant (health, NSW)",      type: "Email",           date: "May 5",   response: "Forwarded to digital lead — awaiting intro",              next: "Follow up with digital lead; share migration guide" },
+      { name: "BC merchant (outdoor, VIC)",     type: "Call",            date: "May 6",   response: "Voicemail left",                                          next: "Email follow-up with BC pricing change overview" },
+    ]
+  },
+
+  // WooCommerce Migration Play
+  woocommerce: {
+    callsMade: 5,
+    emailsSent: 6,
+    responses: 1,
+    accounts: [
+      { name: "WC merchant (sporting goods, NSW)", type: "Email",           date: "Apr 28", response: "No response",                                          next: "Retry with TCO angle" },
+      { name: "WC merchant (fashion, VIC)",        type: "Call",            date: "Apr 30", response: "Voicemail left",                                        next: "Email follow-up with WC vs Shopify comparison" },
+      { name: "WC merchant (beauty, QLD)",         type: "Email + LinkedIn", date: "May 2", response: "Email opened twice, no reply; LinkedIn not connected",   next: "LinkedIn follow-up DM" },
+      { name: "WC merchant (homewares, WA)",       type: "Email",           date: "May 5",  response: "Replied — curious about migration timeline and cost",   next: "Book discovery call; loop in Toby" },
+    ]
+  }
+};
+// ============================================================
+// END OF UPDATE BLOCK
+// ============================================================
+</script>
+
+<div class="header">
+  <div>
+    <h1 id="title">Play Activity Dashboard</h1>
+    <p id="subtitle">Chachi Apolinario &nbsp;|&nbsp; ANZ Mid-Market</p>
+  </div>
+  <div class="header-meta">
+    <div id="weekOf"></div>
+    <div id="updatedAt"></div>
+  </div>
+</div>
+
+<div class="container">
+
+  <div class="update-guide">
+    <h3>How to update this dashboard</h3>
+    Edit the <code>data</code> object at the top of this file. Change <code>weekOf</code>, <code>updatedAt</code>, the weekly call/email actuals, and add/remove rows in each play's <code>accounts</code> array. Save and reload.
+  </div>
+
+  <!-- Weekly KPI bar -->
+  <div class="kpi-bar" id="kpiBar"></div>
+
+  <!-- Vertical Play -->
+  <div class="play-section" id="verticalSection"></div>
+
+  <!-- Closed Lost Play -->
+  <div class="play-section" id="closedLostSection"></div>
+
+  <!-- BigCommerce Play -->
+  <div class="play-section" id="bcSection"></div>
+
+  <!-- WooCommerce Play -->
+  <div class="play-section" id="wcSection"></div>
+
+  <p style="text-align:center; color:#ccc; font-size:12px; padding: 8px 0 24px;">Prepared by Chachi Apolinario &nbsp;|&nbsp; ANZ Mid-Market</p>
+
+</div>
+
+<script>
+// Render functions
+
+function tagHtml(text) {
+  const map = {
+    "Call": "",
+    "Email": "blue",
+    "Email + LinkedIn": "blue",
+    "Active pipeline": "grey",
+  };
+  const cls = map[text] !== undefined ? map[text] : "";
+  return `<span class="tag ${cls}">${text}</span>`;
+}
+
+function progressColor(pct) {
+  if (pct >= 80) return "";
+  if (pct >= 50) return "amber";
+  return "red";
+}
+
+function renderProgress(val, target) {
+  const pct = Math.min(100, Math.round((val / target) * 100));
+  const color = progressColor(pct);
+  return `
+    <div class="progress-wrap">
+      <div class="progress-bar ${color}" style="width:${pct}%"></div>
+    </div>`;
+}
+
+function renderTable(accounts) {
+  const rows = accounts.map(a => `
+    <tr>
+      <td><strong>${a.name}</strong></td>
+      <td>${tagHtml(a.type)}</td>
+      <td>${a.date}</td>
+      <td style="color:#555;">${a.response}</td>
+      <td style="color:#555;">${a.next}</td>
+    </tr>`).join("");
+  return `
+    <table>
+      <thead>
+        <tr>
+          <th>Account</th>
+          <th>Type</th>
+          <th>Date</th>
+          <th>Response</th>
+          <th>Next Steps</th>
+        </tr>
+      </thead>
+      <tbody>${rows}</tbody>
+    </table>`;
+}
+
+// -- Header
+document.getElementById("title").textContent = "Play Activity Dashboard";
+document.getElementById("subtitle").textContent = "Chachi Apolinario \u00a0|\u00a0 ANZ Mid-Market";
+document.getElementById("weekOf").textContent = "Week of " + data.weekOf;
+document.getElementById("updatedAt").textContent = "Updated " + data.updatedAt;
+
+// -- KPI Bar
+const w = data.weekly;
+const callPct = Math.round((w.callsMade / w.callsTarget) * 100);
+const emailPct = Math.round((w.emailsSent / w.emailsTarget) * 100);
+const clPct = Math.round((data.closedLost.dialed / data.closedLost.totalList) * 100);
+const oppsRetd = data.closedLost.oppsReturned;
+
+document.getElementById("kpiBar").innerHTML = `
+  <div class="kpi">
+    <div class="kpi-label">Calls This Week</div>
+    <div class="kpi-value ${progressColor(callPct)}">${w.callsMade}</div>
+    <div class="kpi-target">Target: ${w.callsTarget}</div>
+    ${renderProgress(w.callsMade, w.callsTarget)}
+  </div>
+  <div class="kpi">
+    <div class="kpi-label">Emails This Week</div>
+    <div class="kpi-value ${progressColor(emailPct)}">${w.emailsSent}</div>
+    <div class="kpi-target">Target: ${w.emailsTarget}</div>
+    ${renderProgress(w.emailsSent, w.emailsTarget)}
+  </div>
+  <div class="kpi">
+    <div class="kpi-label">Closed Lost Dialed</div>
+    <div class="kpi-value ${progressColor(clPct)}">${data.closedLost.dialed} / ${data.closedLost.totalList}</div>
+    <div class="kpi-target">${clPct}% of list</div>
+    ${renderProgress(data.closedLost.dialed, data.closedLost.totalList)}
+  </div>
+  <div class="kpi">
+    <div class="kpi-label">Opps Returned</div>
+    <div class="kpi-value green">${oppsRetd}</div>
+    <div class="kpi-target">from closed lost</div>
+    <div class="progress-wrap"><div class="progress-bar" style="width:100%"></div></div>
+  </div>
+`;
+
+// -- Vertical Play
+const v = data.vertical;
+document.getElementById("verticalSection").innerHTML = `
+  <div class="play-header">
+    <div class="play-title">Vertical Play &mdash; Health &amp; Beauty</div>
+    <div class="play-stats">
+      <div class="play-stat"><div class="play-stat-value">${v.callsMade}</div><div class="play-stat-label">Calls made</div></div>
+      <div class="play-stat"><div class="play-stat-value">${v.emailsSent}</div><div class="play-stat-label">Emails sent</div></div>
+      <div class="play-stat"><div class="play-stat-value">${v.responses}</div><div class="play-stat-label">Responses</div></div>
+    </div>
+  </div>
+  ${renderTable(v.accounts)}
+`;
+
+// -- Closed Lost
+const cl = data.closedLost;
+document.getElementById("closedLostSection").innerHTML = `
+  <div class="play-header">
+    <div class="play-title">Closed Lost Re-Engagement Play</div>
+    <div class="play-stats">
+      <div class="play-stat"><div class="play-stat-value">${cl.dialed}</div><div class="play-stat-label">Dialed</div></div>
+      <div class="play-stat"><div class="play-stat-value">${cl.totalList - cl.dialed}</div><div class="play-stat-label">Remaining</div></div>
+      <div class="play-stat"><div class="play-stat-value" style="color:#008060;">${cl.oppsReturned}</div><div class="play-stat-label">Opps returned</div></div>
+    </div>
+  </div>
+  ${renderTable(cl.accounts)}
+`;
+
+// -- BigCommerce
+const bc = data.bigcommerce;
+document.getElementById("bcSection").innerHTML = `
+  <div class="play-header">
+    <div class="play-title">BigCommerce Migration Play</div>
+    <div class="play-stats">
+      <div class="play-stat"><div class="play-stat-value">${bc.callsMade}</div><div class="play-stat-label">Calls made</div></div>
+      <div class="play-stat"><div class="play-stat-value">${bc.emailsSent}</div><div class="play-stat-label">Emails sent</div></div>
+      <div class="play-stat"><div class="play-stat-value">${bc.responses}</div><div class="play-stat-label">Responses</div></div>
+    </div>
+  </div>
+  ${renderTable(bc.accounts)}
+  <div class="note amber">BigCommerce open payment provider fee change takes effect June 2026 — use as urgency lever for merchants on 3rd party gateways.</div>
+`;
+
+// -- WooCommerce
+const wc = data.woocommerce;
+document.getElementById("wcSection").innerHTML = `
+  <div class="play-header">
+    <div class="play-title">WooCommerce Migration Play</div>
+    <div class="play-stats">
+      <div class="play-stat"><div class="play-stat-value">${wc.callsMade}</div><div class="play-stat-label">Calls made</div></div>
+      <div class="play-stat"><div class="play-stat-value">${wc.emailsSent}</div><div class="play-stat-label">Emails sent</div></div>
+      <div class="play-stat"><div class="play-stat-value">${wc.responses}</div><div class="play-stat-label">Responses</div></div>
+    </div>
+  </div>
+  ${renderTable(wc.accounts)}
+`;
+</script>
+
+</body>
+</html>
