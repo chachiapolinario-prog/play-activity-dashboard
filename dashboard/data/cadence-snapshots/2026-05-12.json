@@ -1,0 +1,110 @@
+{
+  "date": "2026-05-12",
+  "bob": {
+    "total": 566,
+    "high": null,
+    "medium": null
+  },
+  "coverage": {
+    "touched": 170,
+    "untouched": 396,
+    "active_now": 40
+  },
+  "plays": {
+    "bigcommerce": {
+      "label": "BigCommerce",
+      "type": "competitor",
+      "enrolled": 70,
+      "active": 22,
+      "removed": 48,
+      "engaged": 0,
+      "open_rate": 48.1,
+      "opps_created": 0,
+      "cadences": ["L|ALL Q2'26", "ANZ MM H1'26 (Shina)", "C|LP Q2'26"]
+    },
+    "adobe_magento": {
+      "label": "Adobe / Magento",
+      "type": "competitor",
+      "enrolled": 77,
+      "active": 2,
+      "removed": 75,
+      "engaged": 2,
+      "opps_created": 0,
+      "cadences": ["C|LP Q2'26", "C|MP Q2'26", "ANZ MM H1'26 x2 (Shina)"]
+    },
+    "woocommerce": {
+      "label": "WooCommerce",
+      "type": "competitor",
+      "enrolled": 58,
+      "active": 0,
+      "removed": 58,
+      "engaged": 2,
+      "opps_created": 0,
+      "q2_status": "holding",
+      "cadences": ["C|LP Woo Q1'26 done", "Q2 on hold"]
+    },
+    "custom_build": {
+      "label": "Custom Build",
+      "type": "competitor",
+      "enrolled": 52,
+      "active": 14,
+      "removed": 38,
+      "engaged": 1,
+      "opps_created": 0,
+      "cadences": ["C|LP Q1'26 done", "C|MP Q1'26 running"]
+    },
+    "furniture": {
+      "label": "Furniture",
+      "type": "vertical",
+      "enrolled": 32,
+      "active": 2,
+      "removed": 22,
+      "completed": 8,
+      "engaged": 0,
+      "opps_created": 0,
+      "active_accounts": ["DOMO Collections"],
+      "completed_accounts": ["West Elm", "Stylecraft", "Bedpost"],
+      "removed_accounts": ["OZ Design Furniture", "Homemakers Furniture & Bedding", "Coco Republic", "Makin Mattresses"],
+      "cadences": ["SA | ANZ MM Furniture 10M+ email", "SA | LinkedIn & Calls"]
+    },
+    "health_beauty": {
+      "label": "Health & Beauty",
+      "type": "vertical",
+      "enrolled": 0,
+      "active": 0,
+      "status": "not_launched",
+      "cadences": []
+    },
+    "closed_lost": {
+      "label": "Closed Lost",
+      "type": "reengagement",
+      "enrolled": 0,
+      "status": "no_cadence_exists",
+      "cadences": []
+    }
+  },
+  "salesforce": {
+    "total_opps_2026": 27,
+    "closed_won": 2,
+    "closed_lost": 10,
+    "open_pre_qualified": 5,
+    "open_envision_solution": 10,
+    "closed_won_accounts": ["Garden Express Australia", "Greg Grant Saddlery"],
+    "closed_lost_accounts": [
+      "The Pool Tile",
+      "Australia Naturalcare",
+      "Church & Dwight (Australia)",
+      "Just Cuts (Justice Haircare)",
+      "Asahi Australia (Drinks Cart)",
+      "Patagonia Australia",
+      "Ainslie Bullion",
+      "Preen",
+      "Shade Australia",
+      "ASPAR / Aurora Spa"
+    ]
+  },
+  "notes": {
+    "bob_priority_split": "TBD — High/Medium counts need to be pulled from Vault CRM accounts view. Filter by priority in https://vault.shopify.io/crm/users/17990-Chachi-Apolinario/accounts",
+    "outcome_tracking": "Responded / no / not now / meeting booked is not tracked in Vault CRM sequences. Lane & Shina need to log removal reasons."
+  }
+}

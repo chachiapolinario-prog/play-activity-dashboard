@@ -32,6 +32,49 @@
   .summary-tile.red .value { color: #DC2626; }
   .summary-tile.blue .value { color: #2563EB; }
 
+  .priority-pill {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 7px;
+    border-radius: 4px;
+    margin-right: 4px;
+  }
+  .priority-high { background: #FEF2F2; color: #B91C1C; }
+  .priority-med { background: #FFF7ED; color: #92400E; }
+
+  .daily-changes {
+    background: #fff;
+    border: 1px solid #E5E7EB;
+    border-radius: 10px;
+    padding: 14px 18px;
+    margin-bottom: 24px;
+  }
+  .daily-changes-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .daily-changes-title { font-size: 13px; font-weight: 700; color: #1A1A1A; }
+  .daily-changes-date { font-size: 11px; color: #9CA3AF; }
+  .daily-changes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 10px;
+  }
+  .change-tile {
+    background: #F9FAFB;
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+  .change-tile .change-label { color: #6B7280; font-size: 10px; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600; }
+  .change-tile .change-value { font-size: 16px; font-weight: 700; margin-top: 2px; }
+  .change-up { color: #059669; }
+  .change-down { color: #DC2626; }
+  .change-flat { color: #9CA3AF; }
+
   /* Section headers */
   .section-header {
     font-size: 13px;
@@ -236,7 +279,10 @@
   <div class="summary-tile blue">
     <div class="label">Total BOB (workable)</div>
     <div class="value">566</div>
-    <div class="sub">High + Medium priority</div>
+    <div class="sub">
+      <span class="priority-pill priority-high">High: TBD</span>
+      <span class="priority-pill priority-med">Medium: TBD</span>
+    </div>
   </div>
   <div class="summary-tile green">
     <div class="label">Touched</div>
@@ -253,6 +299,15 @@
     <div class="value">40</div>
     <div class="sub">Contacts mid-sequence today</div>
   </div>
+</div>
+
+<!-- Daily change tracker (populated by /cadence-review) -->
+<div id="daily-changes" class="daily-changes" style="display:none;">
+  <div class="daily-changes-header">
+    <span class="daily-changes-title">📊 Today's changes</span>
+    <span class="daily-changes-date" id="changes-date">—</span>
+  </div>
+  <div class="daily-changes-grid" id="changes-grid"></div>
 </div>
 
 
@@ -563,6 +618,42 @@
 <div class="data-note" style="margin-top: 12px;">
   <strong>Data limitation:</strong> "Responded", "Meeting booked", and "No / Not now" breakdowns are not captured in Vault CRM's sequence contacts view. The system only records Active / Removed / Done status — not the reason for removal. To track outcomes per cadence, Lane and Shina would need to log a removal reason or note when they manually remove contacts. The "Not tracked in Vault" flags above reflect this gap, not a lack of results.
 </div>
+
+<script>
+// Load latest snapshot diff and render in the daily changes panel
+(async function loadDailyChanges() {
+  try {
+    const res = await fetch('dashboard/data/cadence-snapshots/latest-diff.json', { cache: 'no-store' });
+    if (!res.ok) return;
+    const diff = await res.json();
+    const panel = document.getElementById('daily-changes');
+    const grid = document.getElementById('changes-grid');
+    const dateEl = document.getElementById('changes-date');
+    if (!diff || !diff.metrics) return;
+    dateEl.textContent = `${diff.from} → ${diff.to}`;
+    const order = [
+      ['active', 'Active contacts'],
+      ['touched', 'Touched accounts'],
+      ['untouched', 'Untouched accounts'],
+      ['new_opps', 'New opps'],
+      ['closed_won', 'Closed won'],
+      ['closed_lost', 'Closed lost']
+    ];
+    order.forEach(([key, label]) => {
+      const v = diff.metrics[key];
+      if (v === undefined || v === null) return;
+      const cls = v > 0 ? 'change-up' : v < 0 ? 'change-down' : 'change-flat';
+      const sign = v > 0 ? '+' : '';
+      grid.insertAdjacentHTML('beforeend', `
+        <div class="change-tile">
+          <div class="change-label">${label}</div>
+          <div class="change-value ${cls}">${sign}${v}</div>
+        </div>`);
+    });
+    if (grid.children.length > 0) panel.style.display = 'block';
+  } catch (e) { /* silent */ }
+})();
+</script>
 
 </body>
 </html>
