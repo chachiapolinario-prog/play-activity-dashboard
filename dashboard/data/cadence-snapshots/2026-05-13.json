@@ -1,0 +1,90 @@
+{
+  "date": "2026-05-13",
+  "bob": {
+    "total": 566,
+    "high": null,
+    "medium": null,
+    "note": "H/M breakdown not pulled today — accounts view filter requires manual click-through, no URL filter available"
+  },
+  "coverage": {
+    "touched": 170,
+    "untouched": 396,
+    "active_now": 40
+  },
+  "plays": {
+    "bigcommerce": {
+      "label": "BigCommerce",
+      "type": "competitor",
+      "enrolled": 70,
+      "active": 22,
+      "removed": 48,
+      "engaged": 0,
+      "open_rate": 48.1,
+      "opps_created": 0,
+      "verified_today": "L|ALL Q2'26 (3046): 39 enrolled, 22 active, 1 done, 27 sent"
+    },
+    "adobe_magento": {
+      "label": "Adobe / Magento",
+      "type": "competitor",
+      "enrolled": 77,
+      "active": 2,
+      "removed": 75,
+      "engaged": 2,
+      "opps_created": 0,
+      "verified_today": "Carrying over from yesterday"
+    },
+    "woocommerce": {
+      "label": "WooCommerce",
+      "type": "competitor",
+      "enrolled": 58,
+      "active": 0,
+      "removed": 58,
+      "engaged": 2,
+      "opps_created": 0,
+      "q2_status": "holding"
+    },
+    "custom_build": {
+      "label": "Custom Build",
+      "type": "competitor",
+      "enrolled": 52,
+      "active": 14,
+      "removed": 38,
+      "engaged": 1,
+      "opps_created": 0
+    },
+    "furniture": {
+      "label": "Furniture",
+      "type": "vertical",
+      "enrolled": 32,
+      "active": 2,
+      "removed": 22,
+      "completed": 8,
+      "engaged": 0,
+      "opps_created": 0,
+      "active_accounts": ["DOMO Collections"],
+      "verified_today": "SA Furniture 10M+ (505): 29 enrolled, 2 active, 8 done, 91 sent, 9 calls logged"
+    },
+    "health_beauty": {
+      "label": "Health & Beauty",
+      "type": "vertical",
+      "enrolled": 0,
+      "active": 0,
+      "status": "not_launched"
+    },
+    "closed_lost": {
+      "label": "Closed Lost",
+      "type": "reengagement",
+      "enrolled": 0,
+      "status": "no_cadence_exists"
+    }
+  },
+  "salesforce": {
+    "total_opps_2026": 27,
+    "closed_won": 2,
+    "closed_lost": 10,
+    "open_pre_qualified": 4,
+    "open_envision_solution": 11,
+    "new_opps_today": [],
+    "stage_moves_today": []
+  }
+}

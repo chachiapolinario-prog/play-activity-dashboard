@@ -1,6 +1,16 @@
 {
-  "from": "—",
-  "to": "2026-05-12",
-  "metrics": {},
-  "note": "First snapshot. No diff to show yet. Tomorrow's /cadence-review will populate this."
+  "from": "2026-05-12",
+  "to": "2026-05-13",
+  "metrics": {
+    "active": 0,
+    "touched": 0,
+    "untouched": 0,
+    "new_opps": 0,
+    "closed_won": 0,
+    "closed_lost": 0
+  },
+  "new_opps_detail": [],
+  "stage_moves": [],
+  "play_changes": {},
+  "summary": "No material movement in 24h. All sequence numbers steady (BigCommerce L|ALL still 22 active, Furniture still 2 active with DOMO Collections). No new Salesforce opps created today. Note: yesterday's baseline counted Salesforce stages slightly differently — actual split is 4 pre-qualified + 11 envision/solution (was 5 + 10), same total pipeline of 15 open opps."
 }
