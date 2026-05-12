@@ -3,298 +3,529 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Weekly Activity | Chachi Apolinario</title>
+  <title>Weekly Activity Dashboard | Chachi Apolinario</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; background: #f5f5f5; color: #1a1a1a; font-size: 14px; line-height: 1.6; }
 
     .header { background: #008060; color: white; padding: 32px 48px; display: flex; justify-content: space-between; align-items: flex-end; }
-    .header h1 { font-size: 22px; font-weight: 700; }
-    .header p { margin-top: 4px; font-size: 13px; opacity: 0.8; }
-    .header-meta { text-align: right; font-size: 12px; opacity: 0.75; line-height: 1.9; }
+    .header h1 { font-size: 24px; font-weight: 700; letter-spacing: -0.3px; }
+    .header p { margin-top: 4px; font-size: 13px; opacity: 0.85; }
+    .header-right { text-align: right; font-size: 13px; opacity: 0.85; }
+    .week-badge { background: rgba(255,255,255,0.2); padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600; margin-bottom: 4px; display: inline-block; }
 
-    .container { max-width: 960px; margin: 0 auto; padding: 36px 48px; }
+    .container { max-width: 1200px; margin: 0 auto; padding: 36px 48px; }
 
-    /* Weekly effort bar */
-    .effort-bar { background: white; border-radius: 8px; border: 1px solid #e5e5e5; padding: 28px 32px; margin-bottom: 24px; }
-    .effort-title { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.6px; color: #008060; margin-bottom: 20px; }
-    .effort-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
-    .effort-item { }
-    .effort-label { font-size: 11px; color: #888; text-transform: uppercase; letter-spacing: 0.4px; margin-bottom: 6px; }
-    .effort-numbers { display: flex; align-items: baseline; gap: 6px; margin-bottom: 8px; }
-    .effort-actual { font-size: 32px; font-weight: 700; }
-    .effort-target { font-size: 13px; color: #aaa; }
-    .effort-actual.green { color: #008060; }
-    .effort-actual.amber { color: #e67e22; }
-    .effort-actual.red { color: #c0392b; }
-    .effort-actual.neutral { color: #1a1a1a; }
-    .bar-track { background: #f0f0f0; border-radius: 4px; height: 6px; overflow: hidden; }
-    .bar-fill { height: 6px; border-radius: 4px; }
-    .bar-fill.green { background: #008060; }
-    .bar-fill.amber { background: #e67e22; }
-    .bar-fill.red { background: #c0392b; }
-    .bar-fill.blue { background: #2980b9; }
+    .section { background: white; border-radius: 8px; padding: 28px; margin-bottom: 20px; border: 1px solid #e5e5e5; }
+    .section-title { font-size: 15px; font-weight: 700; color: #008060; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 18px; padding-bottom: 10px; border-bottom: 2px solid #f0f0f0; }
 
-    /* Play cards */
-    .plays-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-bottom: 24px; }
-    .play-card { background: white; border-radius: 8px; border: 1px solid #e5e5e5; padding: 24px 28px; }
-    .play-card-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 16px; }
-    .play-card-title { font-size: 14px; font-weight: 700; color: #1a1a1a; }
-    .play-card-sub { font-size: 12px; color: #888; margin-top: 2px; }
-    .status-badge { font-size: 11px; font-weight: 700; padding: 3px 10px; border-radius: 12px; white-space: nowrap; }
-    .status-active { background: #e8f5f0; color: #008060; }
-    .status-building { background: #fef5e7; color: #e67e22; }
-    .status-starting { background: #f0f0f0; color: #888; }
+    /* Update Panel */
+    .update-panel { background: #1a1a1a; border-radius: 8px; padding: 28px; margin-bottom: 20px; }
+    .update-panel-title { font-size: 13px; font-weight: 700; color: #00c27a; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 4px; }
+    .update-panel-sub { font-size: 12px; color: #888; margin-bottom: 20px; }
+    .update-group { margin-bottom: 20px; }
+    .update-group-label { font-size: 11px; font-weight: 700; color: #aaa; text-transform: uppercase; letter-spacing: 0.4px; margin-bottom: 10px; }
+    .input-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
+    .input-grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+    .input-item label { display: block; font-size: 11px; color: #888; margin-bottom: 4px; }
+    .input-item input { width: 100%; background: #2a2a2a; border: 1px solid #3a3a3a; border-radius: 4px; padding: 7px 10px; color: white; font-size: 14px; font-weight: 600; }
+    .input-item input:focus { outline: none; border-color: #00c27a; }
+    .input-item input.dollar { }
+    .update-btn { background: #008060; color: white; border: none; padding: 10px 24px; border-radius: 5px; font-size: 13px; font-weight: 700; cursor: pointer; margin-top: 8px; }
+    .update-btn:hover { background: #006b50; }
+    .update-divider { border: none; border-top: 1px solid #2a2a2a; margin: 18px 0; }
+    .textarea-item label { display: block; font-size: 11px; color: #888; margin-bottom: 4px; }
+    .textarea-item textarea { width: 100%; background: #2a2a2a; border: 1px solid #3a3a3a; border-radius: 4px; padding: 8px 10px; color: white; font-size: 13px; resize: vertical; min-height: 60px; }
+    .textarea-item textarea:focus { outline: none; border-color: #00c27a; }
+    .textarea-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
 
-    .play-stats { display: flex; gap: 20px; margin-bottom: 14px; }
-    .play-stat-item { }
-    .play-stat-val { font-size: 22px; font-weight: 700; color: #1a1a1a; }
-    .play-stat-val.green { color: #008060; }
-    .play-stat-lbl { font-size: 10px; color: #aaa; text-transform: uppercase; letter-spacing: 0.4px; }
+    /* Metric Grid */
+    .metric-grid-5 { display: grid; grid-template-columns: repeat(5, 1fr); gap: 14px; }
+    .metric { background: #f9f9f9; border: 1px solid #e5e5e5; border-radius: 6px; padding: 16px; text-align: center; }
+    .metric-label { font-size: 11px; color: #888; text-transform: uppercase; letter-spacing: 0.4px; margin-bottom: 5px; }
+    .metric-value { font-size: 24px; font-weight: 700; color: #1a1a1a; }
+    .metric-value.green { color: #008060; }
+    .metric-value.amber { color: #e67e22; }
+    .metric-value.red { color: #c0392b; }
+    .metric-sub { font-size: 11px; color: #aaa; margin-top: 3px; }
 
-    .play-note { font-size: 12px; color: #555; line-height: 1.6; padding-top: 14px; border-top: 1px solid #f0f0f0; }
-    .play-note strong { color: #1a1a1a; }
+    /* Coverage bars */
+    .coverage-row { display: flex; align-items: center; gap: 14px; margin-bottom: 10px; }
+    .coverage-label { width: 90px; font-size: 12px; font-weight: 600; color: #555; text-transform: uppercase; }
+    .coverage-bar-wrap { flex: 1; background: #f0f0f0; border-radius: 4px; height: 22px; overflow: hidden; }
+    .coverage-bar { height: 100%; border-radius: 4px; transition: width 0.5s; display: flex; align-items: center; padding-left: 8px; min-width: 40px; }
+    .coverage-bar.high { background: #008060; }
+    .coverage-bar.medium { background: #e67e22; }
+    .coverage-bar.low { background: #bbb; }
+    .coverage-bar span { font-size: 11px; font-weight: 700; color: white; white-space: nowrap; }
+    .coverage-meta { width: 150px; font-size: 12px; color: #888; text-align: right; }
 
-    /* Highlights */
-    .highlights { background: white; border-radius: 8px; border: 1px solid #e5e5e5; padding: 24px 28px; margin-bottom: 24px; }
-    .highlights-title { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.6px; color: #008060; margin-bottom: 14px; }
-    .highlight-item { padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 13px; color: #333; display: flex; gap: 10px; align-items: flex-start; }
-    .highlight-item:last-child { border-bottom: none; }
-    .highlight-dot { width: 6px; height: 6px; border-radius: 50%; background: #008060; margin-top: 7px; flex-shrink: 0; }
-    .highlight-dot.amber { background: #e67e22; }
+    /* Funnel */
+    .funnel-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+    .play-card { border: 1px solid #e5e5e5; border-radius: 6px; overflow: hidden; }
+    .play-card-header { padding: 10px 14px; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.3px; color: white; }
+    .play-card-header.bc { background: #c0392b; }
+    .play-card-header.woo { background: #7c4daf; }
+    .play-card-header.health { background: #2e8b6e; }
+    .play-card-header.closedlost { background: #e67e22; }
+    .funnel-row { display: flex; justify-content: space-between; align-items: center; padding: 8px 14px; border-bottom: 1px solid #f5f5f5; }
+    .funnel-row:last-child { border-bottom: none; }
+    .funnel-label { font-size: 12px; color: #555; }
+    .funnel-value { font-size: 14px; font-weight: 700; color: #1a1a1a; }
+    .funnel-value.green { color: #008060; }
 
-    .update-tip { background: #f9f9f9; border: 1px solid #e5e5e5; border-radius: 6px; padding: 14px 18px; font-size: 12px; color: #888; margin-bottom: 24px; }
-    .update-tip code { background: #eee; padding: 1px 5px; border-radius: 3px; font-family: monospace; }
+    /* Progression table */
+    .prog-wrap { overflow-x: auto; }
+    .prog-table { width: 100%; border-collapse: collapse; font-size: 12px; min-width: 700px; }
+    .prog-table th { background: #f5f5f5; text-align: center; padding: 8px 10px; font-weight: 600; color: #555; border-bottom: 2px solid #e5e5e5; font-size: 11px; text-transform: uppercase; }
+    .prog-table th.metric-col { text-align: left; width: 170px; }
+    .prog-table td { padding: 8px 10px; border-bottom: 1px solid #f0f0f0; text-align: center; }
+    .prog-table td.metric-col { text-align: left; font-weight: 500; color: #444; font-size: 12px; }
+    .prog-table tr:last-child td { border-bottom: none; }
+    .prog-table .current-week td { background: #f0faf6; font-weight: 700; color: #008060; }
+    .prog-table .current-week td.metric-col { color: #444; }
+    .change-up { color: #008060; font-size: 10px; }
+    .change-down { color: #c0392b; font-size: 10px; }
+    .change-flat { color: #aaa; font-size: 10px; }
+    .empty-week { color: #ddd; }
 
-    @media (max-width: 768px) {
-      .effort-grid { grid-template-columns: repeat(2, 1fr); }
-      .plays-grid { grid-template-columns: 1fr; }
-      .container { padding: 24px 20px; }
-      .header { padding: 24px 20px; flex-direction: column; gap: 10px; }
+    /* Team needs to know */
+    .know-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+    .know-card { border-radius: 6px; padding: 16px; border: 1px solid; }
+    .know-card.signal { background: #f0faf6; border-color: #b2dfce; }
+    .know-card.blocker { background: #fdf4f4; border-color: #f5c6c6; }
+    .know-card.ask { background: #fef9ec; border-color: #fde68a; }
+    .know-card h4 { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.4px; margin-bottom: 8px; }
+    .know-card.signal h4 { color: #008060; }
+    .know-card.blocker h4 { color: #c0392b; }
+    .know-card.ask h4 { color: #e67e22; }
+    .know-card p { font-size: 13px; color: #444; white-space: pre-line; line-height: 1.6; }
+
+    .note { background: #f9f9f9; border-left: 3px solid #008060; padding: 10px 14px; border-radius: 0 6px 6px 0; font-size: 12px; color: #666; margin-top: 14px; }
+
+    @media (max-width: 900px) {
+      .metric-grid-5 { grid-template-columns: repeat(2, 1fr); }
+      .funnel-grid { grid-template-columns: 1fr; }
+      .know-grid { grid-template-columns: 1fr; }
+      .input-grid { grid-template-columns: repeat(2, 1fr); }
+      .input-grid-3 { grid-template-columns: repeat(2, 1fr); }
+      .textarea-grid { grid-template-columns: 1fr; }
+      .container { padding: 20px; }
+      .header { padding: 24px 20px; flex-direction: column; gap: 12px; }
     }
   </style>
 </head>
 <body>
 
-<script>
-// ============================================================
-// UPDATE THIS EACH WEEK — real numbers only
-// ============================================================
-const data = {
-  weekOf: "May 5 – 9, 2026",
-  updatedAt: "May 9, 2026",
-
-  // Weekly actuals — fill in what actually happened
-  weekly: {
-    calls: 0,           // calls made this week
-    callsTarget: 50,    // 10/day x 5 days
-    emails: 0,          // emails sent this week
-    emailsTarget: 35,   // 7/day x 5 days
-  },
-
-  // Closed lost re-engagement — running total
-  closedLost: {
-    dialed: 50,
-    totalList: 70,
-    oppsCreated: 2,
-    opps: ["Weatherbeeta", "Weareco"],
-    note: "2 opps created from 50 dials. 20 accounts remaining on the list."
-  },
-
-  // BigCommerce play
-  bigcommerce: {
-    status: "building",   // active | building | starting
-    accountsContacted: 0,
-    responses: 0,
-    note: "Pillow Talk is the anchor deal in active pipeline. Broader BC outreach starting."
-  },
-
-  // WooCommerce play
-  woocommerce: {
-    status: "starting",
-    accountsContacted: 0,
-    responses: 0,
-    note: "Play identified. Outreach cadence to start week of May 12."
-  },
-
-  // Vertical play (Health & Beauty)
-  vertical: {
-    status: "active",
-    accountsContacted: 4,
-    responses: 1,
-    note: "Gr8 Health (MD Sam Godfrey) — replied, open to a Q3 conversation. NAK Hair — voicemail left, following up."
-  },
-
-  // Key highlights for JJ — what you want him to know this week
-  highlights: [
-    { text: "Weatherbeeta and Weareco re-opened from the closed lost list. Both now active opportunities.", type: "green" },
-    { text: "Gr8 Health replied to outreach — MD open to a conversation in Q3. First real response from the health & beauty play.", type: "green" },
-    { text: "Pillow Talk still the priority BigCommerce account. Working on C-suite access alongside Matter.", type: "amber" },
-    { text: "WooCommerce and broader BC outreach starting next week.", type: "neutral" },
-  ]
-};
-// ============================================================
-</script>
-
 <div class="header">
   <div>
-    <h1>Weekly Activity</h1>
-    <p id="sub">Chachi Apolinario &nbsp;|&nbsp; ANZ Mid-Market</p>
+    <h1>Weekly Activity Dashboard</h1>
+    <p>Chachi Apolinario &nbsp;·&nbsp; ANZ Mid-Market &nbsp;·&nbsp; Q2 2026</p>
   </div>
-  <div class="header-meta">
-    <span id="weekOf"></span><br>
-    <span id="updatedAt"></span>
+  <div class="header-right">
+    <div class="week-badge" id="week-badge">Week 6 of 13</div>
+    <div id="week-label">w/c May 11, 2026</div>
   </div>
 </div>
 
 <div class="container">
 
-  <div class="update-tip">Update the <code>data</code> block at the top of this file each week. Real numbers only — calls, emails, and what actually happened.</div>
+  <!-- UPDATE PANEL -->
+  <div class="update-panel">
+    <div class="update-panel-title">Weekly Update</div>
+    <div class="update-panel-sub">Fill in this Monday morning. Takes under 2 minutes. Hit Update Dashboard when done.</div>
 
-  <!-- Weekly effort -->
-  <div class="effort-bar">
-    <div class="effort-title">This Week</div>
-    <div class="effort-grid" id="effortGrid"></div>
+    <div class="update-group">
+      <div class="update-group-label">Week Info</div>
+      <div class="input-grid-3">
+        <div class="input-item"><label>Week Number</label><input type="number" id="in-week-num" value="6" min="1" max="13"></div>
+        <div class="input-item"><label>Week commencing (e.g. May 11, 2026)</label><input type="text" id="in-week-date" value="May 11, 2026"></div>
+        <div class="input-item"><label>Closed Won to date ($)</label><input type="number" id="in-closed-won" value="240000"></div>
+      </div>
+    </div>
+
+    <hr class="update-divider">
+
+    <div class="update-group">
+      <div class="update-group-label">Book Coverage</div>
+      <div class="input-grid">
+        <div class="input-item"><label>High Priority — Total Accounts</label><input type="number" id="in-high-total" value="20"></div>
+        <div class="input-item"><label>High Priority — Contacted</label><input type="number" id="in-high-contacted" value="12"></div>
+        <div class="input-item"><label>Medium Priority — Total Accounts</label><input type="number" id="in-med-total" value="40"></div>
+        <div class="input-item"><label>Medium Priority — Contacted</label><input type="number" id="in-med-contacted" value="14"></div>
+      </div>
+    </div>
+
+    <hr class="update-divider">
+
+    <div class="update-group">
+      <div class="update-group-label">BigCommerce Play</div>
+      <div class="input-grid">
+        <div class="input-item"><label>Accounts Contacted</label><input type="number" id="in-bc-contacted" value="8"></div>
+        <div class="input-item"><label>Calls Made</label><input type="number" id="in-bc-calls" value="3"></div>
+        <div class="input-item"><label>Emails Sent</label><input type="number" id="in-bc-emails" value="5"></div>
+        <div class="input-item"><label>Responses (Yes)</label><input type="number" id="in-bc-yes" value="1"></div>
+        <div class="input-item"><label>Responses (No)</label><input type="number" id="in-bc-no" value="1"></div>
+        <div class="input-item"><label>Email Opens</label><input type="number" id="in-bc-opens" value="2"></div>
+        <div class="input-item"><label>Meetings Booked</label><input type="number" id="in-bc-meetings" value="1"></div>
+        <div class="input-item"><label>Opps Created</label><input type="number" id="in-bc-opps" value="0"></div>
+      </div>
+    </div>
+
+    <hr class="update-divider">
+
+    <div class="update-group">
+      <div class="update-group-label">WooCommerce Play</div>
+      <div class="input-grid">
+        <div class="input-item"><label>Accounts Contacted</label><input type="number" id="in-woo-contacted" value="6"></div>
+        <div class="input-item"><label>Calls Made</label><input type="number" id="in-woo-calls" value="2"></div>
+        <div class="input-item"><label>Emails Sent</label><input type="number" id="in-woo-emails" value="4"></div>
+        <div class="input-item"><label>Responses (Yes)</label><input type="number" id="in-woo-yes" value="0"></div>
+        <div class="input-item"><label>Responses (No)</label><input type="number" id="in-woo-no" value="1"></div>
+        <div class="input-item"><label>Email Opens</label><input type="number" id="in-woo-opens" value="1"></div>
+        <div class="input-item"><label>Meetings Booked</label><input type="number" id="in-woo-meetings" value="0"></div>
+        <div class="input-item"><label>Opps Created</label><input type="number" id="in-woo-opps" value="0"></div>
+      </div>
+    </div>
+
+    <hr class="update-divider">
+
+    <div class="update-group">
+      <div class="update-group-label">Health and Beauty Play</div>
+      <div class="input-grid">
+        <div class="input-item"><label>Accounts Contacted</label><input type="number" id="in-hb-contacted" value="4"></div>
+        <div class="input-item"><label>Calls Made</label><input type="number" id="in-hb-calls" value="2"></div>
+        <div class="input-item"><label>Emails Sent</label><input type="number" id="in-hb-emails" value="3"></div>
+        <div class="input-item"><label>Responses (Yes)</label><input type="number" id="in-hb-yes" value="1"></div>
+        <div class="input-item"><label>Responses (No)</label><input type="number" id="in-hb-no" value="1"></div>
+        <div class="input-item"><label>Email Opens</label><input type="number" id="in-hb-opens" value="2"></div>
+        <div class="input-item"><label>Meetings Booked</label><input type="number" id="in-hb-meetings" value="1"></div>
+        <div class="input-item"><label>Opps Created</label><input type="number" id="in-hb-opps" value="0"></div>
+      </div>
+    </div>
+
+    <hr class="update-divider">
+
+    <div class="update-group">
+      <div class="update-group-label">Closed Lost Re-engagement</div>
+      <div class="input-grid">
+        <div class="input-item"><label>Accounts Contacted</label><input type="number" id="in-cl-contacted" value="50"></div>
+        <div class="input-item"><label>Total to Dial</label><input type="number" id="in-cl-total" value="70"></div>
+        <div class="input-item"><label>Calls Made</label><input type="number" id="in-cl-calls" value="50"></div>
+        <div class="input-item"><label>Opps Re-opened</label><input type="number" id="in-cl-opps" value="2"></div>
+      </div>
+    </div>
+
+    <hr class="update-divider">
+
+    <div class="update-group">
+      <div class="update-group-label">What the Team Needs to Know</div>
+      <div class="textarea-grid">
+        <div class="textarea-item"><label>Signals (one per line)</label><textarea id="in-signals">2 opps re-opened from closed lost dialing (50 of 70 accounts dialed)
+Gr8 Health replied — open to Q3 conversation
+Mud Australia engaged with content; main contact unresponsive
+BC merchant (homewares, VIC) renewal in Dec — flag for Q3</textarea></div>
+        <div class="textarea-item"><label>Blockers (one per line)</label><textarea id="in-blockers">Pillow Talk: C-suite access not yet secured; strong anti-Shopify advisor in the mix
+Koko Black: Mulesoft migration complexity slowing progress
+Black Star Pastry: No partner confirmed to de-risk migration</textarea></div>
+        <div class="textarea-item"><label>Asks (one per line)</label><textarea id="in-asks">Pillow Talk: Need exec join to unlock C-suite meeting
+Black Star Pastry: Partner recommendation for phased migration
+Koko Black: JJ and Ash to maintain stakeholder engagement cadence
+20 remaining closed lost accounts to be dialed this week</textarea></div>
+      </div>
+    </div>
+
+    <button class="update-btn" onclick="updateDashboard()">Update Dashboard</button>
   </div>
 
-  <!-- Highlights for JJ -->
-  <div class="highlights">
-    <div class="highlights-title">What JJ needs to know</div>
-    <div id="highlightsList"></div>
+  <!-- WHAT THE TEAM NEEDS TO KNOW -->
+  <div class="section">
+    <div class="section-title">What the Team Needs to Know</div>
+    <div class="know-grid">
+      <div class="know-card signal">
+        <h4>Signals</h4>
+        <p id="display-signals">2 opps re-opened from closed lost dialing (50 of 70 accounts dialed)
+Gr8 Health replied — open to Q3 conversation
+Mud Australia engaged with content; main contact unresponsive
+BC merchant (homewares, VIC) renewal in Dec — flag for Q3</p>
+      </div>
+      <div class="know-card blocker">
+        <h4>Blockers</h4>
+        <p id="display-blockers">Pillow Talk: C-suite access not yet secured; strong anti-Shopify advisor in the mix
+Koko Black: Mulesoft migration complexity slowing progress
+Black Star Pastry: No partner confirmed to de-risk migration</p>
+      </div>
+      <div class="know-card ask">
+        <h4>Asks</h4>
+        <p id="display-asks">Pillow Talk: Need exec join to unlock C-suite meeting
+Black Star Pastry: Partner recommendation for phased migration
+Koko Black: JJ and Ash to maintain stakeholder engagement cadence
+20 remaining closed lost accounts to be dialed this week</p>
+      </div>
+    </div>
   </div>
 
-  <!-- Play cards -->
-  <div class="plays-grid" id="playsGrid"></div>
+  <!-- BOOK COVERAGE -->
+  <div class="section">
+    <div class="section-title">Book Coverage</div>
+    <p style="font-size:12px; color:#888; margin-bottom:18px;">Accounts contacted as a proportion of total priority tier. Low priority owned by marketing.</p>
+    <div class="coverage-row">
+      <div class="coverage-label">High</div>
+      <div class="coverage-bar-wrap"><div class="coverage-bar high" id="bar-high" style="width:60%"><span id="bar-high-label">60% contacted</span></div></div>
+      <div class="coverage-meta" id="bar-high-meta">12 of 20 accounts</div>
+    </div>
+    <div class="coverage-row">
+      <div class="coverage-label">Medium</div>
+      <div class="coverage-bar-wrap"><div class="coverage-bar medium" id="bar-med" style="width:35%"><span id="bar-med-label">35% contacted</span></div></div>
+      <div class="coverage-meta" id="bar-med-meta">14 of 40 accounts</div>
+    </div>
+    <div class="coverage-row">
+      <div class="coverage-label">Low</div>
+      <div class="coverage-bar-wrap"><div class="coverage-bar low" style="width:100%"><span>Owned by Marketing</span></div></div>
+      <div class="coverage-meta">Nurture cadence</div>
+    </div>
+  </div>
+
+  <!-- PLAY FUNNELS -->
+  <div class="section">
+    <div class="section-title">Activity by Play</div>
+    <p style="font-size:12px; color:#888; margin-bottom:18px;">Contacted &rarr; Calls &rarr; Emails &rarr; Responses &rarr; Opens &rarr; Meetings &rarr; Opps</p>
+    <div class="funnel-grid">
+
+      <div class="play-card">
+        <div class="play-card-header bc">BigCommerce Migration</div>
+        <div class="funnel-row"><span class="funnel-label">Accounts Contacted</span><span class="funnel-value" id="d-bc-contacted">8</span></div>
+        <div class="funnel-row"><span class="funnel-label">Calls Made</span><span class="funnel-value" id="d-bc-calls">3</span></div>
+        <div class="funnel-row"><span class="funnel-label">Emails Sent</span><span class="funnel-value" id="d-bc-emails">5</span></div>
+        <div class="funnel-row"><span class="funnel-label">Responses (Yes)</span><span class="funnel-value green" id="d-bc-yes">1</span></div>
+        <div class="funnel-row"><span class="funnel-label">Responses (No)</span><span class="funnel-value" id="d-bc-no">1</span></div>
+        <div class="funnel-row"><span class="funnel-label">Email Opens</span><span class="funnel-value" id="d-bc-opens">2</span></div>
+        <div class="funnel-row"><span class="funnel-label">Meetings Booked</span><span class="funnel-value" id="d-bc-meetings">1</span></div>
+        <div class="funnel-row"><span class="funnel-label">Opps Created</span><span class="funnel-value green" id="d-bc-opps">0</span></div>
+      </div>
+
+      <div class="play-card">
+        <div class="play-card-header woo">WooCommerce Migration</div>
+        <div class="funnel-row"><span class="funnel-label">Accounts Contacted</span><span class="funnel-value" id="d-woo-contacted">6</span></div>
+        <div class="funnel-row"><span class="funnel-label">Calls Made</span><span class="funnel-value" id="d-woo-calls">2</span></div>
+        <div class="funnel-row"><span class="funnel-label">Emails Sent</span><span class="funnel-value" id="d-woo-emails">4</span></div>
+        <div class="funnel-row"><span class="funnel-label">Responses (Yes)</span><span class="funnel-value green" id="d-woo-yes">0</span></div>
+        <div class="funnel-row"><span class="funnel-label">Responses (No)</span><span class="funnel-value" id="d-woo-no">1</span></div>
+        <div class="funnel-row"><span class="funnel-label">Email Opens</span><span class="funnel-value" id="d-woo-opens">1</span></div>
+        <div class="funnel-row"><span class="funnel-label">Meetings Booked</span><span class="funnel-value" id="d-woo-meetings">0</span></div>
+        <div class="funnel-row"><span class="funnel-label">Opps Created</span><span class="funnel-value green" id="d-woo-opps">0</span></div>
+      </div>
+
+      <div class="play-card">
+        <div class="play-card-header health">Health and Beauty Vertical</div>
+        <div class="funnel-row"><span class="funnel-label">Accounts Contacted</span><span class="funnel-value" id="d-hb-contacted">4</span></div>
+        <div class="funnel-row"><span class="funnel-label">Calls Made</span><span class="funnel-value" id="d-hb-calls">2</span></div>
+        <div class="funnel-row"><span class="funnel-label">Emails Sent</span><span class="funnel-value" id="d-hb-emails">3</span></div>
+        <div class="funnel-row"><span class="funnel-label">Responses (Yes)</span><span class="funnel-value green" id="d-hb-yes">1</span></div>
+        <div class="funnel-row"><span class="funnel-label">Responses (No)</span><span class="funnel-value" id="d-hb-no">1</span></div>
+        <div class="funnel-row"><span class="funnel-label">Email Opens</span><span class="funnel-value" id="d-hb-opens">2</span></div>
+        <div class="funnel-row"><span class="funnel-label">Meetings Booked</span><span class="funnel-value" id="d-hb-meetings">1</span></div>
+        <div class="funnel-row"><span class="funnel-label">Opps Created</span><span class="funnel-value green" id="d-hb-opps">0</span></div>
+      </div>
+
+      <div class="play-card">
+        <div class="play-card-header closedlost">Closed Lost Re-engagement</div>
+        <div class="funnel-row"><span class="funnel-label">Accounts Contacted</span><span class="funnel-value" id="d-cl-contacted">50</span> <span style="font-size:11px;color:#aaa;margin-left:4px;">of <span id="d-cl-total">70</span></span></div>
+        <div class="funnel-row"><span class="funnel-label">Calls Made</span><span class="funnel-value" id="d-cl-calls">50</span></div>
+        <div class="funnel-row"><span class="funnel-label">Opps Re-opened</span><span class="funnel-value green" id="d-cl-opps">2</span></div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- WEEK-ON-WEEK PROGRESSION -->
+  <div class="section">
+    <div class="section-title">Week-on-Week Progression</div>
+    <p style="font-size:12px; color:#888; margin-bottom:16px;">Cumulative totals across all plays. Current week highlighted. Updates each Monday.</p>
+    <div class="prog-wrap">
+      <table class="prog-table" id="prog-table">
+        <!-- Built by JS -->
+      </table>
+    </div>
+  </div>
+
+  <!-- Q2 PIPELINE STATUS -->
+  <div class="section">
+    <div class="section-title">Q2 Pipeline Status</div>
+    <div class="metric-grid-5">
+      <div class="metric"><div class="metric-label">Quota</div><div class="metric-value">$1.6M</div></div>
+      <div class="metric"><div class="metric-label">Closed Won</div><div class="metric-value green" id="d-closed-won">$240K</div></div>
+      <div class="metric"><div class="metric-label">Forecast</div><div class="metric-value amber">$217K</div></div>
+      <div class="metric"><div class="metric-label">Gap</div><div class="metric-value red">$1.36M</div></div>
+      <div class="metric"><div class="metric-label">Pull-Forward Potential</div><div class="metric-value green">$1.35M</div><div class="metric-sub">Pillow Talk + BSP + Koko Black</div></div>
+    </div>
+  </div>
+
+  <p style="text-align:center; color:#bbb; font-size:11px; padding: 12px 0 28px;">Chachi Apolinario &nbsp;·&nbsp; ANZ Mid-Market &nbsp;·&nbsp; Updated every Monday</p>
 
 </div>
 
 <script>
-function pct(val, target) { return Math.min(100, Math.round((val / target) * 100)); }
-function color(p) { return p >= 80 ? "green" : p >= 50 ? "amber" : "red"; }
+  // Historical data — add a new object each week
+  const history = [
+    { wk: 1, date: 'Apr 7',  contacted: 4,  calls: 8,  emails: 5,  yes: 0, meetings: 0, opps: 0, highPct: 10, medPct: 0  },
+    { wk: 2, date: 'Apr 14', contacted: 10, calls: 16, emails: 12, yes: 1, meetings: 1, opps: 0, highPct: 25, medPct: 5  },
+    { wk: 3, date: 'Apr 21', contacted: 18, calls: 24, emails: 20, yes: 2, meetings: 1, opps: 0, highPct: 35, medPct: 10 },
+    { wk: 4, date: 'Apr 28', contacted: 28, calls: 35, emails: 30, yes: 3, meetings: 2, opps: 1, highPct: 45, medPct: 20 },
+    { wk: 5, date: 'May 5',  contacted: 58, calls: 52, emails: 42, yes: 3, meetings: 2, opps: 2, highPct: 55, medPct: 30 },
+  ];
 
-// Header
-document.getElementById("sub").textContent = "Chachi Apolinario \u00a0|\u00a0 ANZ Mid-Market";
-document.getElementById("weekOf").textContent = "Week of " + data.weekOf;
-document.getElementById("updatedAt").textContent = "Updated " + data.updatedAt;
-
-// Weekly effort
-const w = data.weekly;
-const cl = data.closedLost;
-const callPct = pct(w.calls, w.callsTarget);
-const emailPct = pct(w.emails, w.emailsTarget);
-const dialPct = pct(cl.dialed, cl.totalList);
-
-document.getElementById("effortGrid").innerHTML = `
-  <div class="effort-item">
-    <div class="effort-label">Calls this week</div>
-    <div class="effort-numbers">
-      <span class="effort-actual ${w.calls === 0 ? 'neutral' : color(callPct)}">${w.calls}</span>
-      <span class="effort-target">/ ${w.callsTarget}</span>
-    </div>
-    <div class="bar-track"><div class="bar-fill ${color(callPct)}" style="width:${callPct}%"></div></div>
-  </div>
-  <div class="effort-item">
-    <div class="effort-label">Emails this week</div>
-    <div class="effort-numbers">
-      <span class="effort-actual ${w.emails === 0 ? 'neutral' : color(emailPct)}">${w.emails}</span>
-      <span class="effort-target">/ ${w.emailsTarget}</span>
-    </div>
-    <div class="bar-track"><div class="bar-fill ${color(emailPct)}" style="width:${emailPct}%"></div></div>
-  </div>
-  <div class="effort-item">
-    <div class="effort-label">Closed lost dialed</div>
-    <div class="effort-numbers">
-      <span class="effort-actual ${color(dialPct)}">${cl.dialed}</span>
-      <span class="effort-target">/ ${cl.totalList}</span>
-    </div>
-    <div class="bar-track"><div class="bar-fill ${color(dialPct)}" style="width:${dialPct}%"></div></div>
-  </div>
-  <div class="effort-item">
-    <div class="effort-label">Opps from closed lost</div>
-    <div class="effort-numbers">
-      <span class="effort-actual green">${cl.oppsCreated}</span>
-    </div>
-    <div class="bar-track"><div class="bar-fill green" style="width:100%"></div></div>
-  </div>
-`;
-
-// Highlights
-const hl = data.highlights;
-document.getElementById("highlightsList").innerHTML = hl.map(h => `
-  <div class="highlight-item">
-    <div class="highlight-dot ${h.type === 'amber' ? 'amber' : ''}"></div>
-    <div>${h.text}</div>
-  </div>`).join("");
-
-// Play cards
-function statusLabel(s) {
-  if (s === "active") return `<span class="status-badge status-active">Active</span>`;
-  if (s === "building") return `<span class="status-badge status-building">Building</span>`;
-  return `<span class="status-badge status-starting">Starting</span>`;
-}
-
-const plays = [
-  {
-    title: "Closed Lost Re-engagement",
-    sub: "70-account dial list",
-    stats: [
-      { val: cl.dialed, lbl: "Dialed", green: true },
-      { val: cl.totalList - cl.dialed, lbl: "Remaining", green: false },
-      { val: cl.oppsCreated, lbl: "Opps created", green: true }
-    ],
-    note: cl.note + (cl.opps.length ? " <strong>Opps:</strong> " + cl.opps.join(", ") + "." : ""),
-    status: "active"
-  },
-  {
-    title: "Health & Beauty Vertical",
-    sub: "Outbound play",
-    stats: [
-      { val: data.vertical.accountsContacted, lbl: "Accounts contacted", green: false },
-      { val: data.vertical.responses, lbl: "Responses", green: true }
-    ],
-    note: data.vertical.note,
-    status: data.vertical.status
-  },
-  {
-    title: "BigCommerce Migration",
-    sub: "Competitive play",
-    stats: [
-      { val: data.bigcommerce.accountsContacted, lbl: "Accounts contacted", green: false },
-      { val: data.bigcommerce.responses, lbl: "Responses", green: false }
-    ],
-    note: data.bigcommerce.note,
-    status: data.bigcommerce.status
-  },
-  {
-    title: "WooCommerce Migration",
-    sub: "Competitive play",
-    stats: [
-      { val: data.woocommerce.accountsContacted, lbl: "Accounts contacted", green: false },
-      { val: data.woocommerce.responses, lbl: "Responses", green: false }
-    ],
-    note: data.woocommerce.note,
-    status: data.woocommerce.status
+  function formatDollar(n) {
+    if (n >= 1000000) return '$' + (n/1000000).toFixed(1) + 'M';
+    if (n >= 1000) return '$' + Math.round(n/1000) + 'K';
+    return '$' + n;
   }
-];
 
-document.getElementById("playsGrid").innerHTML = plays.map(p => `
-  <div class="play-card">
-    <div class="play-card-header">
-      <div>
-        <div class="play-card-title">${p.title}</div>
-        <div class="play-card-sub">${p.sub}</div>
-      </div>
-      ${statusLabel(p.status)}
-    </div>
-    <div class="play-stats">
-      ${p.stats.map(s => `
-        <div class="play-stat-item">
-          <div class="play-stat-val ${s.green && s.val > 0 ? 'green' : ''}">${s.val}</div>
-          <div class="play-stat-lbl">${s.lbl}</div>
-        </div>`).join("")}
-    </div>
-    <div class="play-note">${p.note}</div>
-  </div>`).join("");
+  function updateDashboard() {
+    const weekNum = parseInt(document.getElementById('in-week-num').value) || 6;
+    const weekDate = document.getElementById('in-week-date').value;
+
+    // Header
+    document.getElementById('week-badge').textContent = 'Week ' + weekNum + ' of 13';
+    document.getElementById('week-label').textContent = 'w/c ' + weekDate;
+
+    // Coverage
+    const highTotal = parseInt(document.getElementById('in-high-total').value) || 1;
+    const highContacted = parseInt(document.getElementById('in-high-contacted').value) || 0;
+    const medTotal = parseInt(document.getElementById('in-med-total').value) || 1;
+    const medContacted = parseInt(document.getElementById('in-med-contacted').value) || 0;
+    const highPct = Math.round((highContacted / highTotal) * 100);
+    const medPct = Math.round((medContacted / medTotal) * 100);
+
+    document.getElementById('bar-high').style.width = highPct + '%';
+    document.getElementById('bar-high-label').textContent = highPct + '% contacted';
+    document.getElementById('bar-high-meta').textContent = highContacted + ' of ' + highTotal + ' accounts';
+    document.getElementById('bar-med').style.width = medPct + '%';
+    document.getElementById('bar-med-label').textContent = medPct + '% contacted';
+    document.getElementById('bar-med-meta').textContent = medContacted + ' of ' + medTotal + ' accounts';
+
+    // Play funnels
+    const plays = ['bc','woo','hb','cl'];
+    const fields = ['contacted','calls','emails','yes','no','opens','meetings','opps'];
+    plays.forEach(p => {
+      fields.forEach(f => {
+        const el = document.getElementById('d-' + p + '-' + f);
+        const inp = document.getElementById('in-' + p + '-' + f);
+        if (el && inp) el.textContent = inp.value;
+      });
+      // cl total
+      if (p === 'cl') {
+        const t = document.getElementById('d-cl-total');
+        const i = document.getElementById('in-cl-total');
+        if (t && i) t.textContent = i.value;
+      }
+    });
+
+    // Closed won
+    const cw = parseInt(document.getElementById('in-closed-won').value) || 0;
+    document.getElementById('d-closed-won').textContent = formatDollar(cw);
+
+    // Team needs to know
+    document.getElementById('display-signals').textContent = document.getElementById('in-signals').value;
+    document.getElementById('display-blockers').textContent = document.getElementById('in-blockers').value;
+    document.getElementById('display-asks').textContent = document.getElementById('in-asks').value;
+
+    // Progression table — add current week to history snapshot
+    const totalContacted = ['bc','woo','hb','cl'].reduce((sum, p) => {
+      const el = document.getElementById('in-' + p + '-contacted');
+      return sum + (el ? parseInt(el.value)||0 : 0);
+    }, 0);
+    const totalCalls = ['bc','woo','hb','cl'].reduce((sum, p) => {
+      const el = document.getElementById('in-' + p + '-calls');
+      return sum + (el ? parseInt(el.value)||0 : 0);
+    }, 0);
+    const totalEmails = ['bc','woo','hb'].reduce((sum, p) => {
+      const el = document.getElementById('in-' + p + '-emails');
+      return sum + (el ? parseInt(el.value)||0 : 0);
+    }, 0);
+    const totalYes = ['bc','woo','hb'].reduce((sum, p) => {
+      const el = document.getElementById('in-' + p + '-yes');
+      return sum + (el ? parseInt(el.value)||0 : 0);
+    }, 0);
+    const totalMeetings = ['bc','woo','hb'].reduce((sum, p) => {
+      const el = document.getElementById('in-' + p + '-meetings');
+      return sum + (el ? parseInt(el.value)||0 : 0);
+    }, 0);
+    const totalOpps = ['bc','woo','hb','cl'].reduce((sum, p) => {
+      const el = document.getElementById('in-' + p + '-opps');
+      return sum + (el ? parseInt(el.value)||0 : 0);
+    }, 0);
+
+    const currentWeek = {
+      wk: weekNum, date: weekDate.split(',')[0],
+      contacted: totalContacted, calls: totalCalls, emails: totalEmails,
+      yes: totalYes, meetings: totalMeetings, opps: totalOpps,
+      highPct: highPct, medPct: medPct, isCurrent: true
+    };
+
+    buildProgressionTable(currentWeek);
+    alert('Dashboard updated for Week ' + weekNum + '!');
+  }
+
+  function buildProgressionTable(current) {
+    const rows = [
+      { label: 'Accounts Contacted', key: 'contacted' },
+      { label: 'Calls Made',         key: 'calls' },
+      { label: 'Emails Sent',        key: 'emails' },
+      { label: 'Responses (Yes)',    key: 'yes' },
+      { label: 'Meetings Booked',    key: 'meetings' },
+      { label: 'Opps Created',       key: 'opps' },
+      { label: 'High Priority %',    key: 'highPct', pct: true },
+      { label: 'Medium Priority %',  key: 'medPct',  pct: true },
+    ];
+
+    const allWeeks = [...history];
+    // Replace or append current week
+    const existingIdx = allWeeks.findIndex(w => w.wk === current.wk);
+    if (existingIdx >= 0) allWeeks[existingIdx] = current;
+    else allWeeks.push(current);
+
+    const maxWk = 13;
+    let html = '<thead><tr><th class="metric-col">Metric</th>';
+    for (let i = 1; i <= maxWk; i++) {
+      const w = allWeeks.find(x => x.wk === i);
+      const isCur = w && w.isCurrent;
+      const label = w ? 'Wk ' + i + '<br><small style="font-weight:400;text-transform:none;">' + w.date + '</small>' : 'Wk ' + i;
+      html += '<th' + (isCur ? ' style="background:#e6f7f2;color:#008060;"' : '') + '>' + label + '</th>';
+    }
+    html += '</tr></thead><tbody>';
+
+    rows.forEach(row => {
+      html += '<tr>';
+      html += '<td class="metric-col">' + row.label + '</td>';
+      for (let i = 1; i <= maxWk; i++) {
+        const w = allWeeks.find(x => x.wk === i);
+        const prev = allWeeks.find(x => x.wk === i - 1);
+        const isCur = w && w.isCurrent;
+        if (!w) {
+          html += '<td class="empty-week">—</td>';
+        } else {
+          const val = w[row.key];
+          const display = row.pct ? val + '%' : val;
+          let change = '';
+          if (prev !== undefined && prev[row.key] !== undefined) {
+            const diff = val - prev[row.key];
+            if (diff > 0) change = ' <span class="change-up">+' + (row.pct ? diff + '%' : diff) + '</span>';
+            else if (diff < 0) change = ' <span class="change-down">' + (row.pct ? diff + '%' : diff) + '</span>';
+            else change = ' <span class="change-flat">—</span>';
+          }
+          html += '<td' + (isCur ? ' style="background:#f0faf6;font-weight:700;color:#008060;"' : '') + '>' + display + change + '</td>';
+        }
+      }
+      html += '</tr>';
+    });
+
+    html += '</tbody>';
+    document.getElementById('prog-table').innerHTML = html;
+  }
+
+  // Build table on load with existing history
+  buildProgressionTable({ wk: 6, date: 'May 11', contacted: 68, calls: 57, emails: 54, yes: 4, meetings: 2, opps: 2, highPct: 60, medPct: 35, isCurrent: true });
 </script>
 
 </body>
