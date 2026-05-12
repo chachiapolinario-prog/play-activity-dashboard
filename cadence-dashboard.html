@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cadence Coverage Dashboard</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #F6F6F7; color: #1A1A1A; padding: 24px; }
+
+  .page-title { font-size: 22px; font-weight: 700; margin-bottom: 4px; }
+  .page-sub { font-size: 13px; color: #6B7280; margin-bottom: 24px; }
+
+  /* Top summary bar */
+  .summary-bar {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin-bottom: 28px;
+  }
+  .summary-tile {
+    background: #fff;
+    border: 1px solid #E5E7EB;
+    border-radius: 10px;
+    padding: 16px 20px;
+  }
+  .summary-tile .label { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; color: #6B7280; margin-bottom: 6px; }
+  .summary-tile .value { font-size: 28px; font-weight: 700; }
+  .summary-tile .sub { font-size: 12px; color: #9CA3AF; margin-top: 2px; }
+  .summary-tile.green .value { color: #059669; }
+  .summary-tile.orange .value { color: #D97706; }
+  .summary-tile.red .value { color: #DC2626; }
+  .summary-tile.blue .value { color: #2563EB; }
+
+  /* Section headers */
+  .section-header {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #6B7280;
+    margin: 24px 0 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #E5E7EB;
+  }
+
+  /* Play boxes */
+  .plays-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+    margin-bottom: 14px;
+  }
+  .plays-grid-4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
+    margin-bottom: 14px;
+  }
+
+  .play-box {
+    background: #fff;
+    border: 1px solid #E5E7EB;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .play-box-header {
+    padding: 12px 16px 10px;
+    border-bottom: 1px solid #F3F4F6;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .play-icon {
+    width: 28px; height: 28px;
+    border-radius: 6px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 14px;
+    flex-shrink: 0;
+  }
+  .icon-blue { background: #EFF6FF; }
+  .icon-green { background: #ECFDF5; }
+  .icon-purple { background: #F5F3FF; }
+  .icon-orange { background: #FFF7ED; }
+  .icon-red { background: #FEF2F2; }
+  .icon-grey { background: #F9FAFB; }
+
+  .play-title { font-size: 13px; font-weight: 700; }
+  .play-cadence-tag { font-size: 10px; color: #9CA3AF; display: block; margin-top: 1px; }
+
+  .play-body { padding: 14px 16px; }
+
+  .metric-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+    border-bottom: 1px solid #F9FAFB;
+    font-size: 12px;
+  }
+  .metric-row:last-child { border-bottom: none; }
+  .metric-label { color: #6B7280; }
+  .metric-value { font-weight: 600; }
+  .metric-value.active { color: #059669; }
+  .metric-value.removed { color: #9CA3AF; }
+  .metric-value.engaged { color: #2563EB; }
+  .metric-value.warn { color: #D97706; }
+  .metric-value.none { color: #D1D5DB; }
+
+  .warn-badge {
+    display: inline-block;
+    background: #FFF7ED;
+    color: #92400E;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 2px 7px;
+    border-radius: 4px;
+    border: 1px solid #FDE68A;
+  }
+  .not-launched-badge {
+    display: inline-block;
+    background: #F9FAFB;
+    color: #9CA3AF;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 2px 7px;
+    border-radius: 4px;
+    border: 1px solid #E5E7EB;
+  }
+
+  .funnel-bar {
+    display: flex;
+    gap: 3px;
+    margin: 10px 0 6px;
+    height: 6px;
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  .funnel-active { background: #059669; border-radius: 3px 0 0 3px; }
+  .funnel-removed { background: #D1D5DB; }
+  .funnel-done { background: #93C5FD; border-radius: 0 3px 3px 0; }
+
+  .funnel-legend {
+    display: flex;
+    gap: 12px;
+    font-size: 10px;
+    color: #9CA3AF;
+  }
+  .legend-dot {
+    width: 7px; height: 7px; border-radius: 50%; display: inline-block; margin-right: 3px;
+  }
+
+  /* Holding / not started states */
+  .play-box.holding .play-box-header { opacity: 0.7; }
+  .play-holding-body {
+    padding: 14px 16px;
+    text-align: center;
+    color: #9CA3AF;
+    font-size: 12px;
+  }
+  .holding-icon { font-size: 20px; margin-bottom: 6px; }
+
+  /* Salesforce pipeline section */
+  .pipeline-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin-bottom: 14px;
+  }
+  .pipeline-tile {
+    background: #fff;
+    border: 1px solid #E5E7EB;
+    border-radius: 10px;
+    padding: 14px 16px;
+  }
+  .pipeline-tile .stage-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: #6B7280; margin-bottom: 8px; }
+  .pipeline-tile .count { font-size: 26px; font-weight: 700; }
+  .pipeline-tile .accounts-list { font-size: 10px; color: #9CA3AF; margin-top: 6px; line-height: 1.6; }
+
+  .pipeline-tile.closed-won { border-top: 3px solid #059669; }
+  .pipeline-tile.closed-won .count { color: #059669; }
+  .pipeline-tile.closed-lost { border-top: 3px solid #DC2626; }
+  .pipeline-tile.closed-lost .count { color: #DC2626; }
+  .pipeline-tile.open-pipeline { border-top: 3px solid #2563EB; }
+  .pipeline-tile.open-pipeline .count { color: #2563EB; }
+  .pipeline-tile.pre-qual { border-top: 3px solid #D97706; }
+  .pipeline-tile.pre-qual .count { color: #D97706; }
+
+  /* Untouched box */
+  .untouched-box {
+    background: #FFF7ED;
+    border: 1px solid #FDE68A;
+    border-radius: 10px;
+    padding: 18px 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+  }
+  .untouched-icon { font-size: 28px; flex-shrink: 0; }
+  .untouched-title { font-size: 15px; font-weight: 700; color: #92400E; margin-bottom: 4px; }
+  .untouched-sub { font-size: 12px; color: #78350F; line-height: 1.5; }
+
+  .data-note {
+    background: #F9FAFB;
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+    padding: 10px 14px;
+    font-size: 11px;
+    color: #6B7280;
+    margin-top: 14px;
+    line-height: 1.6;
+  }
+  .data-note strong { color: #374151; }
+
+  /* Closed lost cadence box */
+  .missing-box {
+    background: #F9FAFB;
+    border: 1px dashed #D1D5DB;
+    border-radius: 10px;
+    padding: 18px 20px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  .missing-title { font-size: 13px; font-weight: 700; color: #6B7280; margin-bottom: 3px; }
+  .missing-sub { font-size: 12px; color: #9CA3AF; }
+</style>
+</head>
+<body>
+
+<div class="page-title">Cadence Coverage Dashboard</div>
+<div class="page-sub">Chachi Apolinario · ANZ Mid-Market · As of May 12, 2026</div>
+
+<!-- Summary bar -->
+<div class="summary-bar">
+  <div class="summary-tile blue">
+    <div class="label">Total BOB (workable)</div>
+    <div class="value">566</div>
+    <div class="sub">High + Medium priority</div>
+  </div>
+  <div class="summary-tile green">
+    <div class="label">Touched</div>
+    <div class="value">~170</div>
+    <div class="sub">Enrolled in at least one cadence (est.)</div>
+  </div>
+  <div class="summary-tile orange">
+    <div class="label">Untouched</div>
+    <div class="value">~396</div>
+    <div class="sub">Never enrolled in a cadence</div>
+  </div>
+  <div class="summary-tile red">
+    <div class="label">Active right now</div>
+    <div class="value">40</div>
+    <div class="sub">Contacts mid-sequence today</div>
+  </div>
+</div>
+
+
+<!-- ===== COMPETITOR PLAYS ===== -->
+<div class="section-header">Competitor Plays</div>
+<div class="plays-grid-4">
+
+  <!-- BigCommerce -->
+  <div class="play-box">
+    <div class="play-box-header">
+      <div class="play-icon icon-blue">🔵</div>
+      <div>
+        <div class="play-title">BigCommerce</div>
+        <span class="play-cadence-tag">L|ALL Q2'26 · ANZ MM H1'26 (Shina)</span>
+      </div>
+    </div>
+    <div class="play-body">
+      <div class="metric-row">
+        <span class="metric-label">Enrolled (contacts)</span>
+        <span class="metric-value">70</span>
+      </div>
+      <div class="metric-row">
+        <span class="metric-label">Still active</span>
+        <span class="metric-value active">22</span>
+      </div>
+      <div class="metric-row">
+        <span class="metric-label">Removed / done</span>
+        <span class="metric-value removed">48</span>
+      </div>
+      <div class="metric-row">
+        <span class="metric-label">Email open rate</span>
+        <span class="metric-value engaged">48.1%</span>
+      </div>
+      <div class="metric-row">
+        <span class="metric-label">Responded</span>
+        <span class="warn-badge">Not tracked in Vault</span>
+      </div>
+      <div class="metric-row">
+        <span class="metric-label">Meeting booked</span>
+        <span class="warn-badge">Not tracked in Vault</span>
+      </div>
+      <div class="metric-row">
+        <span class="metric-label">Opp created</span>
+        <span class="metric-value none">0 visible</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Adobe / Magento -->
+  <div class="play-box">
+    <div class="play-box-header">
+      <div class="play-icon icon-red">🔴</div>
+      <div>
+        <div class="play-title">Adobe / Magento</div>
+        <span class="play-cadence-tag">C|LP, C|MP Q2'26 · ANZ MM H1'26 x2 (Shina)</span>
+      </div>
+    </div>
+    <div class="play-body">
+      <div class="metric-row">
+        <span class="metric-label">Enrolled (contacts)</span>
+        <span class="metric-value">77</span>
+      </div>
+      <div class="metric-row">
+        <span class="metric-label">Still active</span>
+        <span class="metric-value active">2</span>
+      </div>
+      <div class="metric-row">
+        <span class="metric-label">Removed / done</span>
+        <span class="metric-value removed">75</span>
+      </div>
+      <div class="metric-row">
+        <span class="metric-label">Clicked link (engaged)</span>
+        <span class="metric-value engaged">2</span>
+      </div>
+      <div class="metric-row">
+        <span class="metric-label">Responded</span>
+        <span class="warn-badge">Not tracked in Vault</span>
+      </div>
+      <div class="metric-row">
+        <span class="metric-label">Meeting booked</span>
+        <span class="warn-badge">Not tracked in Vault</span>
+      </div>
+      <div class="metric-row">
+        <span class="metric-label">Opp created</span>
+        <span class="metric-value none">0 visible</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- WooCommerce -->
+  <div class="play-box">
+    <div class="play-box-header">
+      <div class="play-icon icon-purple">🟣</div>
+      <div>
+        <div class="play-title">WooCommerce</div>
+        <span class="play-cadence-tag">C|LP Woo Q1'26 done · Q2 cadence on hold</span>
+      </div>
+    </div>
+    <div class="play-body">
+      <div class="metric-row">
+        <span class="metric-label">Enrolled Q1 (contacts)</span>
+        <span class="metric-value">58</span>
+      </div>
+      <div class="metric-row">
+        <span class="metric-label">Still active</span>
+        <span class="metric-value active">0</span>
+      </div>
+      <div class="metric-row">
+        <span class="metric-label">Q2 cadence enrolled</span>
+        <span class="metric-value warn">0 — Lane holding</span>
+      </div>
+      <div class="metric-row">
+        <span class="metric-label">Engaged (clicks)</span>
+        <span class="metric-value engaged">2</span>
+      </div>
+      <div class="metric-row">
+        <span class="metric-label">Responded</span>
+        <span class="warn-badge">Not tracked in Vault</span>
+      </div>
+      <div class="metric-row">
+        <span class="metric-label">Meeting booked</span>
+        <span class="warn-badge">Not tracked in Vault</span>
+      </div>
+      <div class="metric-row">
+        <span class="metric-label">Opp created</span>
+        <span class="metric-value none">0 visible</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Custom Build -->
+  <div class="play-box">
+    <div class="play-box-header">
+      <div class="play-icon icon-orange">🟠</div>
+      <div>
+        <div class="play-title">Custom Build</div>
+        <span class="play-cadence-tag">C|LP Q1'26 done · C|MP Q1'26 still running</span>
+      </div>
+    </div>
+    <div class="play-body">
+      <div class="metric-row">
+        <span class="metric-label">Enrolled (contacts)</span>
+        <span class="metric-value">52</span>
+      </div>
+      <div class="metric-row">
+        <span class="metric-label">Still active</span>
+        <span class="metric-value active">14</span>
+      </div>
+      <div class="metric-row">
+        <span class="metric-label">Removed / done</span>
+        <span class="metric-value removed">38</span>
+      </div>
+      <div class="metric-row">
+        <span class="metric-label">Engaged (clicks)</span>
+        <span class="metric-value engaged">1</span>
+      </div>
+      <div class="metric-row">
+        <span class="metric-label">Responded</span>
+        <span class="warn-badge">Not tracked in Vault</span>
+      </div>
+      <div class="metric-row">
+        <span class="metric-label">Meeting booked</span>
+        <span class="warn-badge">Not tracked in Vault</span>
+      </div>
+      <div class="metric-row">
+        <span class="metric-label">Opp created</span>
+        <span class="metric-value none">0 visible</span>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+<!-- ===== VERTICAL PLAYS ===== -->
+<div class="section-header">Vertical Plays</div>
+<div class="plays-grid">
+
+  <!-- Furniture -->
+  <div class="play-box">
+    <div class="play-box-header">
+      <div class="play-icon icon-green">🪑</div>
+      <div>
+        <div class="play-title">Furniture</div>
+        <span class="play-cadence-tag">SA | ANZ MM Furniture 10M+ (email + LinkedIn/calls)</span>
+      </div>
+    </div>
+    <div class="play-body">
+      <div class="metric-row">
+        <span class="metric-label">Enrolled (contacts)</span>
+        <span class="metric-value">32</span>
+      </div>
+      <div class="metric-row">
+        <span class="metric-label">Still active</span>
+        <span class="metric-value active">2 — DOMO Collections</span>
+      </div>
+      <div class="metric-row">
+        <span class="metric-label">Completed full sequence</span>
+        <span class="metric-value">8 — West Elm, Stylecraft, Bedpost + more</span>
+      </div>
+      <div class="metric-row">
+        <span class="metric-label">Removed mid-sequence</span>
+        <span class="metric-value removed">22 — OZ Design, Homemakers, Coco Republic + more</span>
+      </div>
+      <div class="metric-row">
+        <span class="metric-label">Responded</span>
+        <span class="warn-badge">Not tracked in Vault</span>
+      </div>
+      <div class="metric-row">
+        <span class="metric-label">Meeting booked</span>
+        <span class="warn-badge">Not tracked in Vault</span>
+      </div>
+      <div class="metric-row">
+        <span class="metric-label">Opp created</span>
+        <span class="metric-value none">0 visible in Salesforce</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Health & Beauty -->
+  <div class="play-box holding">
+    <div class="play-box-header">
+      <div class="play-icon icon-grey">💄</div>
+      <div>
+        <div class="play-title">Health &amp; Beauty</div>
+        <span class="play-cadence-tag">Cadence being built — not yet launched</span>
+      </div>
+    </div>
+    <div class="play-holding-body">
+      <div class="holding-icon">🚧</div>
+      <div>Lane / Shina are building this cadence.<br>0 accounts enrolled as of today.</div>
+    </div>
+  </div>
+
+</div>
+
+
+<!-- ===== CLOSED LOST PLAY ===== -->
+<div class="section-header">Closed Lost Play</div>
+<div class="missing-box" style="margin-bottom: 28px;">
+  <div style="font-size: 24px;">🔍</div>
+  <div>
+    <div class="missing-title">No closed lost cadence found</div>
+    <div class="missing-sub">Searched Vault CRM sequences — no cadence exists for re-engaging Salesforce closed lost accounts. This is a gap worth building.</div>
+  </div>
+</div>
+
+
+<!-- ===== SALESFORCE PIPELINE ===== -->
+<div class="section-header">Salesforce Pipeline — All of 2026 (27 opps)</div>
+<div class="pipeline-grid">
+
+  <div class="pipeline-tile closed-won">
+    <div class="stage-label">Closed Won</div>
+    <div class="count">2</div>
+    <div class="accounts-list">
+      Garden Express Australia<br>
+      Greg Grant Saddlery (POS)
+    </div>
+  </div>
+
+  <div class="pipeline-tile open-pipeline">
+    <div class="stage-label">Open — Envision / Solution</div>
+    <div class="count">10</div>
+    <div class="accounts-list">
+      Baby Factory · Weareco · Southern Design Group · Hairco Online · Home Grown Brands · Asahi Beverages · Deus Ex Machina · Philips · Black Star Pastry · Videopro · Motackle (inc. pre-qual)
+    </div>
+  </div>
+
+  <div class="pipeline-tile pre-qual">
+    <div class="stage-label">Pre-Qualified</div>
+    <div class="count">5</div>
+    <div class="accounts-list">
+      Foxtel (Hubbl) · Weatherbeeta · Lowes Manhattan · Ticketek Australia + 1 more
+    </div>
+  </div>
+
+  <div class="pipeline-tile closed-lost">
+    <div class="stage-label">Closed Lost</div>
+    <div class="count">10</div>
+    <div class="accounts-list">
+      Pool Tile · Australia Naturalcare · Church &amp; Dwight · Just Cuts · Asahi Cart · Patagonia · Ainslie Bullion · Preen · Shade Australia · ASPAR
+    </div>
+  </div>
+
+</div>
+
+<div class="data-note">
+  <strong>Note on Salesforce opps:</strong> None of the 27 opps above appear to be from accounts enrolled in the competitor/vertical cadences above. The cadences are running against cold outbound accounts (BigCommerce, Woo, Adobe, Furniture prospects) while Salesforce opps are largely from direct outreach or inbound. The cadences have not yet converted to opportunities.
+</div>
+
+
+<!-- ===== UNTOUCHED ===== -->
+<div class="section-header" style="margin-top: 28px;">Untouched Bucket</div>
+<div class="untouched-box">
+  <div class="untouched-icon">📭</div>
+  <div>
+    <div class="untouched-title">~396 accounts have never been enrolled in any cadence</div>
+    <div class="untouched-sub">
+      Based on ~170 distinct accounts estimated across all plays (259+ enrolled contacts, assuming avg. 1.5 contacts per account, with some overlap across plays).<br><br>
+      <strong>Biggest gap: WooCommerce.</strong> 203 WooCommerce accounts in your BOB. Lane's Q2 Woo cadence has 0 enrolled — he's intentionally holding it. Q1 touched ~39 accounts. That leaves ~160 WooCommerce accounts completely untouched.<br><br>
+      <strong>Second gap: Health &amp; Beauty.</strong> Vertical play hasn't launched. 0 accounts enrolled.<br><br>
+      <strong>Third gap: Closed lost.</strong> No re-engagement cadence exists for the 10 closed lost accounts from 2026.
+    </div>
+  </div>
+</div>
+
+<div class="data-note" style="margin-top: 12px;">
+  <strong>Data limitation:</strong> "Responded", "Meeting booked", and "No / Not now" breakdowns are not captured in Vault CRM's sequence contacts view. The system only records Active / Removed / Done status — not the reason for removal. To track outcomes per cadence, Lane and Shina would need to log a removal reason or note when they manually remove contacts. The "Not tracked in Vault" flags above reflect this gap, not a lack of results.
+</div>
+
+</body>
+</html>
