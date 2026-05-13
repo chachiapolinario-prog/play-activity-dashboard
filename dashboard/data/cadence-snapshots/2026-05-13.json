@@ -14,6 +14,17 @@
     ],
     "pending_rule": "Exclude accounts with 0 contacts — needs Vault CRM contact counts per account (not in BoB sheet)"
   },
+  "chachi_activity": {
+    "high_accounts_dialed": 30,
+    "total_high_accounts": 105,
+    "pct_high_dialed": 28.6,
+    "one_off_emails_week": null,
+    "active_cadence_enrolments_by_chachi": null,
+    "salesforce_tasks_week": null,
+    "meetings_held_week": null,
+    "definition": "Touch = dial (SF Task type=Call or Vault dial) OR cadence/sequence enrolment (Vault) OR one-off email (Vault activity log or SF email). De-duped by account ID. See feedback_activity_definition memory.",
+    "note": "30 High dialed is the baseline as of 2026-05-13. Other counts will populate on next /cadence-review run with full Salesforce + Vault CRM pulls."
+  },
   "coverage": {
     "touched": 157,
     "touched_breakdown": {
