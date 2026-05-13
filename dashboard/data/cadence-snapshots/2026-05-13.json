@@ -15,15 +15,15 @@
     "pending_rule": "Exclude accounts with 0 contacts — needs Vault CRM contact counts per account (not in BoB sheet)"
   },
   "coverage": {
-    "touched": 154,
+    "touched": 157,
     "touched_breakdown": {
       "high_called": 105,
       "notes_or_comments": 37,
+      "vault_cadence_match": 7,
       "salesforce_opp_2026": 5,
-      "vault_cadence_match": 4,
       "open_opp_flag": 3
     },
-    "untouched": 362,
+    "untouched": 359,
     "untouched_by_platform": {
       "WooCommerce": 177,
       "Custom Build": 49,

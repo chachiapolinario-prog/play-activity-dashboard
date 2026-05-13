@@ -868,13 +868,6 @@
     "territory": "04"
   },
   {
-    "account_id": "0018V00002qyt8vQAA",
-    "account_name": "Palloys",
-    "priority": "Medium",
-    "platform": "Adobe Commerce (Magento)",
-    "territory": "04"
-  },
-  {
     "account_id": "0018V00002iSJfnQAG",
     "account_name": "Unicare Health",
     "priority": "Medium",
@@ -908,13 +901,6 @@
     "priority": "Medium",
     "platform": "Other",
     "territory": "02"
-  },
-  {
-    "account_id": "0018V00002gtb7JQAQ",
-    "account_name": "Chrisco",
-    "priority": "Medium",
-    "platform": "Custom Build",
-    "territory": "04"
   },
   {
     "account_id": "0018V00002qytLIQAY",
@@ -1271,13 +1257,6 @@
     "account_name": "Budget Pet Products",
     "priority": "Medium",
     "platform": "Custom Build",
-    "territory": "04"
-  },
-  {
-    "account_id": "0018V00002lHaMBQA0",
-    "account_name": "Ozwinds Brass",
-    "priority": "Medium",
-    "platform": "Adobe Commerce (Magento)",
     "territory": "04"
   },
   {
