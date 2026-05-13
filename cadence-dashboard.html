@@ -301,10 +301,10 @@
   </div>
 </div>
 
-<!-- Daily change tracker (populated by /cadence-review) -->
-<div id="daily-changes" class="daily-changes" style="display:none;">
+<!-- Weekly change tracker (populated by /cadence-review) -->
+<div id="weekly-changes" class="daily-changes" style="display:none;">
   <div class="daily-changes-header">
-    <span class="daily-changes-title">📊 Today's changes</span>
+    <span class="daily-changes-title">📊 This week's changes (week over week)</span>
     <span class="daily-changes-date" id="changes-date">—</span>
   </div>
   <div class="daily-changes-grid" id="changes-grid"></div>
@@ -768,13 +768,13 @@
 </div>
 
 <script>
-// Load latest snapshot diff and render in the daily changes panel
-(async function loadDailyChanges() {
+// Load weekly snapshot diff and render in the week-over-week changes panel
+(async function loadWeeklyChanges() {
   try {
-    const res = await fetch('dashboard/data/cadence-snapshots/latest-diff.json', { cache: 'no-store' });
+    const res = await fetch('dashboard/data/cadence-snapshots/weekly-diff.json', { cache: 'no-store' });
     if (!res.ok) return;
     const diff = await res.json();
-    const panel = document.getElementById('daily-changes');
+    const panel = document.getElementById('weekly-changes');
     const grid = document.getElementById('changes-grid');
     const dateEl = document.getElementById('changes-date');
     if (!diff || !diff.metrics) return;
