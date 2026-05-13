@@ -14,7 +14,7 @@
     "touched": null,
     "untouched": null,
     "active_now": 40,
-    "note": "Touched calculation requires pulling: tagged accounts + opps post-2025-12-31 (active + closed lost) + emails (incl failed/bounced) + calls (incl attempts) + LinkedIn + socials + Vault sequences + Salesloft cadences. Not yet computed."
+    "note": "Touched calculation requires pulling: tagged accounts + opps post-2025-12-31 (active + closed lost) + emails (incl failed/bounced) + calls (incl attempts) + LinkedIn + socials + Vault CRM sequences. Salesloft is NOT used — Vault CRM is the only outreach system. Not yet computed."
   },
   "plays": {
     "bigcommerce": {
