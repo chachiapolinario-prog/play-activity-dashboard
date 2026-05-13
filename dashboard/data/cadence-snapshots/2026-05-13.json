@@ -115,11 +115,36 @@
       "status": "launched_pending_refresh",
       "note": "Cadence exists but numbers not yet pulled — H&B search in Vault returned slow-loading results. Will populate on next /cadence-review run."
     },
-    "closed_lost": {
-      "label": "Closed Lost",
+    "closed_lost_timing": {
+      "label": "Closed/Lost Timing",
       "type": "reengagement",
-      "enrolled": 0,
-      "status": "no_cadence_exists"
+      "cadence_name": "L | \"Closed/ Lost\" Timing - Q2'26",
+      "owner": "Lane Pedersen",
+      "created": "2026-04-27",
+      "enrolled": 27,
+      "active": 25,
+      "engaged": 1,
+      "engage_rate": 50.0
+    },
+    "pick_one_outreach": {
+      "label": "Pick One Outreach",
+      "type": "reengagement",
+      "cadence_name": "L | \"A or B\" Pick One Outreach - Q2'26",
+      "owner": "Lane Pedersen",
+      "created": "2026-05-04",
+      "enrolled": 29,
+      "active": 6,
+      "engaged": 0
+    },
+    "vip_curated": {
+      "label": "VIP Curated",
+      "type": "reengagement",
+      "cadence_name": "L | \"VIP\" Curated Outreach - Q2'26",
+      "owner": "Lane Pedersen",
+      "created": "2026-04-23",
+      "enrolled": 18,
+      "active": 7,
+      "engaged": 0
     }
   },
   "salesforce": {
