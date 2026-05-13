@@ -1,32 +1,36 @@
 {
   "date": "2026-05-13",
   "bob": {
-    "total": 531,
-    "high": 107,
-    "medium": 424,
-    "source": "Chachi BoB 2026 sheet — Account Breakdown tab, Section 1 (High + Medium priority, Excellent + Potential Fit only, across territories _02 and _04)",
-    "territory_02_workable": 293,
-    "territory_04_workable": 238,
-    "unworkable": 260,
-    "all_priorities_total_accounts": 1825
+    "total_workable_after_rules": 516,
+    "high": 105,
+    "medium": 411,
+    "raw_workable_before_shopify_removal": 531,
+    "removed_shopify_plan_accounts": 15,
+    "source": "dashboard/data/bob-q2-2026.csv (Chachi BoB 2026 sheet, Q2 2026 Accounts tab)",
+    "rules_applied": [
+      "High + Medium priority only",
+      "Excellent Fit or Potential Fit only",
+      "Excluded Shopify Plan Adv/Basic (already-customer)"
+    ],
+    "pending_rule": "Exclude accounts with 0 contacts — needs Vault CRM contact counts per account (not in BoB sheet)"
   },
   "coverage": {
-    "touched": 114,
-    "touched_high": 107,
-    "touched_medium": 7,
-    "untouched": 417,
-    "untouched_medium": 417,
-    "untouched_high": 0,
-    "active_now": 40,
-    "touched_medium_accounts": ["Videopro Business Centre", "Baby Factory", "Pascal Press", "Bedpost", "Weatherbeeta", "Hairco Online", "Motackle"],
+    "touched": 154,
+    "touched_breakdown": {
+      "high_called": 105,
+      "notes_or_comments": 37,
+      "salesforce_opp_2026": 5,
+      "vault_cadence_match": 4,
+      "open_opp_flag": 3
+    },
+    "untouched": 362,
     "untouched_by_platform": {
-      "WooCommerce": 183,
-      "Custom Build": 52,
-      "Other": 45,
-      "Adobe Commerce (Magento)": 44,
+      "WooCommerce": 177,
+      "Custom Build": 49,
+      "Other": 42,
       "blank/no-platform": 41,
-      "BigCommerce": 18,
-      "Shopify Plan Advanced/Basic": 13,
+      "Adobe Commerce (Magento)": 25,
+      "BigCommerce": 7,
       "OpenCart": 7,
       "Drupal": 3,
       "Odoo": 3,
@@ -36,8 +40,16 @@
       "Centra": 1,
       "Wix": 1
     },
-    "assumptions": "All 107 High priority accounts assumed touched via call (per Chachi). 7 Medium touched confirmed via Salesforce opps + known Vault cadence enrollment (partial match). True Medium touched count is likely higher once all ~289 cadence contacts are matched by Salesforce account ID.",
-    "data_source": "dashboard/data/bob-q2-2026.csv (Q2 2026 Accounts tab, exported from Chachi BoB 2026 Google Sheet on 2026-05-13)"
+    "active_now": 40,
+    "touched_rules": [
+      "All High priority → assumed touched via call",
+      "Sales Notes or Comments present in BoB → touched (counts as activity note)",
+      "Has Salesforce opp created 2026 → touched",
+      "Engagment Approach = Open Opp → touched",
+      "Account name matches Vault CRM cadence enrollment → touched"
+    ],
+    "cadence_cross_reference_status": "Partial. Captured: Furniture SA (29), BigCommerce L|ALL (19 of 39), WooCommerce C|LP Q1 (8 of 58). Remaining ~233 contacts across BigCommerce ANZ MM, Adobe x4, Custom Build x2, H&B Vertical Migration. Next /cadence-review run can refine.",
+    "data_source": "dashboard/data/bob-q2-2026.csv"
   },
   "plays": {
     "bigcommerce": {

@@ -278,21 +278,21 @@
 <div class="summary-bar">
   <div class="summary-tile blue">
     <div class="label">Total BOB (workable)</div>
-    <div class="value">531</div>
+    <div class="value">516</div>
     <div class="sub">
-      <span class="priority-pill priority-high">High: 107</span>
-      <span class="priority-pill priority-med">Medium: 424</span>
+      <span class="priority-pill priority-high">High: 105</span>
+      <span class="priority-pill priority-med">Medium: 411</span>
     </div>
   </div>
   <div class="summary-tile green">
     <div class="label">Touched</div>
-    <div class="value">114+</div>
-    <div class="sub">107 High (all called) + 7 Medium confirmed via SF opps / Vault cadences</div>
+    <div class="value">154</div>
+    <div class="sub">105 High (called) + 37 notes + 5 SF opps + 4 Vault + 3 Open Opp</div>
   </div>
   <div class="summary-tile orange">
     <div class="label">Untouched</div>
-    <div class="value">417</div>
-    <div class="sub">All Medium priority — needs attention</div>
+    <div class="value">362</div>
+    <div class="sub">All Medium priority · 177 WooCommerce is biggest bucket</div>
   </div>
   <div class="summary-tile red">
     <div class="label">Active right now</div>
@@ -631,12 +631,24 @@
 <div class="untouched-box">
   <div class="untouched-icon">📭</div>
   <div>
-    <div class="untouched-title">417 Medium priority accounts untouched (workable list of 531, minus 114 touched)</div>
+    <div class="untouched-title">362 Medium priority accounts untouched (workable 516, minus 154 touched)</div>
     <div class="untouched-sub">
-      Assumption: All 107 High priority accounts are touched via call (per Chachi's rule). The 7 confirmed Medium touched accounts are: Videopro Business Centre, Baby Factory, Pascal Press, Bedpost, Weatherbeeta, Hairco Online, Motackle (via Salesforce opps or known Vault cadence enrollment).<br><br>
-      <strong>Biggest gap: WooCommerce — 183 untouched Medium accounts.</strong> Lane's Q2 Woo cadence has 0 enrolled, he's intentionally holding it. This is your single largest pipeline opportunity.<br><br>
-      <strong>Other untouched Medium buckets:</strong> Custom Build (52), Other platforms (45), Adobe/Magento (44), no-platform-listed (41), BigCommerce (18), Shopify Plan Adv/Basic (13), OpenCart (7), Drupal/Odoo/Prestashop/SAP/Squarespace (2-3 each).<br><br>
-      <strong>Note on Medium touched count (7 is a floor, not a ceiling):</strong> I've only matched against the 26 Salesforce opp accounts and the ~25 Vault cadence accounts visible in screenshots. The actual Medium touched count is likely higher once all ~289 cadence contacts are matched by Salesforce ID. Next /cadence-review run will refine this.
+      <strong>Workable rules applied:</strong> H+M priority, Excellent or Potential Fit, NOT already on Shopify (15 Shopify Plan Adv/Basic accounts excluded as already-customer).<br><br>
+      <strong>Touched signals applied:</strong> All High = called (105), notes/comments in BoB = activity (37), Salesforce opp 2026 (5 Medium), Vault cadence enrollment (4 Medium confirmed), "Open Opp" flag in BoB (3 Medium).<br><br>
+      <strong>Biggest gap: WooCommerce — 177 untouched Medium accounts.</strong> That's 49% of all your untouched accounts on a single platform. Lane's Q2 Woo cadence has 0 enrolled (intentionally holding). This is the single largest pipeline opportunity in your book.<br><br>
+      <strong>Other untouched Medium buckets:</strong>
+      <ul style="margin: 6px 0 0 16px; padding: 0;">
+        <li>Custom Build: 49</li>
+        <li>Other platforms: 42</li>
+        <li>No platform listed: 41</li>
+        <li>Adobe Commerce / Magento: 25</li>
+        <li>BigCommerce: 7</li>
+        <li>OpenCart: 7</li>
+        <li>Long tail (Drupal, Odoo, Prestashop, SAP, Squarespace, Centra, Wix): 14</li>
+      </ul>
+      <br>
+      <strong>Pending refinement:</strong> Vault cadence cross-reference is partial. I've captured contacts from Furniture (29), BigCommerce L|ALL (19 of 39), and WooCommerce (8 of 58). Remaining ~233 cadence contacts across BigCommerce ANZ MM Shina (30), Adobe×4 (77), Custom Build×2 (52), and H&B Vertical Migration (TBD) still need to be captured. Each one matched to your BoB would shift a Medium account from untouched to touched. Expected impact: 30-80 more touched.<br><br>
+      <strong>0-contacts criterion:</strong> Pending — Vault CRM has contact counts per account but not in the BoB sheet. Need to scrape Vault accounts view (~516 rows) or get a fresh export with contact counts.
     </div>
   </div>
 </div>
