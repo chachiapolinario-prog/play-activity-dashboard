@@ -3,2513 +3,2106 @@
     "account_id": "0018V00002qystaQAA",
     "account_name": "Lotto New Zealand",
     "priority": "Medium",
-    "platform": "Custom Build",
-    "territory": "04"
+    "platform": "Custom Build"
   },
   {
     "account_id": "0018V00002kQJPzQAO",
     "account_name": "Realcold",
     "priority": "Medium",
-    "platform": "Custom Build",
-    "territory": "02"
+    "platform": "Custom Build"
   },
   {
     "account_id": "0018V00002lHaDlQAK",
     "account_name": "Thirsty Camel",
     "priority": "Medium",
-    "platform": "Custom Build",
-    "territory": "02"
+    "platform": "Custom Build"
   },
   {
     "account_id": "0018V00002ieSb5QAE",
     "account_name": "Wests Tigers",
     "priority": "Medium",
-    "platform": "Other",
-    "territory": "02"
+    "platform": "Other"
   },
   {
     "account_id": "0018V00002lHZpJQAW",
     "account_name": "Lenard's",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002ecYmGQAU",
     "account_name": "Whitworths Marine & Leisure",
     "priority": "Medium",
-    "platform": "Adobe Commerce (Magento)",
-    "territory": "02"
+    "platform": "Adobe Commerce (Magento)"
   },
   {
     "account_id": "0018V00002lHa7yQAC",
     "account_name": "Seadan Security",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
-  },
-  {
-    "account_id": "0018V00002kQJO7QAO",
-    "account_name": "Graphic Art Mart",
-    "priority": "Medium",
-    "platform": "Adobe Commerce (Magento)",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002lHZmKQAW",
     "account_name": "Wine People",
     "priority": "Medium",
-    "platform": "Custom Build",
-    "territory": "02"
+    "platform": "Custom Build"
   },
   {
     "account_id": "001OG00000xs2WYYAY",
     "account_name": "East Fremantle Football Club",
     "priority": "Medium",
-    "platform": "Other",
-    "territory": "04"
+    "platform": "Other"
   },
   {
     "account_id": "001OG00000kHOp4YAG",
     "account_name": "Vida Tennis",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000kHdkqYAC",
     "account_name": "Clarendon Hills",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000kHZMqYAO",
     "account_name": "The Lounge Beauty Co",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000xru9DYAQ",
     "account_name": "Ultra Health Medical",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG000015zNJNYA2",
     "account_name": "The Fresh Collective",
     "priority": "Medium",
-    "platform": "",
-    "territory": "04"
+    "platform": ""
   },
   {
     "account_id": "0018V00002cz7fTQAQ",
     "account_name": "LuxorLinen Pty Ltd",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG0000197JoqYAE",
     "account_name": "Tuapeka Gold Print",
     "priority": "Medium",
-    "platform": "",
-    "territory": "04"
+    "platform": ""
   },
   {
     "account_id": "0018V00002d0HViQAM",
     "account_name": "Honey Moon Vineyard",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002d0IjzQAE",
     "account_name": "Wildfire Sports & Trek",
     "priority": "Medium",
-    "platform": "Other",
-    "territory": "04"
+    "platform": "Other"
   },
   {
     "account_id": "001OG00000xs2WAYAY",
     "account_name": "HaggleCo",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
-  },
-  {
-    "account_id": "001OG00000kHXVcYAO",
-    "account_name": "Atomic Group (Australia) Pty Ltd",
-    "priority": "Medium",
-    "platform": "Adobe Commerce (Magento)",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002d0GDqQAM",
     "account_name": "Archant",
     "priority": "Medium",
-    "platform": "Adobe Commerce (Magento)",
-    "territory": "02"
+    "platform": "Adobe Commerce (Magento)"
   },
   {
     "account_id": "001OG00000kHPA8YAO",
     "account_name": "Brisbane Tigers",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002d0IftQAE",
     "account_name": "Aussie Fitness Equipment",
     "priority": "Medium",
-    "platform": "Other",
-    "territory": "02"
+    "platform": "Other"
   },
   {
     "account_id": "001OG00000kHflsYAC",
     "account_name": "No Grainer",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000y98phYAA",
     "account_name": "Cerebos Gregg's Ltd",
     "priority": "Medium",
-    "platform": "",
-    "territory": "02"
+    "platform": ""
   },
   {
     "account_id": "001OG0000197JpFYAU",
     "account_name": "Southern Discoveries",
     "priority": "Medium",
-    "platform": "",
-    "territory": "02"
+    "platform": ""
   },
   {
     "account_id": "001OG00000y92FCYAY",
     "account_name": "Kaczanowski & Co.",
     "priority": "Medium",
-    "platform": "Custom Build",
-    "territory": "02"
+    "platform": "Custom Build"
   },
   {
     "account_id": "0018V00002lHRosQAG",
     "account_name": "Marlborough Wine Ltd",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000kHi5RYAS",
     "account_name": "The Bee Firm",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000xrnRmYAI",
     "account_name": "Skin Nutrient\u2122",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000xs2WXYAY",
     "account_name": "Quality Produce International",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002d0FfcQAE",
     "account_name": "Whitcoulls",
     "priority": "Medium",
-    "platform": "Custom Build",
-    "territory": "04"
+    "platform": "Custom Build"
   },
   {
     "account_id": "001OG00000kHNssYAG",
     "account_name": "pasteles bakehouse",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000kHPHmYAO",
     "account_name": "ReadHowYouWant",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
-  },
-  {
-    "account_id": "0018V00002czVSWQA2",
-    "account_name": "Li'l Treasures",
-    "priority": "Medium",
-    "platform": "Other",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000kHLnKYAW",
     "account_name": "RC Hobbies",
     "priority": "Medium",
-    "platform": "Other",
-    "territory": "04"
+    "platform": "Other"
   },
   {
     "account_id": "001OG00000y95zeYAA",
     "account_name": "Perth Basketball Association - The Perth Redbacks",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG000015zWBwYAM",
     "account_name": "BJ Ball Group",
     "priority": "Medium",
-    "platform": "",
-    "territory": "02"
+    "platform": ""
   },
   {
     "account_id": "001OG000015zSeFYAU",
     "account_name": "Sports In Focus",
     "priority": "Medium",
-    "platform": "",
-    "territory": "02"
+    "platform": ""
   },
   {
     "account_id": "001OG00000kHCXdYAO",
     "account_name": "ACD Trade",
     "priority": "Medium",
-    "platform": "Custom Build",
-    "territory": "04"
+    "platform": "Custom Build"
   },
   {
     "account_id": "001OG00000kHk1aYAC",
     "account_name": "Optipharm",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002kY0hvQAC",
     "account_name": "Business Interiors (Australia)",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000xs2SBYAY",
     "account_name": "Leaf Caf\u00e9 & Co",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002kY0iTQAS",
     "account_name": "Fresh St Market IGA",
     "priority": "Medium",
-    "platform": "",
-    "territory": "02"
+    "platform": ""
   },
   {
     "account_id": "0018V00002czARJQA2",
     "account_name": "Pharma Botanica",
     "priority": "Medium",
-    "platform": "Other",
-    "territory": "04"
+    "platform": "Other"
   },
   {
     "account_id": "0018V00002qyt4ZQAQ",
     "account_name": "Bebrite Cleaning Services Australia",
     "priority": "Medium",
-    "platform": "Other",
-    "territory": "02"
+    "platform": "Other"
   },
   {
     "account_id": "001OG00000kHMW0YAO",
     "account_name": "Parts Alliance",
     "priority": "Medium",
-    "platform": "Prestashop",
-    "territory": "04"
+    "platform": "Prestashop"
   },
   {
     "account_id": "001OG00000kHa3AYAS",
     "account_name": "Stephanie Alexander Kitchen Garden Foundation",
     "priority": "Medium",
-    "platform": "Drupal",
-    "territory": "04"
+    "platform": "Drupal"
   },
   {
     "account_id": "001OG00000xs2WdYAI",
     "account_name": "Trilogy Nutrition",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000xrnRAYAY",
     "account_name": "Sandringham Football Club",
     "priority": "Medium",
-    "platform": "",
-    "territory": "04"
+    "platform": ""
   },
   {
     "account_id": "001OG00000kHKMlYAO",
     "account_name": "Monty's Leap",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000kHPmoYAG",
     "account_name": "Swiss Deli Nz",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
-  },
-  {
-    "account_id": "001OG00000y95zyYAA",
-    "account_name": "Ampersand Estates",
-    "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000kHTQFYA4",
     "account_name": "Best Value & Quickest Flat Rate Shipping - That\u2019s Us!",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG0000197SqMYAU",
     "account_name": "Supercars",
     "priority": "Medium",
-    "platform": "",
-    "territory": "02"
+    "platform": ""
   },
   {
     "account_id": "001OG00000kH6LDYA0",
     "account_name": "Capel Vale Wines",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000kHSklYAG",
     "account_name": "Rory's Group",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002d0IfsQAE",
     "account_name": "Autoglass Warehouse",
     "priority": "Medium",
-    "platform": "Other",
-    "territory": "04"
+    "platform": "Other"
   },
   {
     "account_id": "001OG000015zSeXYAU",
     "account_name": "NAK Hair",
     "priority": "Medium",
-    "platform": "",
-    "territory": "02"
+    "platform": ""
   },
   {
     "account_id": "0018V00002qysLYQAY",
     "account_name": "imake",
     "priority": "Medium",
-    "platform": "Adobe Commerce (Magento)",
-    "territory": "04"
+    "platform": "Adobe Commerce (Magento)"
   },
   {
     "account_id": "001OG00000xs2RXYAY",
     "account_name": "Frenchies Bistro & Brewery",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002lHa7wQAC",
     "account_name": "Hec Cater Pty.",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000kHLnjYAG",
     "account_name": "Austra Selections",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002lHZ7XQAW",
     "account_name": "Capel Vale Wines",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002czFUeQAM",
     "account_name": "Racer Industries",
     "priority": "Medium",
-    "platform": "Other",
-    "territory": "02"
+    "platform": "Other"
   },
   {
     "account_id": "001OG00000kHJDWYA4",
     "account_name": "Quality Food Services",
     "priority": "Medium",
-    "platform": "",
-    "territory": "02"
+    "platform": ""
   },
   {
     "account_id": "001OG00000xs2R6YAI",
     "account_name": "iFresh Corporate Pantry",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002lHac2QAC",
     "account_name": "Floridia Cheese",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000kHPoiYAG",
     "account_name": "Siena Foods Pty Limited",
     "priority": "Medium",
-    "platform": "Custom Build",
-    "territory": "04"
+    "platform": "Custom Build"
   },
   {
     "account_id": "001OG00000y98q4YAA",
     "account_name": "kindyRock",
     "priority": "Medium",
-    "platform": "Other",
-    "territory": "02"
+    "platform": "Other"
   },
   {
     "account_id": "001OG00000xru9xYAA",
     "account_name": "Aquamech Services",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002lHZI6QAO",
     "account_name": "Austraroma Pty",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG000015zW9aYAE",
     "account_name": "Grove Avocado Oil",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG000015zWBMYA2",
     "account_name": "Barenbrug New Zealand",
     "priority": "Medium",
-    "platform": "",
-    "territory": "02"
+    "platform": ""
   },
   {
     "account_id": "001OG00000y95ahYAA",
     "account_name": "ShutterKits",
     "priority": "Medium",
-    "platform": "Custom Build",
-    "territory": "04"
+    "platform": "Custom Build"
   },
   {
     "account_id": "0018V00002d0IgJQAU",
     "account_name": "Computer Alliance",
     "priority": "Medium",
-    "platform": "Custom Build",
-    "territory": "04"
+    "platform": "Custom Build"
   },
   {
     "account_id": "001OG00000xrnRoYAI",
     "account_name": "Twin Plaza Metals",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG0000197NA7YAM",
     "account_name": "Kickin'Inn Australia",
     "priority": "Medium",
-    "platform": "",
-    "territory": "04"
+    "platform": ""
   },
   {
     "account_id": "0018V00002lHa7jQAC",
     "account_name": "Jeffersons Tea",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002qytDLQAY",
     "account_name": "ICI Industries Pty",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00001DSgDkYAL",
     "account_name": "Avon City Ford",
     "priority": "Medium",
-    "platform": "",
-    "territory": "04"
+    "platform": ""
   },
   {
     "account_id": "001OG00001DSwFBYA1",
     "account_name": "Muscle Release Systems",
     "priority": "Medium",
-    "platform": "",
-    "territory": "04"
+    "platform": ""
   },
   {
     "account_id": "0018V00002fOoc8QAC",
     "account_name": "Radio Parts",
     "priority": "Medium",
-    "platform": "Custom Build",
-    "territory": "04"
+    "platform": "Custom Build"
   },
   {
     "account_id": "0018V00002lHZofQAG",
     "account_name": "Optical Superstore",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002gpvPHQAY",
     "account_name": "Prices Plus",
     "priority": "Medium",
-    "platform": "BigCommerce",
-    "territory": "02"
+    "platform": "BigCommerce"
   },
   {
     "account_id": "0018V00002qytThQAI",
     "account_name": "NAPA Auto Parts Asia Pacific",
     "priority": "Medium",
-    "platform": "Other",
-    "territory": "02"
+    "platform": "Other"
   },
   {
     "account_id": "001OG00001DT7cGYAT",
     "account_name": "WR Phillips Mitsubishi",
     "priority": "Medium",
-    "platform": "",
-    "territory": "02"
+    "platform": ""
   },
   {
     "account_id": "001OG00001DSgDKYA1",
     "account_name": "South Pacific Avionics",
     "priority": "Medium",
-    "platform": "OpenCart",
-    "territory": "02"
+    "platform": "OpenCart"
   },
   {
     "account_id": "0018V00002erhWgQAI",
     "account_name": "BDO Furniture",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002lHSaSQAW",
     "account_name": "Bargain Box",
     "priority": "Medium",
-    "platform": "Custom Build",
-    "territory": "04"
+    "platform": "Custom Build"
   },
   {
     "account_id": "0018V00002qytGfQAI",
     "account_name": "Icehouse Melbourne Operations Pty Ltd",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000y92EuYAI",
     "account_name": "TVSN",
     "priority": "Medium",
-    "platform": "Custom Build",
-    "territory": "02"
+    "platform": "Custom Build"
   },
   {
     "account_id": "0018V00002lHZRQQA4",
     "account_name": "Saddingtons",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00001DSaWzYAL",
     "account_name": "Christchurch Nissan",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002lHZwfQAG",
     "account_name": "QTCo",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002lHZTeQAO",
     "account_name": "Flowers Across Sydney",
     "priority": "Medium",
-    "platform": "Custom Build",
-    "territory": "02"
-  },
-  {
-    "account_id": "0018V00002pJlB2QAK",
-    "account_name": "Show Bags",
-    "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "Custom Build"
   },
   {
     "account_id": "001OG00001DT1jBYAT",
     "account_name": "Seed Force",
     "priority": "Medium",
-    "platform": "",
-    "territory": "04"
+    "platform": ""
   },
   {
     "account_id": "0018V00002qytKFQAY",
     "account_name": "Learning with Technologies",
     "priority": "Medium",
-    "platform": "Custom Build",
-    "territory": "02"
+    "platform": "Custom Build"
   },
   {
     "account_id": "0018V00002dNmgAQAS",
     "account_name": "Bubs Baby Shops",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002sP8eeQAC",
     "account_name": "Nutrition Station",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002lHZ7aQAG",
     "account_name": "Aussie Natural Spring Water",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002hBCtIQAW",
     "account_name": "Phonebot",
     "priority": "Medium",
-    "platform": "OpenCart",
-    "territory": "02"
+    "platform": "OpenCart"
   },
   {
     "account_id": "001OG00000kH8CIYA0",
     "account_name": "Toyota Material Handling Australia",
     "priority": "Medium",
-    "platform": "Custom Build",
-    "territory": "04"
-  },
-  {
-    "account_id": "0018V00002eeLUnQAM",
-    "account_name": "Norva Tools",
-    "priority": "Medium",
-    "platform": "Adobe Commerce (Magento)",
-    "territory": "02"
+    "platform": "Custom Build"
   },
   {
     "account_id": "0018V00002lHaLPQA0",
     "account_name": "SchoolPix",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
-  },
-  {
-    "account_id": "0018V00002lHaQGQA0",
-    "account_name": "Blashki & Sons",
-    "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002loKwMQAU",
     "account_name": "Chapel Hill Winery",
     "priority": "Medium",
-    "platform": "Other",
-    "territory": "02"
+    "platform": "Other"
   },
   {
     "account_id": "001OG00000kHWIIYA4",
     "account_name": "Bendigo Toyota",
     "priority": "Medium",
-    "platform": "",
-    "territory": "04"
+    "platform": ""
   },
   {
     "account_id": "0018V00002lHOJjQAO",
     "account_name": "Number One shoes and Hannahs",
     "priority": "Medium",
-    "platform": "Custom Build",
-    "territory": "02"
+    "platform": "Custom Build"
   },
   {
     "account_id": "001OG000016MukgYAC",
     "account_name": "Jaycar Pty., Ltd.",
     "priority": "Medium",
-    "platform": "Custom Build",
-    "territory": "04"
+    "platform": "Custom Build"
   },
   {
     "account_id": "001OG00000kHgMfYAK",
     "account_name": "Endless Summer Nights",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000kHJJ4YAO",
     "account_name": "MERRIWA INDUSTRIES LIMITED",
     "priority": "Medium",
-    "platform": "",
-    "territory": "04"
+    "platform": ""
   },
   {
     "account_id": "0018V00002lHZKCQA4",
     "account_name": "Blooms The Chemist",
     "priority": "Medium",
-    "platform": "BigCommerce",
-    "territory": "02"
+    "platform": "BigCommerce"
   },
   {
     "account_id": "001OG00001DSVDQYA5",
     "account_name": "USL Sport Healthcare",
     "priority": "Medium",
-    "platform": "",
-    "territory": "04"
+    "platform": ""
   },
   {
     "account_id": "0018V00002qyt20QAA",
     "account_name": "Rugby Australia",
     "priority": "Medium",
-    "platform": "",
-    "territory": "02"
+    "platform": ""
   },
   {
     "account_id": "0018V00002jLML9QAO",
     "account_name": "Ole Lynggaard Copenhagen",
     "priority": "Medium",
-    "platform": "Centra",
-    "territory": "02"
+    "platform": "Centra"
   },
   {
     "account_id": "0018V00002lHZNyQAO",
     "account_name": "Calfarme",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000kHbbkYAC",
     "account_name": "Gilmours Wholesale Food & Beverage",
     "priority": "Medium",
-    "platform": "Other",
-    "territory": "04"
+    "platform": "Other"
   },
   {
     "account_id": "0018V00002eny0qQAA",
     "account_name": "Mobile Tyre Shop",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000kHkQ2YAK",
     "account_name": "Aroma Cafe",
     "priority": "Medium",
-    "platform": "",
-    "territory": "02"
+    "platform": ""
   },
   {
     "account_id": "0018V00002lHZhyQAG",
     "account_name": "Eyecare Plus Clifton Hill",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000kHM8VYAW",
     "account_name": "TPF Sports",
     "priority": "Medium",
-    "platform": "",
-    "territory": "04"
+    "platform": ""
   },
   {
     "account_id": "0018V00002iSJfnQAG",
     "account_name": "Unicare Health",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000kHbNFYA0",
     "account_name": "Better That",
     "priority": "Medium",
-    "platform": "Custom Build",
-    "territory": "02"
+    "platform": "Custom Build"
   },
   {
     "account_id": "0018V00002dHMtrQAG",
     "account_name": "Modelflight",
     "priority": "Medium",
-    "platform": "Adobe Commerce (Magento)",
-    "territory": "02"
+    "platform": "Adobe Commerce (Magento)"
   },
   {
     "account_id": "001OG00000kH57SYAS",
     "account_name": "Ryco Group",
     "priority": "Medium",
-    "platform": "Custom Build",
-    "territory": "02"
+    "platform": "Custom Build"
   },
   {
     "account_id": "0018V00002eBsCfQAK",
     "account_name": "Telephone Wreckers",
     "priority": "Medium",
-    "platform": "Other",
-    "territory": "02"
+    "platform": "Other"
   },
   {
     "account_id": "0018V00002qytLIQAY",
     "account_name": "Walker Ceramics",
     "priority": "Medium",
-    "platform": "Other",
-    "territory": "04"
+    "platform": "Other"
   },
   {
     "account_id": "001OG00000kHEonYAG",
     "account_name": "The Music Place",
     "priority": "Medium",
-    "platform": "Odoo",
-    "territory": "02"
+    "platform": "Odoo"
   },
   {
     "account_id": "0018V00002lHYrsQAG",
     "account_name": "Abco",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002lHOJOQA4",
     "account_name": "NZ Uniforms",
     "priority": "Medium",
-    "platform": "Custom Build",
-    "territory": "02"
+    "platform": "Custom Build"
   },
   {
     "account_id": "0018V00002ecuo8QAA",
     "account_name": "Simply Stylish Homewares",
     "priority": "Medium",
-    "platform": "Adobe Commerce (Magento)",
-    "territory": "02"
+    "platform": "Adobe Commerce (Magento)"
   },
   {
     "account_id": "001OG00000kHNfwYAG",
     "account_name": "New Zealand Council for Educational Research",
     "priority": "Medium",
-    "platform": "Drupal",
-    "territory": "02"
+    "platform": "Drupal"
   },
   {
     "account_id": "0018V00002lHa2SQAS",
     "account_name": "The Ginger Factory",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002czlNyQAI",
     "account_name": "THE UPSIDE SPORT",
     "priority": "Medium",
-    "platform": "BigCommerce",
-    "territory": "02"
+    "platform": "BigCommerce"
   },
   {
     "account_id": "001OG00000kHW6HYAW",
     "account_name": "KP Skincare Solutions by R+F",
     "priority": "Medium",
-    "platform": "SAP Commerce Cloud (Hybris)",
-    "territory": "02"
+    "platform": "SAP Commerce Cloud (Hybris)"
   },
   {
     "account_id": "0018V00002lHaMAQA0",
     "account_name": "Australian Gourmet Gifts",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002lHaGQQA0",
     "account_name": "Abc2000",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002lHMsOQAW",
     "account_name": "Riccarton Florist",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002lHZpTQAW",
     "account_name": "Sunstate Motorcycles",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002qysKIQAY",
     "account_name": "Chard Farm",
     "priority": "Medium",
-    "platform": "Other",
-    "territory": "04"
+    "platform": "Other"
   },
   {
     "account_id": "0018V00002lHZqHQAW",
     "account_name": "Total Knife Care",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002lHabJQAS",
     "account_name": "Delatite Wines Pty Ltd",
     "priority": "Medium",
-    "platform": "Custom Build",
-    "territory": "02"
+    "platform": "Custom Build"
   },
   {
     "account_id": "0018V00002qytOYQAY",
     "account_name": "Aber Holdings",
     "priority": "Medium",
-    "platform": "",
-    "territory": "02"
+    "platform": ""
   },
   {
     "account_id": "0018V00002qytWWQAY",
     "account_name": "ABP Allboards Pty Ltd",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002lHaBnQAK",
     "account_name": "Topaz Furniture",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG000016MvT3YAK",
     "account_name": "Stevens Homewares, Ltd.",
     "priority": "Medium",
-    "platform": "Custom Build",
-    "territory": "02"
-  },
-  {
-    "account_id": "0018V00002lHMOYQA4",
-    "account_name": "Smart Marine",
-    "priority": "Medium",
-    "platform": "Custom Build",
-    "territory": "04"
+    "platform": "Custom Build"
   },
   {
     "account_id": "0018V00002lHZQOQA4",
     "account_name": "Have A Seat",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002lHOJiQAO",
     "account_name": "Strangely Normal",
     "priority": "Medium",
-    "platform": "Other",
-    "territory": "04"
+    "platform": "Other"
   },
   {
     "account_id": "001OG00001DStQNYA1",
     "account_name": "Lennox Bathroom",
     "priority": "Medium",
-    "platform": "OpenCart",
-    "territory": "02"
+    "platform": "OpenCart"
   },
   {
     "account_id": "0018V00002lHaeMQAS",
     "account_name": "The Sassafras Sweet",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002dyZ1tQAE",
     "account_name": "justsunnies.com.au (Delete)",
     "priority": "Medium",
-    "platform": "",
-    "territory": "04"
+    "platform": ""
   },
   {
     "account_id": "001OG00001DT1kVYAT",
     "account_name": "SelectaDNA",
     "priority": "Medium",
-    "platform": "",
-    "territory": "02"
+    "platform": ""
   },
   {
     "account_id": "0018V00002qytPvQAI",
     "account_name": "Balgownie Estate Yarra Valley",
     "priority": "Medium",
-    "platform": "Other",
-    "territory": "02"
+    "platform": "Other"
   },
   {
     "account_id": "001OG000015zSYyYAM",
     "account_name": "JBL AU/NZ",
     "priority": "Medium",
-    "platform": "Other",
-    "territory": "04"
+    "platform": "Other"
   },
   {
     "account_id": "001OG00000kHIH7YAO",
     "account_name": "QE Foodstores",
     "priority": "Medium",
-    "platform": "Custom Build",
-    "territory": "02"
+    "platform": "Custom Build"
   },
   {
     "account_id": "001OG00001DT07iYAD",
     "account_name": "Artex NZ",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002ebXzNQAU",
     "account_name": "Mentone Educational Centre",
     "priority": "Medium",
-    "platform": "Other",
-    "territory": "04"
+    "platform": "Other"
   },
   {
     "account_id": "0018V00002lHaCYQA0",
     "account_name": "Plus 2 Clothing",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002fOpGbQAK",
     "account_name": "Lollipop Cake Supplies",
     "priority": "Medium",
-    "platform": "Custom Build",
-    "territory": "02"
+    "platform": "Custom Build"
   },
   {
     "account_id": "0018V00002sP8XVQA0",
     "account_name": "Fourth Wave Wine",
     "priority": "Medium",
-    "platform": "Custom Build",
-    "territory": "02"
+    "platform": "Custom Build"
   },
   {
     "account_id": "0018V00002lHJPrQAO",
     "account_name": "Breastmates",
     "priority": "Medium",
-    "platform": "BigCommerce",
-    "territory": "04"
+    "platform": "BigCommerce"
   },
   {
     "account_id": "0018V00002qys1GQAQ",
     "account_name": "Hydr8 Custom Labelled Bottled Water",
     "priority": "Medium",
-    "platform": "",
-    "territory": "02"
+    "platform": ""
   },
   {
     "account_id": "001OG00001DSkXKYA1",
     "account_name": "Grinding Gear Games",
     "priority": "Medium",
-    "platform": "",
-    "territory": "04"
+    "platform": ""
   },
   {
     "account_id": "0018V00002lH5PEQA0",
     "account_name": "Cheesecake Shop NZ( Napier",
     "priority": "Medium",
-    "platform": "Adobe Commerce (Magento)",
-    "territory": "04"
+    "platform": "Adobe Commerce (Magento)"
   },
   {
     "account_id": "0018V00002lHY2PQAW",
     "account_name": "Web Safety",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00001DT4qIYAT",
     "account_name": "Think Food",
     "priority": "Medium",
-    "platform": "",
-    "territory": "04"
+    "platform": ""
   },
   {
     "account_id": "0018V00002lHaPlQAK",
     "account_name": "Lamp Replacements Australia",
     "priority": "Medium",
-    "platform": "Custom Build",
-    "territory": "02"
+    "platform": "Custom Build"
   },
   {
     "account_id": "001OG00001DSrg8YAD",
     "account_name": "Jalmac Sales and Marketing",
     "priority": "Medium",
-    "platform": "Prestashop",
-    "territory": "02"
+    "platform": "Prestashop"
   },
   {
     "account_id": "0018V00002lHaPzQAK",
     "account_name": "Marshall Batteries",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002gQWLaQAO",
     "account_name": "Fernland",
     "priority": "Medium",
-    "platform": "BigCommerce",
-    "territory": "04"
+    "platform": "BigCommerce"
   },
   {
     "account_id": "0018V00002nDWapQAG",
     "account_name": "Roll Cycles",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002sP7XtQAK",
     "account_name": "SWISS GriP Non-Slip Coatings",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002lHZtSQAW",
     "account_name": "Cork & Chroma",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002lHZqmQAG",
     "account_name": "Spanbilt",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002lHSKgQAO",
     "account_name": "Rippon Vineyard & Winery",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002hEXBeQAO",
     "account_name": "Budget Pet Products",
     "priority": "Medium",
-    "platform": "Custom Build",
-    "territory": "04"
+    "platform": "Custom Build"
   },
   {
     "account_id": "0018V00002gEZiXQAW",
     "account_name": "Elizabeth Andrews Corporate Catering",
     "priority": "Medium",
-    "platform": "Other",
-    "territory": "02"
+    "platform": "Other"
   },
   {
     "account_id": "0018V00002lHK58QAG",
     "account_name": "Interflora, New Zealand",
     "priority": "Medium",
-    "platform": "Custom Build",
-    "territory": "04"
+    "platform": "Custom Build"
   },
   {
     "account_id": "0018V00002fhLl1QAE",
     "account_name": "Interbyte",
     "priority": "Medium",
-    "platform": "Other",
-    "territory": "02"
+    "platform": "Other"
   },
   {
     "account_id": "0018V00002lHYsSQAW",
     "account_name": "Perth Scientific Pty",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002lHaeyQAC",
     "account_name": "Scuba Culture",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002qytAIQAY",
     "account_name": "CleverPatch",
     "priority": "Medium",
-    "platform": "Custom Build",
-    "territory": "02"
+    "platform": "Custom Build"
   },
   {
     "account_id": "0018V00002lHZ7OQAW",
     "account_name": "Eagle Bay Brewing Co",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002lHZNnQAO",
     "account_name": "Landwide Satellite Solutions",
     "priority": "Medium",
-    "platform": "Custom Build",
-    "territory": "04"
+    "platform": "Custom Build"
   },
   {
     "account_id": "0018V00002lHaHfQAK",
     "account_name": "Hypersonic Industries",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002lHZTqQAO",
     "account_name": "Curtains on the Net",
     "priority": "Medium",
-    "platform": "Custom Build",
-    "territory": "04"
+    "platform": "Custom Build"
   },
   {
     "account_id": "001OG00001DSsctYAD",
     "account_name": "Kiwi Seed",
     "priority": "Medium",
-    "platform": "",
-    "territory": "04"
+    "platform": ""
   },
   {
     "account_id": "001OG00001DStMbYAL",
     "account_name": "Leedsafe",
     "priority": "Medium",
-    "platform": "",
-    "territory": "02"
+    "platform": ""
   },
   {
     "account_id": "0018V00002lIHVHQA4",
     "account_name": "Boardcave",
     "priority": "Medium",
-    "platform": "Adobe Commerce (Magento)",
-    "territory": "02"
+    "platform": "Adobe Commerce (Magento)"
   },
   {
     "account_id": "001OG00000kHHbCYAW",
     "account_name": "Adore Beauty",
     "priority": "Medium",
-    "platform": "BigCommerce",
-    "territory": "02"
+    "platform": "BigCommerce"
   },
   {
     "account_id": "0018V00002lHZIrQAO",
     "account_name": "Rovert Lighting & Electrical",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002eAnVfQAK",
     "account_name": "Derivan",
     "priority": "Medium",
-    "platform": "Odoo",
-    "territory": "04"
+    "platform": "Odoo"
   },
   {
     "account_id": "0018V00002lHaOqQAK",
     "account_name": "Tri-Sled Human Powered Vehicles",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002czfZtQAI",
     "account_name": "The Lane Vineyard",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002dNoV0QAK",
     "account_name": "The OCAM Group",
     "priority": "Medium",
-    "platform": "Other",
-    "territory": "04"
+    "platform": "Other"
   },
   {
     "account_id": "0018V00002lHZwjQAG",
     "account_name": "Erotic Jewellery",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002lHZR1QAO",
     "account_name": "Dedece",
     "priority": "Medium",
-    "platform": "",
-    "territory": "04"
+    "platform": ""
   },
   {
     "account_id": "0018V00002edP0xQAE",
     "account_name": "Glamour Living",
     "priority": "Medium",
-    "platform": "Other",
-    "territory": "04"
+    "platform": "Other"
   },
   {
     "account_id": "0018V00002lHY0sQAG",
     "account_name": "Ram Equipment",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002ecYVtQAM",
     "account_name": "Abacus Educational Suppliers",
     "priority": "Medium",
-    "platform": "Adobe Commerce (Magento)",
-    "territory": "04"
+    "platform": "Adobe Commerce (Magento)"
   },
   {
     "account_id": "0018V00002lHZXKQA4",
     "account_name": "Federal Workwear",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002qytC4QAI",
     "account_name": "Able Fix Fasteners | Ablefix Pty Ltd",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002qytPgQAI",
     "account_name": "Chrismont",
     "priority": "Medium",
-    "platform": "Other",
-    "territory": "02"
+    "platform": "Other"
   },
   {
     "account_id": "001OG00001DSjObYAL",
     "account_name": "Chairs Direct",
     "priority": "Medium",
-    "platform": "Squarespace",
-    "territory": "04"
+    "platform": "Squarespace"
   },
   {
     "account_id": "0018V00002lHY0PQAW",
     "account_name": "Terrace Floors + Furnishings",
     "priority": "Medium",
-    "platform": "Adobe Commerce (Magento)",
-    "territory": "02"
+    "platform": "Adobe Commerce (Magento)"
   },
   {
     "account_id": "001OG00001DT0kPYAT",
     "account_name": "Rollos Marine",
     "priority": "Medium",
-    "platform": "",
-    "territory": "02"
+    "platform": ""
   },
   {
     "account_id": "0018V00002dHNDNQA4",
     "account_name": "Edisons",
     "priority": "Medium",
-    "platform": "Adobe Commerce (Magento)",
-    "territory": "02"
+    "platform": "Adobe Commerce (Magento)"
   },
   {
     "account_id": "0018V00002e9bKHQAY",
     "account_name": "MobileCiti",
     "priority": "Medium",
-    "platform": "Adobe Commerce (Magento)",
-    "territory": "02"
+    "platform": "Adobe Commerce (Magento)"
   },
   {
     "account_id": "001OG00001DSNJ7YAP",
     "account_name": "Chatfield Engineering",
     "priority": "Medium",
-    "platform": "",
-    "territory": "02"
+    "platform": ""
   },
   {
     "account_id": "0018V00002lHZMkQAO",
     "account_name": "Oak Barrel",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002lHLbnQAG",
     "account_name": "Canterbury Office Furniture",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002lHZQrQAO",
     "account_name": "Time 4 Timber",
     "priority": "Medium",
-    "platform": "",
-    "territory": "04"
+    "platform": ""
   },
   {
     "account_id": "001OG0000197VLzYAM",
     "account_name": "au.callawaygolf.com",
     "priority": "Medium",
-    "platform": "Other",
-    "territory": "04"
+    "platform": "Other"
   },
   {
     "account_id": "001OG00001DSMDiYAP",
     "account_name": "Epicure Trading",
     "priority": "Medium",
-    "platform": "",
-    "territory": "02"
+    "platform": ""
   },
   {
     "account_id": "0018V00002lHaHuQAK",
     "account_name": "Melbournians Furniture",
     "priority": "Medium",
-    "platform": "OpenCart",
-    "territory": "02"
+    "platform": "OpenCart"
   },
   {
     "account_id": "0018V00002qyt7RQAQ",
     "account_name": "thebakerywitch.com",
     "priority": "Medium",
-    "platform": "Other",
-    "territory": "02"
+    "platform": "Other"
   },
   {
     "account_id": "001OG00001DSZHaYAP",
     "account_name": "Goodbye Sandfly",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002fLirwQAC",
     "account_name": "Fox Creek Wines",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00001DSsDcYAL",
     "account_name": "Kakama Kayaks",
     "priority": "Medium",
-    "platform": "",
-    "territory": "04"
+    "platform": ""
   },
   {
     "account_id": "0018V00002lnpg9QAA",
     "account_name": "The Seed Collection",
     "priority": "Medium",
-    "platform": "Other",
-    "territory": "02"
+    "platform": "Other"
   },
   {
     "account_id": "0018V00002lHaPdQAK",
     "account_name": "Switches Plus Components",
     "priority": "Medium",
-    "platform": "Custom Build",
-    "territory": "02"
+    "platform": "Custom Build"
   },
   {
     "account_id": "0018V00002lHY0jQAG",
     "account_name": "Badger Australia",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002gFJKTQA4",
     "account_name": "Proquip",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002gFJKIQA4",
     "account_name": "Instant Toilets & Showers",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002lHZQJQA4",
     "account_name": "Corrimal Lounges",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002lHYrhQAG",
     "account_name": "J & K Hopkins",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002lHZqOQAW",
     "account_name": "Chairco",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002czj3tQAA",
     "account_name": "Blossom Costumes",
     "priority": "Medium",
-    "platform": "Adobe Commerce (Magento)",
-    "territory": "04"
+    "platform": "Adobe Commerce (Magento)"
   },
   {
     "account_id": "001OG00000kHIycYAG",
     "account_name": "Christies Jewellery (2006)",
     "priority": "Medium",
-    "platform": "OpenCart",
-    "territory": "02"
+    "platform": "OpenCart"
   },
   {
     "account_id": "0018V00002czFoJQAU",
     "account_name": "My Foodie Box Pty Ltd",
     "priority": "Medium",
-    "platform": "Custom Build",
-    "territory": "02"
+    "platform": "Custom Build"
   },
   {
     "account_id": "0018V00002czh4mQAA",
     "account_name": "WT Hardware",
     "priority": "Medium",
-    "platform": "",
-    "territory": "04"
+    "platform": ""
   },
   {
     "account_id": "0018V00002lHaHXQA0",
     "account_name": "Fresco Frames Australia",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000kHGc2YAG",
     "account_name": "LEISURE TIME SUNBEDS LIMITED",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000kHCJNYA4",
     "account_name": "Australia Piano World",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000kHSilYAG",
     "account_name": "Coastal Labels",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002kYJEPQA4",
     "account_name": "Andrews Corporate Clothing",
     "priority": "Medium",
-    "platform": "Other",
-    "territory": "04"
+    "platform": "Other"
   },
   {
     "account_id": "001OG00000kHXmHYAW",
     "account_name": "Guildford Garden Centre",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002d0IpsQAE",
     "account_name": "Bloombox Co",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000kHFnbYAG",
     "account_name": "Clearview Accessories",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002lHZoLQAW",
     "account_name": "1 Stop Spas & SpaTech Training",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002lHaHKQA0",
     "account_name": "Remodern",
     "priority": "Medium",
-    "platform": "Other",
-    "territory": "04"
+    "platform": "Other"
   },
   {
     "account_id": "001OG00000kHEW2YAO",
     "account_name": "Roof Rack and Box Dandy South",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000kGychYAC",
     "account_name": "Sound And Music",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000kHmJlYAK",
     "account_name": "Print Storm",
     "priority": "Medium",
-    "platform": "Custom Build",
-    "territory": "02"
+    "platform": "Custom Build"
   },
   {
     "account_id": "0018V00002kYGHnQAO",
     "account_name": "Koala Clothing",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000kHEPKYA4",
     "account_name": "Chiefs Son Distillery",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000kHPUQYA4",
     "account_name": "Bodhi's Bakehouse",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002kYGLmQAO",
     "account_name": "Kovacs",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000y98qaYAA",
     "account_name": "Industrial Procurement Services Limited",
     "priority": "Medium",
-    "platform": "Other",
-    "territory": "02"
+    "platform": "Other"
   },
   {
     "account_id": "0018V00002cz6QIQAY",
     "account_name": "Huskee Pty Ltd",
     "priority": "Medium",
-    "platform": "BigCommerce",
-    "territory": "02"
+    "platform": "BigCommerce"
   },
   {
     "account_id": "001OG00000kHM8qYAG",
     "account_name": "Hercules Instant Shelter",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002kYJFWQA4",
     "account_name": "Jarrimber Furniture",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002lHZnSQAW",
     "account_name": "Escapin Tackle",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000kHOdtYAG",
     "account_name": "Ecotech Print Solutions",
     "priority": "Medium",
-    "platform": "Adobe Commerce (Magento)",
-    "territory": "02"
+    "platform": "Adobe Commerce (Magento)"
   },
   {
     "account_id": "0018V00002lHabbQAC",
     "account_name": "Gippsland Cheese",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002lHaOnQAK",
     "account_name": "Romano Napoli",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000kHSiQYAW",
     "account_name": "The Olive Press",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000kHQPUYA4",
     "account_name": "All States Trailer Spares Pty Ltd",
     "priority": "Medium",
-    "platform": "Custom Build",
-    "territory": "04"
+    "platform": "Custom Build"
   },
   {
     "account_id": "0018V00002czIHiQAM",
     "account_name": "Dr Gear Guitars",
     "priority": "Medium",
-    "platform": "Other",
-    "territory": "04"
+    "platform": "Other"
   },
   {
     "account_id": "0018V00002lHZnrQAG",
     "account_name": "Jtagz\u00ae Pty Ltd",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002kYJE6QAO",
     "account_name": "Hair & Beauty Warehouse",
     "priority": "Medium",
-    "platform": "Custom Build",
-    "territory": "02"
+    "platform": "Custom Build"
   },
   {
     "account_id": "0018V00002lHZwVQAW",
     "account_name": "Diamonds On Broadbeach",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000kHJx2YAG",
     "account_name": "Wakefields Digital",
     "priority": "Medium",
-    "platform": "",
-    "territory": "04"
+    "platform": ""
   },
   {
     "account_id": "0018V00002d0IjjQAE",
     "account_name": "Gold Coast Music",
     "priority": "Medium",
-    "platform": "Other",
-    "territory": "04"
+    "platform": "Other"
   },
   {
     "account_id": "0018V00002czffFQAQ",
     "account_name": "Optics Central",
     "priority": "Medium",
-    "platform": "Adobe Commerce (Magento)",
-    "territory": "04"
+    "platform": "Adobe Commerce (Magento)"
   },
   {
     "account_id": "0018V00002d0IW5QAM",
     "account_name": "digiDIRECT",
     "priority": "Medium",
-    "platform": "Adobe Commerce (Magento)",
-    "territory": "04"
+    "platform": "Adobe Commerce (Magento)"
   },
   {
     "account_id": "001OG00000kHcqFYAS",
     "account_name": "Your Body Hub",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002czh1EQAQ",
     "account_name": "Custom Mustangs",
     "priority": "Medium",
-    "platform": "Other",
-    "territory": "04"
+    "platform": "Other"
   },
   {
     "account_id": "001OG00000kHPTYYA4",
     "account_name": "Cybershop",
     "priority": "Medium",
-    "platform": "Other",
-    "territory": "02"
+    "platform": "Other"
   },
   {
     "account_id": "0018V00002lHaP1QAK",
     "account_name": "RENATO Diamonds",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002dGxytQAC",
     "account_name": "DO NOT USE | Global Retail Brands",
     "priority": "Medium",
-    "platform": "Adobe Commerce (Magento)",
-    "territory": "02"
+    "platform": "Adobe Commerce (Magento)"
   },
   {
     "account_id": "0018V00002lHZqEQAW",
     "account_name": "Buywood Custom Furniture",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000kHLDvYAO",
     "account_name": "JA Davey Pty Ltd",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000kHdkKYAS",
     "account_name": "Rylefoot Pty Ltd",
     "priority": "Medium",
-    "platform": "Adobe Commerce (Magento)",
-    "territory": "02"
+    "platform": "Adobe Commerce (Magento)"
   },
   {
     "account_id": "001OG00000kHT5SYAW",
     "account_name": "ARNOLD'S - CFD PTY.",
     "priority": "Medium",
-    "platform": "Custom Build",
-    "territory": "04"
+    "platform": "Custom Build"
   },
   {
     "account_id": "0018V00002lHa47QAC",
     "account_name": "King of Cakes",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002kYGEyQAO",
     "account_name": "Aussie Blokes Clothes Pty Ltd",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002cyzoqQAA",
     "account_name": "Gr8 Health",
     "priority": "Medium",
-    "platform": "Custom Build",
-    "territory": "04"
+    "platform": "Custom Build"
   },
   {
     "account_id": "0018V00002d0KMhQAM",
     "account_name": "placemakers.co.nz",
     "priority": "Medium",
-    "platform": "SAP Commerce Cloud (Hybris)",
-    "territory": "04"
+    "platform": "SAP Commerce Cloud (Hybris)"
   },
   {
     "account_id": "001OG00000kHQ57YAG",
     "account_name": "Smiths Office Solutions",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002czk5hQAA",
     "account_name": "Wireless 1",
     "priority": "Medium",
-    "platform": "Adobe Commerce (Magento)",
-    "territory": "04"
+    "platform": "Adobe Commerce (Magento)"
   },
   {
     "account_id": "001OG00000y95w9YAA",
     "account_name": "Music Workshop",
     "priority": "Medium",
-    "platform": "Custom Build",
-    "territory": "02"
+    "platform": "Custom Build"
   },
   {
     "account_id": "0018V00002kYGIKQA4",
     "account_name": "Atelier Zolotas SA",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002lHZqbQAG",
     "account_name": "Samsara Furniture and Homewares",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG0000197a4jYAA",
     "account_name": "Te Puia | NZMACI",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002lHaC0QAK",
     "account_name": "Australian Treated Pine Pty Ltd",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002lHZtQQAW",
     "account_name": "Honey Ant Gallery",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002lHZ7UQAW",
     "account_name": "McLoughlin Butchers",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002lHKEHQA4",
     "account_name": "Batch Winery",
     "priority": "Medium",
-    "platform": "Wix",
-    "territory": "04"
+    "platform": "Wix"
   },
   {
     "account_id": "0018V00002kYGI6QAO",
     "account_name": "Race Promotions",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002cz60hQAA",
     "account_name": "Bourke and Travers Wine",
     "priority": "Medium",
-    "platform": "Custom Build",
-    "territory": "02"
+    "platform": "Custom Build"
   },
   {
     "account_id": "001OG00000kHHe0YAG",
     "account_name": "Townsville & Districts Mendi Blackhawks RLFC",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000kHOELYA4",
     "account_name": "ARCIS",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002lHaXlQAK",
     "account_name": "KidzAid Australia",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002lHacRQAS",
     "account_name": "red duck",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000kHZf1YAG",
     "account_name": "Speed Rack",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002lHZgJQAW",
     "account_name": "Yoga Synergy",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000kHj3aYAC",
     "account_name": "Croft & Company",
     "priority": "Medium",
-    "platform": "Custom Build",
-    "territory": "02"
+    "platform": "Custom Build"
   },
   {
     "account_id": "001OG0000197a4HYAQ",
     "account_name": "Sewing Machine Warehouse",
     "priority": "Medium",
-    "platform": "",
-    "territory": "02"
+    "platform": ""
   },
   {
     "account_id": "0018V00002lHRFUQA4",
     "account_name": "Aspiring Enterprises",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000kHE6TYAW",
     "account_name": "Northcote City Football Club 'HERCULES'",
     "priority": "Medium",
-    "platform": "Custom Build",
-    "territory": "02"
+    "platform": "Custom Build"
   },
   {
     "account_id": "0018V00002kYJC7QAO",
     "account_name": "Robert Cliff Master Jewellers",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002lHY3zQAG",
     "account_name": "Zinulin Pty Ltd",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000kHXWKYA4",
     "account_name": "Quizzic Alley",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000kHL1zYAG",
     "account_name": "CupcakesDelivered.com.au",
     "priority": "Medium",
-    "platform": "Drupal",
-    "territory": "02"
+    "platform": "Drupal"
   },
   {
     "account_id": "0018V00002lHSKrQAO",
     "account_name": "Festive Foods",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000kHDZ3YAO",
     "account_name": "Villa Thalgo Day Spa",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000kHf35YAC",
     "account_name": "Yarra Valley Hilltop",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000kHHI0YAO",
     "account_name": "Harvey Galleries",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000y95roYAA",
     "account_name": "Porter Paint",
     "priority": "Medium",
-    "platform": "Custom Build",
-    "territory": "02"
+    "platform": "Custom Build"
   },
   {
     "account_id": "001OG00000kHY0RYAW",
     "account_name": "Aimwell Pty Ltd",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002d0IfuQAE",
     "account_name": "Boardstore",
     "priority": "Medium",
-    "platform": "Other",
-    "territory": "04"
+    "platform": "Other"
   },
   {
     "account_id": "0018V00002lHZSZQA4",
     "account_name": "Candyss Crosby Gallery",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000kHX4KYAW",
     "account_name": "Body Sanctum Day Spa",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002lHa2HQAS",
     "account_name": "CardioTech",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002lHLGRQA4",
     "account_name": "Design Concepts",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000kHgWIYA0",
     "account_name": "Twin Loop Binding",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002czJNCQA2",
     "account_name": "Superior Engineering",
     "priority": "Medium",
-    "platform": "OpenCart",
-    "territory": "02"
+    "platform": "OpenCart"
   },
   {
     "account_id": "001OG00000kHPtaYAG",
     "account_name": "Melba Recordings Pty",
     "priority": "Medium",
-    "platform": "Custom Build",
-    "territory": "04"
+    "platform": "Custom Build"
   },
   {
     "account_id": "001OG00000kHZOTYA4",
     "account_name": "Element Bazaar",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002kYJElQAO",
     "account_name": "My Wicker",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002lHLGTQA4",
     "account_name": "derlook",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002lHa2oQAC",
     "account_name": "Cocolife Australia",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002lHaBxQAK",
     "account_name": "Amby Baby Hammocks",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002czbV4QAI",
     "account_name": "Vinotopia",
     "priority": "Medium",
-    "platform": "Squarespace",
-    "territory": "02"
+    "platform": "Squarespace"
   },
   {
     "account_id": "001OG00000kHMf3YAG",
     "account_name": "Bharat Traders",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002lHK5BQAW",
     "account_name": "Danske M\u00f8bler",
     "priority": "Medium",
-    "platform": "Custom Build",
-    "territory": "02"
+    "platform": "Custom Build"
   },
   {
     "account_id": "0018V00002kYGHOQA4",
     "account_name": "Stewart & Heaton",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000kH1jlYAC",
     "account_name": "Primivo Group",
     "priority": "Medium",
-    "platform": "Other",
-    "territory": "04"
+    "platform": "Other"
   },
   {
     "account_id": "001OG00000kHdamYAC",
     "account_name": "Kay Brothers Pty Ltd",
     "priority": "Medium",
-    "platform": "Other",
-    "territory": "02"
+    "platform": "Other"
   },
   {
     "account_id": "001OG00000kHjneYAC",
     "account_name": "Australian National Discovery Pty Ltd",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000kH4DBYA0",
     "account_name": "Hazara Trade Centre",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002lHabxQAC",
     "account_name": "MacPhee's Wine Cellaring Specialists",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002kYGKeQAO",
     "account_name": "The Furniture Trader - Dandenong South",
     "priority": "Medium",
-    "platform": "Adobe Commerce (Magento)",
-    "territory": "02"
+    "platform": "Adobe Commerce (Magento)"
   },
   {
     "account_id": "0018V00002lHYsMQAW",
     "account_name": "Ellis Guitars",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002lHY1LQAW",
     "account_name": "Aussie Swings",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000kHgnyYAC",
     "account_name": "Essence Of My Heart",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002d0IkqQAE",
     "account_name": "J&M Communications",
     "priority": "Medium",
-    "platform": "Custom Build",
-    "territory": "04"
+    "platform": "Custom Build"
   },
   {
     "account_id": "0018V00002kYJEoQAO",
     "account_name": "Naturally Timber",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002lHaHZQA0",
     "account_name": "Ellie's Upholstery",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000kHD1QYAW",
     "account_name": "GERALDTON FRUIT & VEGETABLE SUPPLY PTY",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002kYGF9QAO",
     "account_name": "Hera Couture Ltd",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002czKMvQAM",
     "account_name": "Motorcycle Accessories Supermarket",
     "priority": "Medium",
-    "platform": "Other",
-    "territory": "02"
+    "platform": "Other"
   },
   {
     "account_id": "001OG0000197a98YAA",
     "account_name": "Brisbane Junior Rugby Union Inc.",
     "priority": "Medium",
-    "platform": "Other",
-    "territory": "02"
+    "platform": "Other"
   },
   {
     "account_id": "001OG00000kH9TAYA0",
     "account_name": "Sunne Printing Services P/L",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002lHaWUQA0",
     "account_name": "Leimo Australia",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG0000197Zu1YAE",
     "account_name": "Kirrihill",
     "priority": "Medium",
-    "platform": "",
-    "territory": "02"
+    "platform": ""
   },
   {
     "account_id": "0018V00002lHZQWQA4",
     "account_name": "Collectika",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000kHQS5YAO",
     "account_name": "Barcode Australia Pty Ltd",
     "priority": "Medium",
-    "platform": "Other",
-    "territory": "04"
+    "platform": "Other"
   },
   {
     "account_id": "001OG00000kHaWJYA0",
     "account_name": "Bolts Galore",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000kHIbhYAG",
     "account_name": "StyleTemple",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "04"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "0018V00002lHaOlQAK",
     "account_name": "Curtis Australia",
     "priority": "Medium",
-    "platform": "Odoo",
-    "territory": "04"
+    "platform": "Odoo"
   },
   {
     "account_id": "001OG00000kHlVXYA0",
     "account_name": "Australian Oztag",
     "priority": "Medium",
-    "platform": "WooCommerce",
-    "territory": "02"
+    "platform": "WooCommerce"
   },
   {
     "account_id": "001OG00000kHhU3YAK",
     "account_name": "The New Pistol Clothing",
     "priority": "Medium",
-    "platform": "OpenCart",
-    "territory": "02"
+    "platform": "OpenCart"
   },
   {
     "account_id": "0018V00002dH10UQAS",
     "account_name": "Knog",
     "priority": "Medium",
-    "platform": "Adobe Commerce (Magento)",
-    "territory": "02"
+    "platform": "Adobe Commerce (Magento)"
   }
 ]

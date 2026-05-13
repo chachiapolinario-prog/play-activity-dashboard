@@ -286,13 +286,13 @@
   </div>
   <div class="summary-tile green">
     <div class="label">Touched</div>
-    <div class="value">157</div>
-    <div class="sub">105 High called + 37 notes + 7 Vault cadence + 5 SF opps + 3 Open Opp</div>
+    <div class="value">165</div>
+    <div class="sub">105 High called + 37 notes + 13 SF tasks + 6 Vault + 2 opps + 2 Open Opp</div>
   </div>
   <div class="summary-tile orange">
     <div class="label">Untouched</div>
-    <div class="value">359</div>
-    <div class="sub">All Medium · 177 WooCommerce + 48 Custom Build biggest gaps</div>
+    <div class="value">351</div>
+    <div class="sub">All Medium · 174 WooCommerce + 47 Custom Build biggest gaps</div>
   </div>
   <div class="summary-tile red">
     <div class="label">Active right now</div>
@@ -758,38 +758,22 @@
     <div class="play-box-header">
       <div class="play-icon icon-green">✉️</div>
       <div>
-        <div class="play-title">One-off emails</div>
-        <span class="play-cadence-tag">Personal emails outside cadences</span>
+        <div class="play-title">Salesforce emails (2026)</div>
+        <span class="play-cadence-tag">Includes 1-off, event invites, replies</span>
       </div>
     </div>
     <div class="play-body">
       <div class="metric-row">
-        <span class="metric-label">Sent this week</span>
-        <span class="metric-value warn">Pulling next refresh</span>
+        <span class="metric-label">Total emails sent</span>
+        <span class="metric-value active">1,544</span>
+      </div>
+      <div class="metric-row">
+        <span class="metric-label">Event invites (Shopify Connect Sydney)</span>
+        <span class="metric-value engaged">~480</span>
       </div>
       <div class="metric-row">
         <span class="metric-label">Source</span>
-        <span class="metric-value">Vault CRM activity log</span>
-      </div>
-    </div>
-  </div>
-
-  <div class="play-box">
-    <div class="play-box-header">
-      <div class="play-icon icon-purple">🔁</div>
-      <div>
-        <div class="play-title">Cadence / sequence enrollment</div>
-        <span class="play-cadence-tag">Accounts Chachi has personally enrolled</span>
-      </div>
-    </div>
-    <div class="play-body">
-      <div class="metric-row">
-        <span class="metric-label">Active enrolments by Chachi</span>
-        <span class="metric-value warn">Pulling next refresh</span>
-      </div>
-      <div class="metric-row">
-        <span class="metric-label">Source</span>
-        <span class="metric-value">Vault CRM sequences</span>
+        <span class="metric-value">Salesforce Tasks (Type=Email)</span>
       </div>
     </div>
   </div>
@@ -798,22 +782,50 @@
     <div class="play-box-header">
       <div class="play-icon icon-orange">📊</div>
       <div>
-        <div class="play-title">Salesforce activity (week)</div>
-        <span class="play-cadence-tag">Tasks + Events logged by Chachi</span>
+        <div class="play-title">All Salesforce activity (2026)</div>
+        <span class="play-cadence-tag">Total tasks logged by you</span>
       </div>
     </div>
     <div class="play-body">
       <div class="metric-row">
-        <span class="metric-label">Tasks logged this week</span>
-        <span class="metric-value warn">Pulling next refresh</span>
+        <span class="metric-label">Total tasks logged</span>
+        <span class="metric-value active">1,627</span>
       </div>
       <div class="metric-row">
-        <span class="metric-label">Meetings held this week</span>
-        <span class="metric-value warn">Pulling next refresh</span>
+        <span class="metric-label">Calls</span>
+        <span class="metric-value">32</span>
       </div>
       <div class="metric-row">
-        <span class="metric-label">Source</span>
-        <span class="metric-value">Salesforce</span>
+        <span class="metric-label">Other tasks</span>
+        <span class="metric-value">51</span>
+      </div>
+      <div class="metric-row">
+        <span class="metric-label">Distinct accounts touched</span>
+        <span class="metric-value engaged">108 (32 in workable BoB)</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="play-box">
+    <div class="play-box-header">
+      <div class="play-icon icon-purple">🎯</div>
+      <div>
+        <div class="play-title">Workable BoB activity match</div>
+        <span class="play-cadence-tag">How much of your activity is hitting priority accounts</span>
+      </div>
+    </div>
+    <div class="play-body">
+      <div class="metric-row">
+        <span class="metric-label">High workable touched via SF</span>
+        <span class="metric-value active">19 of 105 (18%)</span>
+      </div>
+      <div class="metric-row">
+        <span class="metric-label">Medium workable touched via SF</span>
+        <span class="metric-value active">13 of 411 (3%)</span>
+      </div>
+      <div class="metric-row">
+        <span class="metric-label">Non-workable touched</span>
+        <span class="metric-value warn">76 accounts</span>
       </div>
     </div>
   </div>
@@ -821,7 +833,8 @@
 </div>
 
 <div class="data-note">
-  <strong>Activity definition:</strong> a "touch" on an account is any of: a logged dial (Salesforce or Vault CRM), an active cadence / sequence enrollment (Vault CRM), or a one-off email outside of a cadence (Vault CRM activity log or Salesforce email log). The 30 figure above is High priority accounts that have had at least one direct dial. Other touch types are pulled on each weekly /cadence-review run.
+  <strong>Activity definition:</strong> a "touch" on an account is any of: a logged dial (Salesforce Task type=Call or Vault CRM dial), an active cadence / sequence enrollment (Vault CRM), an event invite (Salesforce Task with event subject or CampaignMember), or a one-off email (Salesforce Task type=Email or Vault CRM activity log). All counts above are pulled from Salesforce on each weekly /cadence-review run.<br><br>
+  <strong>Note on the activity vs workable mismatch:</strong> You've logged 1,627 tasks against 108 distinct accounts, but only 32 of those accounts are in your priority workable BoB (19 High + 13 Medium). The remaining 76 accounts are either Low priority, Poor Fit, or not in BoB. The 480-ish Shopify Connect Sydney invites went to a mix — useful pipeline-warming but not concentrated on your workable book.
 </div>
 
 
