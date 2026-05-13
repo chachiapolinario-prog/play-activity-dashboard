@@ -1,15 +1,20 @@
 {
   "date": "2026-05-13",
   "bob": {
-    "total": 566,
-    "high": null,
-    "medium": null,
-    "note": "H/M breakdown not pulled today — accounts view filter requires manual click-through, no URL filter available"
+    "total": 531,
+    "high": 107,
+    "medium": 424,
+    "source": "Chachi BoB 2026 sheet — Account Breakdown tab, Section 1 (High + Medium priority, Excellent + Potential Fit only, across territories _02 and _04)",
+    "territory_02_workable": 293,
+    "territory_04_workable": 238,
+    "unworkable": 260,
+    "all_priorities_total_accounts": 1825
   },
   "coverage": {
-    "touched": 170,
-    "untouched": 396,
-    "active_now": 40
+    "touched": null,
+    "untouched": null,
+    "active_now": 40,
+    "note": "Touched calculation requires pulling: tagged accounts + opps post-2025-12-31 (active + closed lost) + emails (incl failed/bounced) + calls (incl attempts) + LinkedIn + socials + Vault sequences + Salesloft cadences. Not yet computed."
   },
   "plays": {
     "bigcommerce": {
