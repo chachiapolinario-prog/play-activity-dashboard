@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ecommerce TCO Calculator</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f5f5f3; color: #1a1a1a; line-height: 1.6; }
+
+.header { background: #1a1a1a; padding: 32px 60px; border-bottom: 3px solid #96bf48; }
+.header h1 { font-size: 24px; font-weight: 800; color: #fff; margin-bottom: 4px; }
+.header p { color: #888; font-size: 13px; }
+.badge { display: inline-block; background: #96bf4820; border: 1px solid #96bf4860; color: #96bf48; font-size: 10px; padding: 3px 10px; border-radius: 12px; margin-top: 10px; font-weight: 600; letter-spacing: 0.4px; }
+
+.layout { display: grid; grid-template-columns: 320px 1fr; gap: 0; min-height: calc(100vh - 100px); }
+
+/* Inputs panel */
+.inputs-panel { background: #fff; border-right: 1px solid #e8e8e4; padding: 28px 24px; position: sticky; top: 0; height: calc(100vh - 100px); overflow-y: auto; }
+.inputs-panel h2 { font-size: 13px; font-weight: 700; color: #1a1a1a; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px solid #f0f0ec; }
+
+.input-group { margin-bottom: 18px; }
+.input-group label { display: block; font-size: 11px; font-weight: 600; color: #555; text-transform: uppercase; letter-spacing: 0.4px; margin-bottom: 6px; }
+.input-group .hint { font-size: 10px; color: #aaa; margin-bottom: 6px; display: block; }
+
+input[type="range"] { width: 100%; accent-color: #96bf48; cursor: pointer; }
+.range-val { font-size: 16px; font-weight: 800; color: #1a1a1a; margin-bottom: 4px; }
+.range-val span { font-size: 11px; color: #888; font-weight: 400; }
+
+.toggle-group { display: flex; gap: 6px; flex-wrap: wrap; }
+.toggle-btn { font-size: 11px; padding: 5px 12px; border-radius: 20px; border: 1px solid #ddd; background: #f5f5f3; cursor: pointer; font-weight: 500; color: #666; transition: all 0.15s; }
+.toggle-btn.active { background: #1a1a1a; color: #fff; border-color: #1a1a1a; }
+
+.divider { height: 1px; background: #f0f0ec; margin: 20px 0; }
+
+.assumption-note { background: #f8f8f6; border-radius: 6px; padding: 12px 14px; font-size: 11px; color: #888; line-height: 1.7; margin-top: 16px; }
+.assumption-note strong { color: #555; display: block; margin-bottom: 4px; }
+
+/* Results panel */
+.results-panel { padding: 28px 32px; }
+
+/* Summary cards */
+.summary-row { display: grid; grid-template-columns: repeat(7, 1fr); gap: 10px; margin-bottom: 28px; }
+.sum-card { background: #fff; border: 1px solid #e8e8e4; border-radius: 10px; padding: 18px 16px; cursor: pointer; transition: all 0.15s; position: relative; }
+.sum-card:hover { border-color: #96bf48; }
+.sum-card.shopify { border-top: 3px solid #96bf48; }
+.sum-card.woo { border-top: 3px solid #7c5cbf; }
+.sum-card.bigcommerce { border-top: 3px solid #34313f; }
+.sum-card.neto { border-top: 3px solid #0070c0; }
+.sum-card.medusa { border-top: 3px solid #1c1c1c; }
+.sum-card.magento { border-top: 3px solid #f05f40; }
+.sum-card.custom { border-top: 3px solid #6b7280; }
+
+.sum-platform { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px; }
+.sum-card.shopify .sum-platform { color: #96bf48; }
+.sum-card.woo .sum-platform { color: #7c5cbf; }
+.sum-card.bigcommerce .sum-platform { color: #34313f; }
+.sum-card.neto .sum-platform { color: #0070c0; }
+.sum-card.medusa .sum-platform { color: #888; }
+.sum-card.magento .sum-platform { color: #f05f40; }
+.sum-card.custom .sum-platform { color: #6b7280; }
+
+.sum-total { font-size: 20px; font-weight: 800; color: #1a1a1a; }
+.sum-period { font-size: 10px; color: #aaa; }
+.sum-saving { font-size: 10px; margin-top: 6px; font-weight: 600; }
+.sum-saving.cheaper { color: #4a9a30; }
+.sum-saving.expensive { color: #c04040; }
+.sum-saving.baseline { color: #888; }
+
+/* Breakdown table */
+.breakdown { background: #fff; border: 1px solid #e8e8e4; border-radius: 10px; overflow: hidden; margin-bottom: 24px; }
+.breakdown-header { display: grid; gap: 0; background: #f8f8f6; border-bottom: 1px solid #e8e8e4; }
+.breakdown-header-row { display: grid; padding: 12px 16px; }
+.bh-cell { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; }
+.bh-cell.shopify { color: #96bf48; }
+.bh-cell.woo { color: #7c5cbf; }
+.bh-cell.bigcommerce { color: #34313f; }
+.bh-cell.neto { color: #0070c0; }
+.bh-cell.medusa { color: #888; }
+.bh-cell.magento { color: #f05f40; }
+.bh-cell.custom { color: #6b7280; }
+.bh-cell.label { color: #888; }
+
+.breakdown-row { display: grid; padding: 13px 16px; border-bottom: 1px solid #f0f0ec; font-size: 12px; }
+.breakdown-row:last-child { border-bottom: none; }
+.breakdown-row:hover { background: #fafaf8; }
+.breakdown-row.total-row { background: #f8f8f6; font-weight: 700; font-size: 13px; border-top: 2px solid #e8e8e4; }
+.br-label { color: #555; font-weight: 500; }
+.br-val { color: #1a1a1a; }
+.br-val.best { color: #4a9a30; font-weight: 700; }
+.br-val.worst { color: #c04040; }
+.br-val.na { color: #ccc; }
+.br-val.note { font-size: 10px; color: #aaa; }
+
+/* Chart */
+.chart-section { background: #fff; border: 1px solid #e8e8e4; border-radius: 10px; padding: 24px; margin-bottom: 24px; }
+.chart-title { font-size: 13px; font-weight: 700; margin-bottom: 20px; color: #1a1a1a; }
+.chart-bars { display: flex; flex-direction: column; gap: 14px; }
+.chart-bar-row { display: grid; grid-template-columns: 100px 1fr 90px; gap: 12px; align-items: center; }
+.chart-label { font-size: 11px; font-weight: 600; color: #555; text-align: right; }
+.bar-track { background: #f0f0ec; border-radius: 4px; height: 28px; overflow: hidden; }
+.bar-fill { height: 100%; border-radius: 4px; transition: width 0.4s ease; display: flex; align-items: center; padding-left: 10px; }
+.bar-fill span { font-size: 10px; font-weight: 700; color: #fff; white-space: nowrap; }
+.bar-fill.shopify { background: #96bf48; }
+.bar-fill.woo { background: #7c5cbf; }
+.bar-fill.bigcommerce { background: #34313f; }
+.bar-fill.neto { background: #0070c0; }
+.bar-fill.medusa { background: #888; }
+.bar-fill.magento { background: #f05f40; }
+.bar-fill.custom { background: #6b7280; }
+
+/* Platform toggle (locked = Shopify always on) */
+.platform-toggles { display: flex; gap: 6px; flex-wrap: wrap; }
+.plat-btn { font-size: 11px; padding: 5px 10px; border-radius: 20px; border: 1px solid #ddd; background: #f5f5f3; cursor: pointer; font-weight: 500; color: #666; transition: all 0.15s; }
+.plat-btn.active { background: #1a1a1a; color: #fff; border-color: #1a1a1a; }
+.plat-btn.locked { background: #96bf48; color: #fff; border-color: #96bf48; cursor: default; }
+.chart-amount { font-size: 12px; font-weight: 700; color: #1a1a1a; }
+
+/* Assumptions */
+.assumptions { background: #fff; border: 1px solid #e8e8e4; border-radius: 10px; padding: 20px 24px; }
+.assumptions h3 { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.4px; color: #888; margin-bottom: 14px; }
+.assumption-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+.assumption-item { font-size: 11px; color: #666; line-height: 1.6; }
+.assumption-item strong { color: #333; display: block; }
+
+/* Disclaimer */
+.disclaimer { font-size: 11px; color: #aaa; text-align: center; margin-top: 20px; padding: 0 20px; line-height: 1.7; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div style="max-width: 1400px; margin: 0 auto;">
+    <h1>Ecommerce Platform TCO Calculator</h1>
+    <p>3-year total cost of ownership comparison — platform, hosting, development, payments, and maintenance</p>
+    <span class="badge">INTERNAL USE — Shopify Sales Tool</span>
+  </div>
+</div>
+
+<div style="max-width: 1400px; margin: 0 auto;">
+<div class="layout">
+
+  <!-- Inputs -->
+  <div class="inputs-panel">
+    <h2>Your Business</h2>
+
+    <div class="input-group">
+      <label>Annual GMV (AUD)</label>
+      <div class="range-val" id="gmv-display">$5,000,000 <span>per year</span></div>
+      <input type="range" id="gmv" min="1000000" max="100000000" step="500000" value="5000000" oninput="update()">
+    </div>
+
+    <div class="input-group">
+      <label>Annual Orders</label>
+      <div class="range-val" id="orders-display">10,000 <span>orders/year</span></div>
+      <input type="range" id="orders" min="1000" max="500000" step="1000" value="10000" oninput="update()">
+    </div>
+
+    <div class="input-group">
+      <label>Number of SKUs</label>
+      <div class="range-val" id="skus-display">5,000 <span>SKUs</span></div>
+      <input type="range" id="skus" min="100" max="100000" step="100" value="5000" oninput="update()">
+    </div>
+
+    <div class="input-group">
+      <label>Physical Store Locations</label>
+      <div class="range-val" id="locations-display">0 <span>locations</span></div>
+      <input type="range" id="locations" min="0" max="50" step="1" value="0" oninput="update()">
+    </div>
+
+    <div class="divider"></div>
+    <h2>Business Model</h2>
+
+    <div class="input-group">
+      <label>Commerce type</label>
+      <div class="toggle-group">
+        <button class="toggle-btn active" onclick="setModel('d2c', this)">D2C</button>
+        <button class="toggle-btn" onclick="setModel('b2b', this)">B2B</button>
+        <button class="toggle-btn" onclick="setModel('hybrid', this)">Both</button>
+      </div>
+    </div>
+
+    <div class="input-group">
+      <label>Plan tier</label>
+      <div class="toggle-group">
+        <button class="toggle-btn" onclick="setTier('standard', this)">Standard</button>
+        <button class="toggle-btn active" onclick="setTier('plus', this)">Plus / Enterprise</button>
+      </div>
+    </div>
+
+    <div class="input-group">
+      <label>Shopify Payments</label>
+      <span class="hint" style="font-size:10px;color:#aaa;display:block;margin-bottom:6px;">Using Shopify Payments removes the 3rd-party gateway fee and unlocks lower rates</span>
+      <div class="toggle-group">
+        <button class="toggle-btn active" onclick="setShopifyPayments(true, this)">Yes — Shopify Payments</button>
+        <button class="toggle-btn" onclick="setShopifyPayments(false, this)">No — 3rd party gateway</button>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+    <h2>Cost Assumptions</h2>
+
+    <div class="input-group">
+      <label>Agency day rate (AUD)</label>
+      <div class="range-val" id="dayrate-display">$1,500 <span>per day</span></div>
+      <input type="range" id="dayrate" min="800" max="3000" step="100" value="1500" oninput="update()">
+    </div>
+
+    <div class="input-group">
+      <label>Build complexity</label>
+      <div class="toggle-group">
+        <button class="toggle-btn" onclick="setComplexity('simple', this)">Simple</button>
+        <button class="toggle-btn active" onclick="setComplexity('medium', this)">Medium</button>
+        <button class="toggle-btn" onclick="setComplexity('complex', this)">Complex</button>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+    <h2>Competing Platforms</h2>
+    <span class="hint" style="font-size:11px;color:#aaa;display:block;margin-bottom:10px;">What is the merchant evaluating? Select up to 3. Shopify is always the baseline.</span>
+    <div id="plat-limit-msg" style="display:none;font-size:10px;color:#c04040;margin-bottom:8px;font-weight:600;">Max 3 competitors selected — deselect one to add another.</div>
+
+    <div class="input-group">
+      <div class="platform-toggles">
+        <button class="plat-btn locked" disabled>Shopify Plus</button>
+        <button class="plat-btn" id="plat-woo" onclick="togglePlatform('woo', this)">WooCommerce</button>
+        <button class="plat-btn" id="plat-bigcommerce" onclick="togglePlatform('bigcommerce', this)">BigCommerce</button>
+        <button class="plat-btn" id="plat-neto" onclick="togglePlatform('neto', this)">Neto/Maropost</button>
+        <button class="plat-btn" id="plat-magento" onclick="togglePlatform('magento', this)">Adobe Commerce</button>
+        <button class="plat-btn" id="plat-medusa" onclick="togglePlatform('medusa', this)">Medusa</button>
+        <button class="plat-btn" id="plat-custom" onclick="togglePlatform('custom', this)">Custom Build</button>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+    <h2>Shopify Uplift</h2>
+    <span class="hint" style="font-size:11px;color:#aaa;display:block;margin-bottom:10px;">Shopify's checkout, Shop Pay, and native features typically drive measurable conversion improvements. Enable to offset TCO with revenue uplift.</span>
+
+    <div class="input-group">
+      <label>Include conversion uplift</label>
+      <div class="toggle-group">
+        <button class="toggle-btn active" onclick="setUplift(true, this)">Yes — include</button>
+        <button class="toggle-btn" onclick="setUplift(false, this)">No — costs only</button>
+      </div>
+    </div>
+
+    <div id="uplift-inputs">
+      <div class="input-group">
+        <label>Conversion rate improvement</label>
+        <span class="hint">Shop Pay averages 15–36% higher conversion vs guest checkout</span>
+        <div class="range-val" id="uplift-display">18% <span>improvement</span></div>
+        <input type="range" id="uplift" min="5" max="36" step="1" value="18" oninput="update()">
+      </div>
+    </div>
+
+    <div class="assumption-note">
+      <strong>How to read this</strong>
+      All figures in AUD over 3 years unless noted. Platform fees converted at 0.714 USD/AUD. Development estimates are indicative. Conversion uplift is calculated on additional orders at current AOV.
+    </div>
+  </div>
+
+  <!-- Results -->
+  <div class="results-panel">
+
+    <!-- Empty state -->
+    <div id="empty-state" style="display:flex;flex-direction:column;align-items:center;justify-content:center;height:60vh;text-align:center;gap:16px;">
+      <div style="font-size:40px;">📊</div>
+      <div style="font-size:18px;font-weight:700;color:#1a1a1a;">Select a competing platform</div>
+      <div style="font-size:13px;color:#888;max-width:320px;line-height:1.7;">Choose one or more platforms the merchant is evaluating on the left. Shopify will be compared against your selection.</div>
+    </div>
+
+    <!-- Results content (hidden until platform selected) -->
+    <div id="results-content" style="display:none;">
+
+      <!-- Summary cards -->
+      <div class="summary-row" id="summary-cards"></div>
+
+      <!-- Bar chart -->
+      <div class="chart-section">
+        <div class="chart-title">3-Year Total Cost of Ownership (AUD)</div>
+        <div class="chart-bars" id="chart-bars"></div>
+      </div>
+
+      <!-- Shopify uplift banner -->
+      <div id="uplift-banner" style="display:none; background:#f0f9e8; border:1px solid #96bf4860; border-radius:10px; padding:16px 20px; margin-bottom:24px;">
+        <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.4px;color:#4a9a30;margin-bottom:6px;">Shopify Revenue Advantage (3-Year)</div>
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:8px;" id="uplift-details"></div>
+        <div style="font-size:10px;color:#888;margin-top:10px;">Based on Shop Pay conversion uplift applied to online orders. Source: Shopify internal benchmarks. For conversation use only — not a guarantee.</div>
+      </div>
+
+      <!-- Breakdown table -->
+      <div class="breakdown">
+        <div class="breakdown-header">
+          <div class="breakdown-header-row" id="breakdown-header-row"></div>
+        </div>
+        <div id="breakdown-rows"></div>
+      </div>
+
+      <!-- Assumptions -->
+      <div class="assumptions">
+        <h3>Model Assumptions</h3>
+        <div class="assumption-grid" id="assumption-grid"></div>
+      </div>
+
+      <div class="disclaimer">
+        This calculator is a guide only. Figures are estimates based on publicly available pricing and typical implementation experience. Actual costs will vary. This document is for internal Shopify sales use — not for direct distribution to merchants without review.
+      </div>
+
+    </div><!-- /results-content -->
+  </div>
+
+</div>
+</div>
+
+<script>
+let model = 'd2c';
+let tier = 'plus';
+let complexity = 'medium';
+let includeUplift = true;
+let useShopifyPayments = true;
+let selectedPlatforms = new Set(['shopify']); // no competitors selected by default
+
+function setModel(val, el) {
+  model = val;
+  el.closest('.toggle-group').querySelectorAll('button').forEach(b => b.classList.remove('active'));
+  el.classList.add('active');
+  update();
+}
+function setTier(val, el) {
+  tier = val;
+  el.closest('.toggle-group').querySelectorAll('button').forEach(b => b.classList.remove('active'));
+  el.classList.add('active');
+  update();
+}
+function setComplexity(val, el) {
+  complexity = val;
+  el.closest('.toggle-group').querySelectorAll('button').forEach(b => b.classList.remove('active'));
+  el.classList.add('active');
+  update();
+}
+function setUplift(val, el) {
+  includeUplift = val;
+  el.closest('.toggle-group').querySelectorAll('button').forEach(b => b.classList.remove('active'));
+  el.classList.add('active');
+  document.getElementById('uplift-inputs').style.display = val ? '' : 'none';
+  update();
+}
+function setShopifyPayments(val, el) {
+  useShopifyPayments = val;
+  el.closest('.toggle-group').querySelectorAll('button').forEach(b => b.classList.remove('active'));
+  el.classList.add('active');
+  update();
+}
+function togglePlatform(id, el) {
+  const competitors = new Set([...selectedPlatforms].filter(p => p !== 'shopify'));
+  const limitMsg = document.getElementById('plat-limit-msg');
+  if (selectedPlatforms.has(id)) {
+    selectedPlatforms.delete(id);
+    el.classList.remove('active');
+    limitMsg.style.display = 'none';
+  } else {
+    if (competitors.size >= 3) {
+      limitMsg.style.display = 'block';
+      return;
+    }
+    selectedPlatforms.add(id);
+    el.classList.add('active');
+    limitMsg.style.display = 'none';
+  }
+  update();
+}
+
+function fmt(n) { return '$' + Math.round(n).toLocaleString('en-AU'); }
+function fmtK(n) { if (n >= 1000000) return '$' + (n/1000000).toFixed(1) + 'M'; if (n >= 1000) return '$' + Math.round(n/1000) + 'K'; return fmt(n); }
+
+function update() {
+  const gmv = parseInt(document.getElementById('gmv').value);
+  const orders = parseInt(document.getElementById('orders').value);
+  const skus = parseInt(document.getElementById('skus').value);
+  const locations = parseInt(document.getElementById('locations').value);
+  const dayrate = parseInt(document.getElementById('dayrate').value);
+  const upliftPct = includeUplift ? parseInt(document.getElementById('uplift').value) / 100 : 0;
+
+  document.getElementById('gmv-display').innerHTML = fmtK(gmv) + ' <span>per year</span>';
+  document.getElementById('orders-display').innerHTML = orders.toLocaleString() + ' <span>orders/year</span>';
+  document.getElementById('skus-display').innerHTML = skus.toLocaleString() + ' <span>SKUs</span>';
+  document.getElementById('locations-display').innerHTML = locations + ' <span>location' + (locations !== 1 ? 's' : '') + '</span>';
+  document.getElementById('dayrate-display').innerHTML = fmt(dayrate) + ' <span>per day</span>';
+  if (includeUplift) document.getElementById('uplift-display').innerHTML = Math.round(upliftPct * 100) + '% <span>improvement</span>';
+
+  const AUD_USD = 0.714;
+  const yrs = 3;
+  const aov = gmv / orders;
+
+  // Build days by complexity: shopify, woo, bc, neto, medusa, magento, custom
+  const buildDays = {
+    simple:  { shopify: 30,  woo: 60,  bc: 45,  neto: 40,  medusa: 120, magento: 130, custom: 200 },
+    medium:  { shopify: 60,  woo: 100, bc: 80,  neto: 70,  medusa: 200, magento: 220, custom: 350 },
+    complex: { shopify: 100, woo: 160, bc: 130, neto: 110, medusa: 350, magento: 380, custom: 600 }
+  }[complexity];
+
+  // Maintenance days/year
+  const maintDays = {
+    simple:  { shopify: 5,  woo: 20, bc: 8,  neto: 12, medusa: 40,  magento: 30, custom: 40  },
+    medium:  { shopify: 10, woo: 35, bc: 15, neto: 20, medusa: 70,  magento: 55, custom: 80  },
+    complex: { shopify: 20, woo: 60, bc: 25, neto: 35, medusa: 120, magento: 100, custom: 150 }
+  }[complexity];
+
+  // ---- SHOPIFY ----
+  const shopPlatformMonthly = tier === 'plus' ? (2300 / AUD_USD) : (79 / AUD_USD);
+  const shopPlatformAnnual = shopPlatformMonthly * 12;
+  let shopVPF = 0;
+  if (tier === 'plus' && !useShopifyPayments) {
+    // VPF only applies when using a 3rd-party gateway on Plus
+    const vpfRate = model === 'b2b' ? 0.0018 : model === 'd2c' ? 0.003 : 0.0024;
+    shopVPF = Math.max(gmv * vpfRate - shopPlatformAnnual, 0);
+  }
+  // Shopify Payments: 1.5% (Plus) or 1.75% (Standard) blended. 3rd party gateway: 1.5% gateway + VPF
+  const shopPaymentsRate = useShopifyPayments
+    ? (tier === 'plus' ? 0.015 : 0.0175)
+    : 0.015; // 3rd-party gateway rate (VPF handled separately above)
+  const shopPayments = gmv * shopPaymentsRate + (useShopifyPayments ? 0 : shopVPF);
+  const shopApps = tier === 'plus' ? 6000 : 3000;
+  const shopBuild = buildDays.shopify * dayrate;
+  const shopMaint = maintDays.shopify * dayrate * yrs;
+  const shopPOS = locations > 0 ? (tier === 'plus' ? 0 : locations * (89 / AUD_USD) * 12 * yrs) : 0;
+  const shopTotal = (shopPlatformAnnual * yrs) + shopPayments * yrs + shopApps * yrs + shopBuild + shopMaint + shopPOS;
+
+  // ---- WOOCOMMERCE ----
+  const wooHosting = skus > 10000 ? 6000 : skus > 2000 ? 3600 : 1800;
+  const wooPlugins = 4800;
+  const wooPayments = gmv * 0.017;
+  const wooBuild = buildDays.woo * dayrate;
+  const wooMaint = maintDays.woo * dayrate * yrs;
+  const wooPCI = 2000;
+  const wooPOS = locations > 0 ? locations * 2000 * yrs : 0;
+  const wooTotal = wooHosting * yrs + wooPlugins * yrs + wooPayments * yrs + wooBuild + wooMaint + wooPCI * yrs + wooPOS;
+
+  // ---- BIGCOMMERCE ----
+  const bcPlatformAnnual = tier === 'plus' ? (1000 / AUD_USD) * 12 : (299 / AUD_USD) * 12;
+  const bcVPF = model !== 'b2b' ? gmv * 0.0025 : 0;
+  const bcPayments = gmv * 0.015;
+  const bcApps = 4800;
+  const bcBuild = buildDays.bc * dayrate;
+  const bcMaint = maintDays.bc * dayrate * yrs;
+  const bcPOS = locations > 0 ? locations * 3000 * yrs : 0;
+  const bcTotal = (bcPlatformAnnual * yrs) + bcVPF * yrs + bcPayments * yrs + bcApps * yrs + bcBuild + bcMaint + bcPOS;
+
+  // ---- NETO / MAROPOST ----
+  const netoPlatformAnnual = tier === 'plus' ? 24000 : 12000;
+  const netoPayments = gmv * 0.016;
+  const netoApps = 3600;
+  const netoBuild = buildDays.neto * dayrate;
+  const netoMaint = maintDays.neto * dayrate * yrs;
+  const netoPOS = locations > 0 ? locations * 2400 * yrs : 0;
+  const netoTotal = netoPlatformAnnual * yrs + netoPayments * yrs + netoApps * yrs + netoBuild + netoMaint + netoPOS;
+
+  // ---- MAGENTO / ADOBE COMMERCE ----
+  // Adobe Commerce Cloud: enterprise license includes managed hosting
+  const magentoPlatformAnnual = tier === 'plus' ? (55000 / AUD_USD) : (22000 / AUD_USD);
+  const magentoPayments = gmv * 0.015;
+  const magentoModules = 12000; // marketplace modules/extensions annual
+  const magentoBuild = buildDays.magento * dayrate;
+  const magentoMaint = maintDays.magento * dayrate * yrs;
+  const magentoPOS = locations > 0 ? locations * 3500 * yrs : 0;
+  const magentoTotal = magentoPlatformAnnual * yrs + magentoPayments * yrs + magentoModules * yrs + magentoBuild + magentoMaint + magentoPOS;
+
+  // ---- MEDUSA ----
+  const medusaHosting = skus > 10000 ? 18000 : skus > 2000 ? 12000 : 6000;
+  const medusaPayments = gmv * 0.015;
+  const medusaDevOps = 12000;
+  const medusaBuild = buildDays.medusa * dayrate;
+  const medusaMaint = maintDays.medusa * dayrate * yrs;
+  const medusaPOS = locations > 0 ? locations * 3000 * yrs : 0;
+  const medusaTotal = medusaHosting * yrs + medusaPayments * yrs + medusaDevOps * yrs + medusaBuild + medusaMaint + medusaPOS;
+
+  // ---- CUSTOM / BESPOKE ----
+  const customHosting = skus > 10000 ? 84000 : skus > 2000 ? 48000 : 24000;
+  const customPayments = gmv * 0.015;
+  const customDevOps = 30000; // dedicated infra team
+  const customBuild = buildDays.custom * dayrate;
+  const customMaint = maintDays.custom * dayrate * yrs;
+  const customPOS = locations > 0 ? locations * 5000 * yrs : 0;
+  const customTotal = customHosting * yrs + customPayments * yrs + customDevOps * yrs + customBuild + customMaint + customPOS;
+
+  // All platforms data
+  const allPlatforms = [
+    { id: 'shopify',     name: 'Shopify Plus',      total: shopTotal,    platform: shopPlatformAnnual * yrs,     payments: shopPayments * yrs,                     hosting: 0,                   apps: shopApps * yrs,                build: shopBuild,    maint: shopMaint,    pos: shopPOS,    devops: 0 },
+    { id: 'woo',         name: 'WooCommerce',        total: wooTotal,     platform: 0,                            payments: wooPayments * yrs,                      hosting: wooHosting * yrs,    apps: wooPlugins * yrs + wooPCI * yrs, build: wooBuild,  maint: wooMaint,    pos: wooPOS,    devops: 0 },
+    { id: 'bigcommerce', name: 'BigCommerce',        total: bcTotal,      platform: bcPlatformAnnual * yrs,       payments: bcPayments * yrs + bcVPF * yrs,          hosting: 0,                   apps: bcApps * yrs,                  build: bcBuild,      maint: bcMaint,      pos: bcPOS,      devops: 0 },
+    { id: 'neto',        name: 'Neto / Maropost',    total: netoTotal,    platform: netoPlatformAnnual * yrs,     payments: netoPayments * yrs,                     hosting: 0,                   apps: netoApps * yrs,                build: netoBuild,    maint: netoMaint,    pos: netoPOS,    devops: 0 },
+    { id: 'magento',     name: 'Adobe Commerce',     total: magentoTotal, platform: magentoPlatformAnnual * yrs,  payments: magentoPayments * yrs,                  hosting: 0,                   apps: magentoModules * yrs,          build: magentoBuild, maint: magentoMaint, pos: magentoPOS, devops: 0 },
+    { id: 'medusa',      name: 'Medusa',             total: medusaTotal,  platform: 0,                            payments: medusaPayments * yrs,                   hosting: medusaHosting * yrs, apps: 0,                             build: medusaBuild,  maint: medusaMaint,  pos: medusaPOS,  devops: medusaDevOps * yrs },
+    { id: 'custom',      name: 'Custom Build',       total: customTotal,  platform: 0,                            payments: customPayments * yrs,                   hosting: customHosting * yrs, apps: 0,                             build: customBuild,  maint: customMaint,  pos: customPOS,  devops: customDevOps * yrs }
+  ];
+
+  // Filter to selected platforms (shopify always included)
+  const platforms = allPlatforms.filter(p => selectedPlatforms.has(p.id));
+
+  // If only Shopify selected, show prompt
+  const resultsEl = document.getElementById('results-content');
+  const emptyEl = document.getElementById('empty-state');
+  if (platforms.length <= 1) {
+    if (resultsEl) resultsEl.style.display = 'none';
+    if (emptyEl) emptyEl.style.display = 'flex';
+    return;
+  }
+  if (resultsEl) resultsEl.style.display = '';
+  if (emptyEl) emptyEl.style.display = 'none';
+
+  const minTotal = Math.min(...platforms.map(p => p.total));
+  const maxTotal = Math.max(...platforms.map(p => p.total));
+  const n = platforms.length;
+  const colTemplate = `160px repeat(${n}, 1fr)`;
+
+  // ---- SHOPIFY UPLIFT ----
+  // Additional orders from conversion improvement
+  const upliftOrders = orders * upliftPct;
+  const upliftRevenue = upliftOrders * aov; // additional annual revenue
+  const uplift3yr = upliftRevenue * yrs;
+  const upliftBanner = document.getElementById('uplift-banner');
+  if (includeUplift && upliftPct > 0) {
+    upliftBanner.style.display = '';
+    const upliftDetails = document.getElementById('uplift-details');
+    const shopIdx = platforms.findIndex(p => p.id === 'shopify');
+    let netRows = platforms.filter(p => p.id !== 'shopify').map(p => {
+      const costDiff = p.total - shopTotal; // how much more expensive the competitor is
+      const netAdvantage = costDiff + uplift3yr; // total advantage of Shopify (cost saving + revenue gain)
+      return `<div><strong style="color:#4a9a30;font-size:16px;">${fmtK(netAdvantage)}</strong><div style="font-size:11px;color:#555;">net advantage vs ${p.name}</div><div style="font-size:10px;color:#888;margin-top:2px;">${fmtK(costDiff >= 0 ? costDiff : 0)} cost saving + ${fmtK(uplift3yr)} revenue uplift</div></div>`;
+    });
+    upliftDetails.innerHTML = `
+      <div><strong style="font-size:16px;color:#1a1a1a;">${fmtK(upliftRevenue)}</strong><div style="font-size:11px;color:#555;">additional revenue/year</div><div style="font-size:10px;color:#888;margin-top:2px;">${Math.round(upliftPct*100)}% more orders × ${fmt(Math.round(aov))} AOV</div></div>
+      <div><strong style="font-size:16px;color:#1a1a1a;">${fmtK(uplift3yr)}</strong><div style="font-size:11px;color:#555;">total uplift over 3 years</div><div style="font-size:10px;color:#888;margin-top:2px;">vs running same conversion on any other platform</div></div>
+      ${netRows.slice(0, 1).join('')}
+    `;
+  } else {
+    upliftBanner.style.display = 'none';
+  }
+
+  // ---- RENDER ----
+
+  // Summary cards
+  document.getElementById('summary-cards').style.gridTemplateColumns = `repeat(${n}, 1fr)`;
+  document.getElementById('summary-cards').innerHTML = platforms.map(p => {
+    const diff = p.total - shopTotal;
+    const diffLabel = p.id === 'shopify'
+      ? (includeUplift && upliftPct > 0 ? `<span class="sum-saving cheaper">+${fmtK(uplift3yr)} uplift</span>` : '<span class="sum-saving baseline">Baseline</span>')
+      : diff > 0 ? `<span class="sum-saving expensive">+${fmtK(diff)} vs Shopify</span>` : `<span class="sum-saving cheaper">${fmtK(diff)} vs Shopify</span>`;
+    return `<div class="sum-card ${p.id}">
+      <div class="sum-platform">${p.name}</div>
+      <div class="sum-total">${fmtK(p.total)}</div>
+      <div class="sum-period">3-year total</div>
+      ${diffLabel}
+    </div>`;
+  }).join('');
+
+  // Bar chart
+  document.getElementById('chart-bars').innerHTML = platforms.map(p => {
+    const pct = Math.round((p.total / maxTotal) * 100);
+    return `<div class="chart-bar-row">
+      <div class="chart-label">${p.name}</div>
+      <div class="bar-track"><div class="bar-fill ${p.id}" style="width:${pct}%"><span>${fmtK(p.total)}</span></div></div>
+      <div class="chart-amount">${fmtK(p.total)}</div>
+    </div>`;
+  }).join('');
+
+  // Breakdown header (dynamic)
+  const headerRow = document.getElementById('breakdown-header-row');
+  headerRow.style.gridTemplateColumns = colTemplate;
+  headerRow.innerHTML = `<div class="bh-cell label">Cost Category</div>` +
+    platforms.map(p => `<div class="bh-cell ${p.id}">${p.name}</div>`).join('');
+
+  // Breakdown rows
+  const rows = [
+    { label: 'Platform licence', key: 'platform' },
+    { label: 'Payment processing', key: 'payments' },
+    { label: 'Hosting / infrastructure', key: 'hosting' },
+    { label: 'Apps & plugins', key: 'apps' },
+    { label: 'Initial build', key: 'build' },
+    { label: 'Ongoing maintenance', key: 'maint' },
+    { label: 'DevOps / infra management', key: 'devops' },
+    { label: 'POS (if applicable)', key: 'pos' },
+  ];
+
+  document.getElementById('breakdown-rows').innerHTML = rows.map(r => {
+    const vals = platforms.map(p => p[r.key]);
+    const minVal = Math.min(...vals.filter(v => v > 0));
+    return `<div class="breakdown-row" style="grid-template-columns:${colTemplate}">
+      <div class="br-label">${r.label}</div>
+      ${platforms.map(p => {
+        const v = p[r.key];
+        if (v === 0) return `<div class="br-val na">—</div>`;
+        const cls = v === minVal && vals.filter(x => x > 0).length > 1 ? 'best' : '';
+        return `<div class="br-val ${cls}">${fmtK(v)}</div>`;
+      }).join('')}
+    </div>`;
+  }).join('') + `<div class="breakdown-row total-row" style="grid-template-columns:${colTemplate}">
+    <div class="br-label">3-Year Total</div>
+    ${platforms.map(p => `<div class="br-val ${p.total === minTotal ? 'best' : ''}">${fmtK(p.total)}</div>`).join('')}
+  </div>`;
+
+  // Assumptions
+  const vpfRate = model === 'b2b' ? '0.18%' : model === 'd2c' ? '0.30%' : '0.24%';
+  document.getElementById('assumption-grid').innerHTML = `
+    <div class="assumption-item"><strong>GMV</strong>${fmtK(gmv)}/year AUD</div>
+    <div class="assumption-item"><strong>Commerce model</strong>${model.toUpperCase()}</div>
+    <div class="assumption-item"><strong>Shopify VPF rate</strong>${vpfRate} of GMV (${tier} plan)</div>
+    <div class="assumption-item"><strong>Payment gateway</strong>${useShopifyPayments ? 'Shopify Payments (' + (tier === 'plus' ? '1.5%' : '1.75%') + ' blended, no VPF)' : '3rd-party gateway ~1.5% + VPF'}</div>
+    <div class="assumption-item"><strong>Agency day rate</strong>${fmt(dayrate)} AUD</div>
+    <div class="assumption-item"><strong>Build complexity</strong>${complexity.charAt(0).toUpperCase() + complexity.slice(1)} (${buildDays.shopify} days Shopify / ${buildDays.magento} days Adobe Commerce)</div>
+    <div class="assumption-item"><strong>AUD/USD rate</strong>0.714</div>
+    <div class="assumption-item"><strong>POS locations</strong>${locations} location${locations !== 1 ? 's' : ''}</div>
+    <div class="assumption-item"><strong>Analysis period</strong>3 years</div>
+    ${includeUplift ? `<div class="assumption-item"><strong>Shopify uplift</strong>${Math.round(upliftPct*100)}% conversion improvement via Shop Pay</div>` : ''}
+    <div class="assumption-item"><strong>Adobe Commerce</strong>Cloud license ~USD 22K–55K/yr depending on tier</div>
+    <div class="assumption-item"><strong>Custom build</strong>Fully bespoke; no licence, high build/DevOps costs</div>
+  `;
+}
+
+update();
+</script>
+
+</body>
+</html>
