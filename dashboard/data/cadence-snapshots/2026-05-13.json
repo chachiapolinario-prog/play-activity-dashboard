@@ -72,9 +72,13 @@
     "health_beauty": {
       "label": "Health & Beauty",
       "type": "vertical",
-      "enrolled": 0,
-      "active": 0,
-      "status": "not_launched"
+      "cadence_name": "ANZ MM | H&B Vertical Migration | H1'26",
+      "enrolled": null,
+      "active": null,
+      "engaged": null,
+      "opps_created": null,
+      "status": "launched_pending_refresh",
+      "note": "Cadence exists but numbers not yet pulled — H&B search in Vault returned slow-loading results. Will populate on next /cadence-review run."
     },
     "closed_lost": {
       "label": "Closed Lost",
