@@ -26,6 +26,10 @@
     "workable_medium_touched_via_sf": 13,
     "non_workable_touched": 76,
     "high_accounts_dialed_baseline": 30,
+    "high_accounts_direct_outreach": 20,
+    "high_accounts_direct_outreach_pct": 19.0,
+    "high_accounts_direct_outreach_definition": "High priority accounts touched via email, partner, or event interaction OUTSIDE of cadences. Captured from both Salesforce Tasks (Email TaskSubtype, event subjects) and Vault CRM activity log.",
+    "high_accounts_direct_outreach_examples": ["MUD AUSTRALIA PTY LTD", "Coco Republic", "Skye Group", "Wild Earth"],
     "definition": "Touch = dial (SF Task type=Call or Vault dial) OR cadence/sequence enrolment (Vault) OR event invite (SF Task subject contains event name or CampaignMember) OR one-off email (SF Task type=Email or Vault activity log). De-duped by account ID. See feedback_activity_definition memory."
   },
   "coverage": {
