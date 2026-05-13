@@ -160,10 +160,14 @@
   },
   "salesforce": {
     "total_opps_2026": 27,
-    "closed_won": 2,
-    "closed_lost": 10,
+    "closed_won_q2_2026": 0,
+    "closed_won_q1_2026": 2,
+    "closed_won_q1_accounts": ["Garden Express Australia (Jan 14)", "Greg Grant Saddlery POS (Mar 30)"],
+    "closed_lost_ytd": 10,
     "open_pre_qualified": 4,
     "open_envision_solution": 11,
+    "current_quarter": "Q2 2026 (Apr 1 - Jun 30)",
+    "closed_won_metric_basis": "Quarterly (current quarter only). Other stage counts still YTD.",
     "new_opps_today": [],
     "stage_moves_today": []
   }
