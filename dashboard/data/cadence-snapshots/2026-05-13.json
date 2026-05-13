@@ -11,10 +11,33 @@
     "all_priorities_total_accounts": 1825
   },
   "coverage": {
-    "touched": null,
-    "untouched": null,
+    "touched": 114,
+    "touched_high": 107,
+    "touched_medium": 7,
+    "untouched": 417,
+    "untouched_medium": 417,
+    "untouched_high": 0,
     "active_now": 40,
-    "note": "Touched calculation requires pulling: tagged accounts + opps post-2025-12-31 (active + closed lost) + emails (incl failed/bounced) + calls (incl attempts) + LinkedIn + socials + Vault CRM sequences. Salesloft is NOT used — Vault CRM is the only outreach system. Not yet computed."
+    "touched_medium_accounts": ["Videopro Business Centre", "Baby Factory", "Pascal Press", "Bedpost", "Weatherbeeta", "Hairco Online", "Motackle"],
+    "untouched_by_platform": {
+      "WooCommerce": 183,
+      "Custom Build": 52,
+      "Other": 45,
+      "Adobe Commerce (Magento)": 44,
+      "blank/no-platform": 41,
+      "BigCommerce": 18,
+      "Shopify Plan Advanced/Basic": 13,
+      "OpenCart": 7,
+      "Drupal": 3,
+      "Odoo": 3,
+      "Prestashop": 2,
+      "SAP Commerce Cloud (Hybris)": 2,
+      "Squarespace": 2,
+      "Centra": 1,
+      "Wix": 1
+    },
+    "assumptions": "All 107 High priority accounts assumed touched via call (per Chachi). 7 Medium touched confirmed via Salesforce opps + known Vault cadence enrollment (partial match). True Medium touched count is likely higher once all ~289 cadence contacts are matched by Salesforce account ID.",
+    "data_source": "dashboard/data/bob-q2-2026.csv (Q2 2026 Accounts tab, exported from Chachi BoB 2026 Google Sheet on 2026-05-13)"
   },
   "plays": {
     "bigcommerce": {

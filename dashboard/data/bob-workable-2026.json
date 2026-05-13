@@ -1,0 +1,5312 @@
+[
+  {
+    "account_id": "0018V00002lHaDsQAK",
+    "account_name": "Swimart",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "High",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "swimart.com.au",
+    "industry": "Other"
+  },
+  {
+    "account_id": "0018V00002kQJCcQAO",
+    "account_name": "Skye Group",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "skyegroup.com.au",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "0018V00002d0IjkQAE",
+    "account_name": "Pillow Talk Pty Ltd",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "BigCommerce",
+    "website": "pillowtalk.com.au",
+    "industry": "Home Decor"
+  },
+  {
+    "account_id": "0018V00002qystaQAA",
+    "account_name": "Lotto New Zealand",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Custom Build",
+    "website": "mylotto.co.nz",
+    "industry": "Entertainment"
+  },
+  {
+    "account_id": "001OG00000kHUC0YAO",
+    "account_name": "Kwik Kopy",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Potential Fit",
+    "platform": "Other",
+    "website": "kwikkopy.com.au",
+    "industry": "Services"
+  },
+  {
+    "account_id": "0018V00002kQJPzQAO",
+    "account_name": "Realcold",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Custom Build",
+    "website": "realcold.co.nz",
+    "industry": "Other"
+  },
+  {
+    "account_id": "0018V00002kQJ6aQAG",
+    "account_name": "Logicar",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Potential Fit",
+    "platform": "",
+    "website": "logicar.com.au",
+    "industry": "Vehicles & Parts"
+  },
+  {
+    "account_id": "0018V00002kQJIPQA4",
+    "account_name": "Strathfield Car Radios",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "BigCommerce",
+    "website": "strathfieldcarradios.com.au",
+    "industry": "Vehicles & Parts"
+  },
+  {
+    "account_id": "0018V00002gGOv5QAG",
+    "account_name": "Connetix Tiles",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "connetixtiles.com",
+    "industry": "Toys & Games"
+  },
+  {
+    "account_id": "001OG000016MtX4YAK",
+    "account_name": "Global-E U.K., Ltd.",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "Other",
+    "website": "michaelkors.global",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "0018V00002qytedQAA",
+    "account_name": "AMCAP",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Potential Fit",
+    "platform": "",
+    "website": "amcap.com.au",
+    "industry": "Services"
+  },
+  {
+    "account_id": "0018V00002dGz8TQAS",
+    "account_name": "Torpedo7 Fitness Ltd",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "Custom Build",
+    "website": "torpedo7.co.nz",
+    "industry": "Sports & Recreation (excl. Firearms)"
+  },
+  {
+    "account_id": "0018V00002lHaDlQAK",
+    "account_name": "Thirsty Camel",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Custom Build",
+    "website": "thirstycamel.com.au",
+    "industry": "Alcohol"
+  },
+  {
+    "account_id": "0018V00002eoTcdQAE",
+    "account_name": "Living Edge",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "Other",
+    "website": "living-edge-aust-pty-ltd.myshopify.com",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "0018V00002lHab4QAC",
+    "account_name": "Spudbar",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "High",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "spudbar.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "0018V00002ieSb5QAE",
+    "account_name": "Wests Tigers",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Other",
+    "website": "weststigers.com.au",
+    "industry": "Services"
+  },
+  {
+    "account_id": "001OG00000kHXVRYA4",
+    "account_name": "North Melbourne Football Club",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "Other",
+    "website": "nmfc.com.au",
+    "industry": "Sports & Recreation (excl. Firearms)"
+  },
+  {
+    "account_id": "0018V00002lHZpJQAW",
+    "account_name": "Lenard's",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "lenards.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "0018V00002ieSVTQA2",
+    "account_name": "Cronulla Sharks",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "Custom Build",
+    "website": "sharks.com.au",
+    "industry": "Travel & Tourism"
+  },
+  {
+    "account_id": "0018V00002qysUtQAI",
+    "account_name": "IXL Appliances",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "ixlappliances.com.au",
+    "industry": "Services"
+  },
+  {
+    "account_id": "0018V00002kQJKBQA4",
+    "account_name": "MSY Technology",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "Custom Build",
+    "website": "msy.com.au",
+    "industry": "Electronics & Gadgets"
+  },
+  {
+    "account_id": "0018V00002kQJOsQAO",
+    "account_name": "Companion Brands",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "Shopify Plan Advanced/Basic",
+    "website": "companionbrands.com.au",
+    "industry": "Home Decor"
+  },
+  {
+    "account_id": "0018V00002ecYmGQAU",
+    "account_name": "Whitworths Marine & Leisure",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "whitworths.com.au",
+    "industry": "Vehicles & Parts"
+  },
+  {
+    "account_id": "0018V00002kQJIHQA4",
+    "account_name": "Videopro Business Centre",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "BigCommerce",
+    "website": "videopro.com.au",
+    "industry": "Services"
+  },
+  {
+    "account_id": "0018V00002qyrcXQAQ",
+    "account_name": "Apollo RV Sales",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "Custom Build",
+    "website": "http://apollorvsales.com.au",
+    "industry": "Travel & Tourism"
+  },
+  {
+    "account_id": "0018V00002qyt3hQAA",
+    "account_name": "Robert Oatley",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "",
+    "website": "robertoatley.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "0018V00002dGzowQAC",
+    "account_name": "QBD BOOKS",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "Custom Build",
+    "website": "qbd.com.au",
+    "industry": "Media & Communication"
+  },
+  {
+    "account_id": "0018V00002lHZIDQA4",
+    "account_name": "JB Metropolitan Distributors",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "jbmetro.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "0018V00002d0IW4QAM",
+    "account_name": "Campos Coffee",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "Custom Build",
+    "website": "camposcoffee.com",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "001OG000016Mw8ZYAS",
+    "account_name": "TPW Group Services Pty., Ltd.",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "",
+    "website": "thebuild.com.au",
+    "industry": "Home Decor"
+  },
+  {
+    "account_id": "0018V00002lHa7yQAC",
+    "account_name": "Seadan Security",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "seadan.com.au",
+    "industry": "Electronics & Gadgets"
+  },
+  {
+    "account_id": "0018V00002kQJO7QAO",
+    "account_name": "Graphic Art Mart",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "gamart.com.au",
+    "industry": "Services"
+  },
+  {
+    "account_id": "0018V00002czLGfQAM",
+    "account_name": "Canterbury International",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "Other",
+    "website": "canterburynz.com.au",
+    "industry": "Sports & Recreation (excl. Firearms)"
+  },
+  {
+    "account_id": "0018V00002kQJOvQAO",
+    "account_name": "Stafford Group",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "Squarespace",
+    "website": "staffordgroup.com.au",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "0018V00002lHZmKQAW",
+    "account_name": "Wine People",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Custom Build",
+    "website": "winepeople.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "0018V00002kQJPxQAO",
+    "account_name": "Steel Blue",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "steelblue.com",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "0018V00002eBNPcQAO",
+    "account_name": "Harley Heaven",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "harleyheaven.com.au",
+    "industry": "Services"
+  },
+  {
+    "account_id": "001OG00000xs2WYYAY",
+    "account_name": "East Fremantle Football Club",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Other",
+    "website": "http://effc.com.au",
+    "industry": "Sports & Recreation (excl. Firearms)"
+  },
+  {
+    "account_id": "001OG00000kHOp4YAG",
+    "account_name": "Vida Tennis",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "vidatennis.com.au",
+    "industry": "Sports & Recreation (excl. Firearms)"
+  },
+  {
+    "account_id": "0018V00002dH1FkQAK",
+    "account_name": "Collingwood Football Club",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Shopify Plan Advanced/Basic",
+    "website": "shop.collingwoodfc.com.au",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "0018V00002cz53hQAA",
+    "account_name": "Nutrimetics",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "nutrimetics.com.au",
+    "industry": "Other"
+  },
+  {
+    "account_id": "001OG00000kHdkqYAC",
+    "account_name": "Clarendon Hills",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "clarendonhills.com.au",
+    "industry": "Alcohol"
+  },
+  {
+    "account_id": "001OG00000kHZMqYAO",
+    "account_name": "The Lounge Beauty Co",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "theloungebeauty.com.au",
+    "industry": "Health & Beauty (excl. Pharma)"
+  },
+  {
+    "account_id": "0018V00002kYH08QAG",
+    "account_name": "Moran Furniture",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "moranfurniture.com.au",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "001OG00000xru9DYAQ",
+    "account_name": "Ultra Health Medical",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "http://ultrahealthmedical.com.au",
+    "industry": "Electronics & Gadgets"
+  },
+  {
+    "account_id": "001OG00000kHbXzYAK",
+    "account_name": "Caffe Molinari",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "http://molinaricoffee.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "001OG000015zNJNYA2",
+    "account_name": "The Fresh Collective",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "",
+    "website": "http://thefreshcollective.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "0018V00002czECRQA2",
+    "account_name": "Games World",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "gamesworld.com.au",
+    "industry": "Toys & Games"
+  },
+  {
+    "account_id": "0018V00002cz7fTQAQ",
+    "account_name": "LuxorLinen Pty Ltd",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "luxorlinen.com.au",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "001OG00000kHVq1YAG",
+    "account_name": "Grlc",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Shopify Plan Advanced/Basic",
+    "website": "grlc.vic.gov.au",
+    "industry": "Education"
+  },
+  {
+    "account_id": "0018V00002d0Ip1QAE",
+    "account_name": "CPLOnline",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "Custom Build",
+    "website": "cplonline.com.au",
+    "industry": "Electronics & Gadgets"
+  },
+  {
+    "account_id": "0018V00002lHZ5EQAW",
+    "account_name": "Ferngrove",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "ferngrove.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "001OG00000kHQgIYAW",
+    "account_name": "Babich Wines Limited",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "babichwines.co.nz",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "0018V00002lHRofQAG",
+    "account_name": "Indevin",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "Squarespace",
+    "website": "indevin.com",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "001OG00000xrubgYAA",
+    "account_name": "ChocolatePost",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Shopify Plan Advanced/Basic",
+    "website": "http://chocolatepost.co.nz",
+    "industry": "Other"
+  },
+  {
+    "account_id": "001OG0000197JoqYAE",
+    "account_name": "Tuapeka Gold Print",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "",
+    "website": "tuapeka.co.nz",
+    "industry": "Other"
+  },
+  {
+    "account_id": "0018V00002lHY4XQAW",
+    "account_name": "Nepenthe Wines",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Other",
+    "website": "http://nepenthe.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "0018V00002d0HViQAM",
+    "account_name": "Honey Moon Vineyard",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "http://honeymoonvineyard.com.au",
+    "industry": "Alcohol"
+  },
+  {
+    "account_id": "0018V00002d0IjzQAE",
+    "account_name": "Wildfire Sports & Trek",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Other",
+    "website": "wildfiresports.com.au",
+    "industry": "Sports & Recreation (excl. Firearms)"
+  },
+  {
+    "account_id": "0018V00002czA8VQAU",
+    "account_name": "Swan Street Sales",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Other",
+    "website": "swanstreet.com.au",
+    "industry": "Construction & Industrial"
+  },
+  {
+    "account_id": "001OG00000xs2WAYAY",
+    "account_name": "HaggleCo",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "haggleco.com.au",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "001OG00000kHXVcYAO",
+    "account_name": "Atomic Group (Australia) Pty Ltd",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "atomicgroup.com.au",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "0018V00002d0GDqQAM",
+    "account_name": "Archant",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "archant.co.nz",
+    "industry": "Construction & Industrial"
+  },
+  {
+    "account_id": "0018V00002d0IfPQAU",
+    "account_name": "MUD AUSTRALIA PTY LTD",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "BigCommerce",
+    "website": "mudaustralia.com",
+    "industry": "Services"
+  },
+  {
+    "account_id": "0018V00002d0IewQAE",
+    "account_name": "Vintage Watch Co",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "vintagewatchco.com.au",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "001OG00000kHPA8YAO",
+    "account_name": "Brisbane Tigers",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "thetigers.com.au",
+    "industry": "Sports & Recreation (excl. Firearms)"
+  },
+  {
+    "account_id": "0018V00002d0IftQAE",
+    "account_name": "Aussie Fitness Equipment",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Other",
+    "website": "aussiefitness.com.au",
+    "industry": "Sports & Recreation (excl. Firearms)"
+  },
+  {
+    "account_id": "001OG00000kHflsYAC",
+    "account_name": "No Grainer",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "nograiner.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "001OG00000y98phYAA",
+    "account_name": "Cerebos Gregg's Ltd",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "",
+    "website": "http://cerebos.co.nz",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "001OG0000197JpFYAU",
+    "account_name": "Southern Discoveries",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "",
+    "website": "http://southerndiscoveries.co.nz",
+    "industry": "Travel & Tourism"
+  },
+  {
+    "account_id": "001OG00000y92FCYAY",
+    "account_name": "Kaczanowski & Co.",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Custom Build",
+    "website": "http://kaczanowski.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "0018V00002d0IkeQAE",
+    "account_name": "CRH Australia",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "crh.com.au",
+    "industry": "Other"
+  },
+  {
+    "account_id": "0018V00002lHRosQAG",
+    "account_name": "Marlborough Wine Ltd",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "toitoiwines.co.nz",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "001OG00000kHi5RYAS",
+    "account_name": "The Bee Firm",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "thebeefirm.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "001OG00000xrnRmYAI",
+    "account_name": "Skin Nutrient\u2122",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "skinnutrient.com.au",
+    "industry": "Health & Beauty (excl. Pharma)"
+  },
+  {
+    "account_id": "001OG00000xs2WXYAY",
+    "account_name": "Quality Produce International",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "http://qpi.net.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "0018V00002czWo8QAE",
+    "account_name": "Baby Factory",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Custom Build",
+    "website": "babyfactory.co.nz",
+    "industry": "Baby & Toddler"
+  },
+  {
+    "account_id": "0018V00002d0FfcQAE",
+    "account_name": "Whitcoulls",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Custom Build",
+    "website": "whitcoulls.co.nz",
+    "industry": "Toys & Games"
+  },
+  {
+    "account_id": "001OG00000kHNssYAG",
+    "account_name": "pasteles bakehouse",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "pastelesbakehouse.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "001OG00000kHPHmYAO",
+    "account_name": "ReadHowYouWant",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "readhowyouwant.com",
+    "industry": "Media & Communication"
+  },
+  {
+    "account_id": "0018V00002czVSWQA2",
+    "account_name": "Li'l Treasures",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Other",
+    "website": "liltreasures.com.au",
+    "industry": "Gifts & Collectibles"
+  },
+  {
+    "account_id": "001OG00000kHLxuYAG",
+    "account_name": "Women Who Golf",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "womenwhogolf.net",
+    "industry": "Sports & Recreation (excl. Firearms)"
+  },
+  {
+    "account_id": "0018V00002czmHgQAI",
+    "account_name": "Knife Shop Australia",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "Other",
+    "website": "knifeshopaustralia.com.au",
+    "industry": "Sports & Recreation (excl. Firearms)"
+  },
+  {
+    "account_id": "001OG00000kHLnKYAW",
+    "account_name": "RC Hobbies",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Other",
+    "website": "rchobbies.com.au",
+    "industry": "Toys & Games"
+  },
+  {
+    "account_id": "001OG00000y95zeYAA",
+    "account_name": "Perth Basketball Association - The Perth Redbacks",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "http://perthredbacks.asn.au",
+    "industry": "Sports & Recreation (excl. Firearms)"
+  },
+  {
+    "account_id": "001OG00000kHTHJYA4",
+    "account_name": "New Zealand Olympic Committee",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "olympic.org.nz",
+    "industry": "Sports & Recreation (excl. Firearms)"
+  },
+  {
+    "account_id": "001OG000015zWBwYAM",
+    "account_name": "BJ Ball Group",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "",
+    "website": "http://bjball.co.nz",
+    "industry": "Stationery & Office Supplies"
+  },
+  {
+    "account_id": "001OG000015zSeFYAU",
+    "account_name": "Sports In Focus",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "",
+    "website": "http://sportsinfocus.com.au",
+    "industry": "Sports & Recreation (excl. Firearms)"
+  },
+  {
+    "account_id": "001OG00000kHCXdYAO",
+    "account_name": "ACD Trade",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Custom Build",
+    "website": "acdtrade.com.au",
+    "industry": "Other"
+  },
+  {
+    "account_id": "001OG00000kHk1aYAC",
+    "account_name": "Optipharm",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "optipharm.com",
+    "industry": "Health & Beauty (excl. Pharma)"
+  },
+  {
+    "account_id": "0018V00002kY0hvQAC",
+    "account_name": "Business Interiors (Australia)",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "businessinteriors.com.au",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "0018V00002cyxniQAA",
+    "account_name": "Bendigo Woollen Mills",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Shopify Plan Advanced/Basic",
+    "website": "bendigowoollenmills.com.au",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "001OG00000xs2SBYAY",
+    "account_name": "Leaf Caf\u00e9 & Co",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "http://leafcafe.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "0018V00002dHE5qQAG",
+    "account_name": "Rubber Monkey",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "Custom Build",
+    "website": "rubbermonkey.co.nz",
+    "industry": "Electronics & Gadgets"
+  },
+  {
+    "account_id": "0018V00002czigbQAA",
+    "account_name": "Forcast",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "forcast.com.au",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "0018V00002kY0iTQAS",
+    "account_name": "Fresh St Market IGA",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "",
+    "website": "freshstmarketiga.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "0018V00002czARJQA2",
+    "account_name": "Pharma Botanica",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Other",
+    "website": "http://pharmabotanica.com.au",
+    "industry": "Regulated Industry - Pharma"
+  },
+  {
+    "account_id": "0018V00002qyt4ZQAQ",
+    "account_name": "Bebrite Cleaning Services Australia",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Other",
+    "website": "bebrite.com",
+    "industry": "Services"
+  },
+  {
+    "account_id": "001OG00000kHMW0YAO",
+    "account_name": "Parts Alliance",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Prestashop",
+    "website": "partsalliance.com",
+    "industry": "Electronics & Gadgets"
+  },
+  {
+    "account_id": "001OG00000kHa3AYAS",
+    "account_name": "Stephanie Alexander Kitchen Garden Foundation",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Drupal",
+    "website": "kitchengardenfoundation.org.au",
+    "industry": "Health & Beauty (excl. Pharma)"
+  },
+  {
+    "account_id": "001OG00000xs2WdYAI",
+    "account_name": "Trilogy Nutrition",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "trilogynutrition.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "001OG00000kHauoYAC",
+    "account_name": "Tecworks International Pty Ltd",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "Odoo",
+    "website": "tecworks.com.au",
+    "industry": "Electronics & Gadgets"
+  },
+  {
+    "account_id": "001OG00000xrnRAYAY",
+    "account_name": "Sandringham Football Club",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "",
+    "website": "http://sandringhamfc.com.au",
+    "industry": "Sports & Recreation (excl. Firearms)"
+  },
+  {
+    "account_id": "001OG00000kHKMlYAO",
+    "account_name": "Monty's Leap",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "montysleap.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "0018V00002czeARQAY",
+    "account_name": "Bulk Nutrients",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "BigCommerce",
+    "website": "bulknutrients.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "0018V00002dH3XVQA0",
+    "account_name": "Handpicked Wines",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Shopify Plan Advanced/Basic",
+    "website": "handpickedwines.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "0018V00002czA9ZQAU",
+    "account_name": "Homyped",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "homyped.com.au",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "001OG00000kHM8mYAG",
+    "account_name": "Garry Rogers Motorsport",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "grmotorsport.com.au",
+    "industry": "Sports & Recreation (excl. Firearms)"
+  },
+  {
+    "account_id": "001OG00000kHPmoYAG",
+    "account_name": "Swiss Deli Nz",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "swissdeli.co.nz",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "001OG00000y95zyYAA",
+    "account_name": "Ampersand Estates",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "http://ampersandestates.com.au",
+    "industry": "Alcohol"
+  },
+  {
+    "account_id": "001OG00000kHTQFYA4",
+    "account_name": "Best Value & Quickest Flat Rate Shipping - That\u2019s Us!",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "wizme.com.au",
+    "industry": "Other"
+  },
+  {
+    "account_id": "001OG0000197SqMYAU",
+    "account_name": "Supercars",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "",
+    "website": "http://supercars.com",
+    "industry": "Sports & Recreation (excl. Firearms)"
+  },
+  {
+    "account_id": "001OG00000kH6LDYA0",
+    "account_name": "Capel Vale Wines",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "http://capelvale.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "001OG00000kHSklYAG",
+    "account_name": "Rory's Group",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "rorys.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "001OG00000xrnRWYAY",
+    "account_name": "Spring Colours Nursery",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "springcolours.com.au",
+    "industry": "Construction & Industrial"
+  },
+  {
+    "account_id": "0018V00002d0IfsQAE",
+    "account_name": "Autoglass Warehouse",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Other",
+    "website": "autoglasswarehouse.com.au",
+    "industry": "Vehicles & Parts"
+  },
+  {
+    "account_id": "001OG000015zSeXYAU",
+    "account_name": "NAK Hair",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "",
+    "website": "nak.net.au",
+    "industry": "Health & Beauty (excl. Pharma)"
+  },
+  {
+    "account_id": "0018V00002czk4NQAQ",
+    "account_name": "Melbourne Cleaning Supplies",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "BigCommerce",
+    "website": "melbournecleaningsupplies.com.au",
+    "industry": "Other"
+  },
+  {
+    "account_id": "0018V00002qysLYQAY",
+    "account_name": "imake",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "imake.pro",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "001OG00000kHg1pYAC",
+    "account_name": "Haircare Group",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "thehaircaregroup.com",
+    "industry": "Health & Beauty (excl. Pharma)"
+  },
+  {
+    "account_id": "001OG00000xs2RXYAY",
+    "account_name": "Frenchies Bistro & Brewery",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "http://frenchiesbistroandbrewery.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "0018V00002lHZHwQAO",
+    "account_name": "Breville Group",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "http://brevillegroup.com.au",
+    "industry": "Other"
+  },
+  {
+    "account_id": "0018V00002lHa7wQAC",
+    "account_name": "Hec Cater Pty.",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "http://heccater.com.au",
+    "industry": "Stationery & Office Supplies"
+  },
+  {
+    "account_id": "001OG00000kHLnjYAG",
+    "account_name": "Austra Selections",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "http://austra.com.au",
+    "industry": "Other"
+  },
+  {
+    "account_id": "0018V00002lHZ7XQAW",
+    "account_name": "Capel Vale Wines",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "capelvale.com",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "0018V00002czFUeQAM",
+    "account_name": "Racer Industries",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Other",
+    "website": "racerindustries.com.au",
+    "industry": "Vehicles & Parts"
+  },
+  {
+    "account_id": "001OG00000kHJDWYA4",
+    "account_name": "Quality Food Services",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "",
+    "website": "http://qualityfoods.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "001OG00000xs2R6YAI",
+    "account_name": "iFresh Corporate Pantry",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "http://ifreshcorporate.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "0018V00002lHaDbQAK",
+    "account_name": "NNT Uniforms",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "Other",
+    "website": "nnt.com.au",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "0018V00002lHac2QAC",
+    "account_name": "Floridia Cheese",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "floridiacheese.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "001OG00000kHPoiYAG",
+    "account_name": "Siena Foods Pty Limited",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Custom Build",
+    "website": "sienafoods.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "001OG00000y98q4YAA",
+    "account_name": "kindyRock",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Other",
+    "website": "kindyrock.com",
+    "industry": "Entertainment"
+  },
+  {
+    "account_id": "0018V00002kY0hrQAC",
+    "account_name": "THE UPSIDE",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "BigCommerce",
+    "website": "theupside.com.au",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "001OG00000xru9xYAA",
+    "account_name": "Aquamech Services",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "aquamechservices.com.au",
+    "industry": "Other"
+  },
+  {
+    "account_id": "0018V00002lHZI6QAO",
+    "account_name": "Austraroma Pty",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "austraroma.com.au",
+    "industry": "Home Decor"
+  },
+  {
+    "account_id": "001OG000015zW9aYAE",
+    "account_name": "Grove Avocado Oil",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "http://groveavocadooil.co.nz",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "001OG000015zWBMYA2",
+    "account_name": "Barenbrug New Zealand",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "",
+    "website": "http://barenbrug.co.nz",
+    "industry": "Animals & Pet Supplies"
+  },
+  {
+    "account_id": "001OG00000y95ahYAA",
+    "account_name": "ShutterKits",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Custom Build",
+    "website": "shutterkits.com.au",
+    "industry": "Home Decor"
+  },
+  {
+    "account_id": "0018V00002d0IgJQAU",
+    "account_name": "Computer Alliance",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Custom Build",
+    "website": "computeralliance.com.au",
+    "industry": "Electronics & Gadgets"
+  },
+  {
+    "account_id": "0018V00002czFUmQAM",
+    "account_name": "Everything Australia",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "everythingaustralian.com.au",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "0018V00002d0FJLQA2",
+    "account_name": "King Living SG",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "Other",
+    "website": "kingliving.com.sg",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "001OG00000xrnRoYAI",
+    "account_name": "Twin Plaza Metals",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "http://twinplaza.com",
+    "industry": "Jewelry"
+  },
+  {
+    "account_id": "001OG0000197NA7YAM",
+    "account_name": "Kickin'Inn Australia",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "",
+    "website": "http://kickininn.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "0018V00002lHa7jQAC",
+    "account_name": "Jeffersons Tea",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "jeffersonstea.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "001OG00000kHMzeYAG",
+    "account_name": "Matilda Bay Brewery",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Shopify Plan Advanced/Basic",
+    "website": "matildabay.com",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "0018V00002eBNVGQA4",
+    "account_name": "Valleygirl",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "http://valleygirl.com.au",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "0018V00002qytDLQAY",
+    "account_name": "ICI Industries Pty",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "iciindustries.com.au",
+    "industry": "Services"
+  },
+  {
+    "account_id": "001OG00001DSgDkYAL",
+    "account_name": "Avon City Ford",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "",
+    "website": "http://avoncityford.com",
+    "industry": "Vehicles & Parts"
+  },
+  {
+    "account_id": "001OG00001DSwFBYA1",
+    "account_name": "Muscle Release Systems",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "",
+    "website": "muscle-release-systems.business.site",
+    "industry": "Sports & Recreation (excl. Firearms)"
+  },
+  {
+    "account_id": "0018V00002fOoc8QAC",
+    "account_name": "Radio Parts",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Custom Build",
+    "website": "radioparts.com.au",
+    "industry": "Electronics & Gadgets"
+  },
+  {
+    "account_id": "0018V00002lHZofQAG",
+    "account_name": "Optical Superstore",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "opticalsuperstore.com.au",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "0018V00002gpvPHQAY",
+    "account_name": "Prices Plus",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "BigCommerce",
+    "website": "pricesplus.com.au",
+    "industry": "Gifts & Collectibles"
+  },
+  {
+    "account_id": "0018V00002qytThQAI",
+    "account_name": "NAPA Auto Parts Asia Pacific",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Other",
+    "website": "napaparts.com.au",
+    "industry": "Vehicles & Parts"
+  },
+  {
+    "account_id": "001OG00001DT7cGYAT",
+    "account_name": "WR Phillips Mitsubishi",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "",
+    "website": "http://wrphillipsmitsubishi.co.nz",
+    "industry": "Vehicles & Parts"
+  },
+  {
+    "account_id": "0018V00002eBNVkQAO",
+    "account_name": "Kitchen Things",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Potential Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "kitchenthings.co.nz",
+    "industry": "Electronics & Gadgets"
+  },
+  {
+    "account_id": "0018V00002czMuAQAU",
+    "account_name": "Best & Less",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "Custom Build",
+    "website": "bestandless.com.au",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "001OG00001DSgDKYA1",
+    "account_name": "South Pacific Avionics",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "OpenCart",
+    "website": "http://avionics.co.nz",
+    "industry": "Sports & Recreation (excl. Firearms)"
+  },
+  {
+    "account_id": "0018V00002erhWgQAI",
+    "account_name": "BDO Furniture",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "buydirectonline.com.au",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "0018V00002lHSaSQAW",
+    "account_name": "Bargain Box",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Custom Build",
+    "website": "bargainbox.co.nz",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "0018V00002lHZRaQAO",
+    "account_name": "JH Williams & Sons",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "",
+    "website": "http://williamsgroupaustralia.com.au",
+    "industry": "Home Decor"
+  },
+  {
+    "account_id": "0018V00002qytGfQAI",
+    "account_name": "Icehouse Melbourne Operations Pty Ltd",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "obrienicehouse.com.au",
+    "industry": "Travel & Tourism"
+  },
+  {
+    "account_id": "001OG00000y92EuYAI",
+    "account_name": "TVSN",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Custom Build",
+    "website": "http://itvsn.com.au",
+    "industry": "Other"
+  },
+  {
+    "account_id": "0018V00002lHZRQQA4",
+    "account_name": "Saddingtons",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "saddingtons.com.au",
+    "industry": "Home Decor"
+  },
+  {
+    "account_id": "001OG00001DSaWzYAL",
+    "account_name": "Christchurch Nissan",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "http://christchurchnissan.co.nz",
+    "industry": "Vehicles & Parts"
+  },
+  {
+    "account_id": "0018V00002lHZwfQAG",
+    "account_name": "QTCo",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "qtco.com.au",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "0018V00002lHZTeQAO",
+    "account_name": "Flowers Across Sydney",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Custom Build",
+    "website": "flowersacrosssydney.com.au",
+    "industry": "Gifts & Collectibles"
+  },
+  {
+    "account_id": "0018V00002pJlB2QAK",
+    "account_name": "Show Bags",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "bensonstrading.com.au",
+    "industry": "Toys & Games"
+  },
+  {
+    "account_id": "001OG00001DT1jBYAT",
+    "account_name": "Seed Force",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "",
+    "website": "http://seedforce.co.nz",
+    "industry": "Home Decor"
+  },
+  {
+    "account_id": "0018V00002qytKFQAY",
+    "account_name": "Learning with Technologies",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Custom Build",
+    "website": "lwt.com.au",
+    "industry": "Services"
+  },
+  {
+    "account_id": "0018V00002lHabiQAC",
+    "account_name": "St Anne's",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "stanneswinery.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "0018V00002mg3XfQAI",
+    "account_name": "Pascal Press",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "BigCommerce",
+    "website": "pascalpress.com.au",
+    "industry": "Media & Communication"
+  },
+  {
+    "account_id": "001OG000016MtXLYA0",
+    "account_name": "Running Warehouse Australia,, LLC",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "Custom Build",
+    "website": "http://runningwarehouse.com.au",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "0018V00002dNmgAQAS",
+    "account_name": "Bubs Baby Shops",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "bubsngrubs.com.au",
+    "industry": "Baby & Toddler"
+  },
+  {
+    "account_id": "0018V00002dyYwpQAE",
+    "account_name": "Calabria Family Wines",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "calabriawines.com.au",
+    "industry": "Alcohol"
+  },
+  {
+    "account_id": "0018V00002sP8eeQAC",
+    "account_name": "Nutrition Station",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "nutritionstation.com",
+    "industry": "Services"
+  },
+  {
+    "account_id": "0018V00002lHZ7aQAG",
+    "account_name": "Aussie Natural Spring Water",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "aussienatural.net.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "0018V00002kTv0dQAC",
+    "account_name": "PSW",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "psw.com.au",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "0018V00002cz9CJQAY",
+    "account_name": "Coco Republic",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "BigCommerce",
+    "website": "cocorepublic.com.au",
+    "industry": "Home Decor"
+  },
+  {
+    "account_id": "0018V00002lHLbrQAG",
+    "account_name": "Bedpost",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Custom Build",
+    "website": "bedpost.co.nz",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "0018V00002czENXQA2",
+    "account_name": "Black Swallow",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "blackswallow.com.au",
+    "industry": "Services"
+  },
+  {
+    "account_id": "0018V00002hBCtIQAW",
+    "account_name": "Phonebot",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "OpenCart",
+    "website": "phonebot.com.au",
+    "industry": "Services"
+  },
+  {
+    "account_id": "001OG00000kH8CIYA0",
+    "account_name": "Toyota Material Handling Australia",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Custom Build",
+    "website": "http://tmha.com.au",
+    "industry": "Travel & Tourism"
+  },
+  {
+    "account_id": "0018V00002eeLUnQAM",
+    "account_name": "Norva Tools",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "norvatools.com.au",
+    "industry": "Home Decor"
+  },
+  {
+    "account_id": "0018V00002lHaLPQA0",
+    "account_name": "SchoolPix",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "schoolpix.com.au",
+    "industry": "Art & Photography"
+  },
+  {
+    "account_id": "0018V00002lHaQGQA0",
+    "account_name": "Blashki & Sons",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "blashki.com.au",
+    "industry": "Media & Communication"
+  },
+  {
+    "account_id": "0018V00002loKwMQAU",
+    "account_name": "Chapel Hill Winery",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Other",
+    "website": "chapelhillwine.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "001OG00000kHWIIYA4",
+    "account_name": "Bendigo Toyota",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "",
+    "website": "bendigotoyota.com.au",
+    "industry": "Vehicles & Parts"
+  },
+  {
+    "account_id": "0018V00002qystPQAQ",
+    "account_name": "FAB Group",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Shopify Plan Advanced/Basic",
+    "website": "fabgroup.co.nz",
+    "industry": "Health & Beauty (excl. Pharma)"
+  },
+  {
+    "account_id": "0018V00002dGtAPQA0",
+    "account_name": "Peter's of Kensington",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "Custom Build",
+    "website": "petersofkensington.com.au",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "0018V00002lHZIfQAO",
+    "account_name": "Seton Australia",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "http://seton.net.au",
+    "industry": "Stationery & Office Supplies"
+  },
+  {
+    "account_id": "0018V00002lHOJjQAO",
+    "account_name": "Number One shoes and Hannahs",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Custom Build",
+    "website": "numberoneshoesandhannahs.co.nz",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "001OG000016MukgYAC",
+    "account_name": "Jaycar Pty., Ltd.",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Custom Build",
+    "website": "http://jaycar.co.nz",
+    "industry": "Electronics & Gadgets"
+  },
+  {
+    "account_id": "001OG00000kHgMfYAK",
+    "account_name": "Endless Summer Nights",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "http://dippindots.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "001OG00000kHJJ4YAO",
+    "account_name": "MERRIWA INDUSTRIES LIMITED",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "",
+    "website": "merriwa.org.au",
+    "industry": "Services"
+  },
+  {
+    "account_id": "0018V00002lHZKCQA4",
+    "account_name": "Blooms The Chemist",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "BigCommerce",
+    "website": "bloomsthechemist.com.au",
+    "industry": "Regulated Industry - Pharma"
+  },
+  {
+    "account_id": "001OG00001DSVDQYA5",
+    "account_name": "USL Sport Healthcare",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "",
+    "website": "http://uslsport.co.nz",
+    "industry": "Health & Beauty (excl. Pharma)"
+  },
+  {
+    "account_id": "0018V00002qyt20QAA",
+    "account_name": "Rugby Australia",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "",
+    "website": "rugbyaustralia.com.au",
+    "industry": "Sports & Recreation (excl. Firearms)"
+  },
+  {
+    "account_id": "0018V00002czDPUQA2",
+    "account_name": "The Individual Wig",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "theindividualwig.com.au",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "0018V00002jLML9QAO",
+    "account_name": "Ole Lynggaard Copenhagen",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Centra",
+    "website": "olelynggaard.com",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "0018V00002cyxrxQAA",
+    "account_name": "All Blacks",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "allblackshop.com",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "0018V00002ecaQFQAY",
+    "account_name": "Bolton's",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "boltonbros.com.au",
+    "industry": "Stationery & Office Supplies"
+  },
+  {
+    "account_id": "0018V00002enxkZQAQ",
+    "account_name": "Mobile Experts",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "High",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "mobile-experts.com.au",
+    "industry": "Charity, Non-Profit & Organizations"
+  },
+  {
+    "account_id": "0018V00002lHZNyQAO",
+    "account_name": "Calfarme",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "calfarme.com",
+    "industry": "Services"
+  },
+  {
+    "account_id": "001OG00000kHbbkYAC",
+    "account_name": "Gilmours Wholesale Food & Beverage",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Other",
+    "website": "gilmours.co.nz",
+    "industry": "Other"
+  },
+  {
+    "account_id": "0018V00002eny0qQAA",
+    "account_name": "Mobile Tyre Shop",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "mobiletyreshop.com.au",
+    "industry": "Vehicles & Parts"
+  },
+  {
+    "account_id": "001OG00000kHkQ2YAK",
+    "account_name": "Aroma Cafe",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "",
+    "website": "aromacafe.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "0018V00002lHZhyQAG",
+    "account_name": "Eyecare Plus Clifton Hill",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "eyecareplus.com.au",
+    "industry": "Health & Beauty (excl. Pharma)"
+  },
+  {
+    "account_id": "001OG00000kHTDyYAO",
+    "account_name": "Rockwear",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "Custom Build",
+    "website": "rockwear.com.au",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "001OG00000kHQAqYAO",
+    "account_name": "Witchery",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "Salesforce Commerce Cloud",
+    "website": "http://witchery.com.au",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "001OG00000kHM8VYAW",
+    "account_name": "TPF Sports",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "",
+    "website": "tpfsports.com.au",
+    "industry": "Sports & Recreation (excl. Firearms)"
+  },
+  {
+    "account_id": "0018V00002qyt8vQAA",
+    "account_name": "Palloys",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "palloys.com",
+    "industry": "Construction & Industrial"
+  },
+  {
+    "account_id": "0018V00002iSJfnQAG",
+    "account_name": "Unicare Health",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "unicarehealth.com.au",
+    "industry": "Regulated Industry - Pharma"
+  },
+  {
+    "account_id": "0018V00002lHZAAQA4",
+    "account_name": "Vinnies WA",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "http://vinnieswa.org.au",
+    "industry": "Charity, Non-Profit & Organizations"
+  },
+  {
+    "account_id": "001OG00000kHbNFYA0",
+    "account_name": "Better That",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Custom Build",
+    "website": "betterthat.com",
+    "industry": "Services"
+  },
+  {
+    "account_id": "0018V00002dHMtrQAG",
+    "account_name": "Modelflight",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "modelflight.com.au",
+    "industry": "Toys & Games"
+  },
+  {
+    "account_id": "001OG00000kH57SYAS",
+    "account_name": "Ryco Group",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Custom Build",
+    "website": "rycofilters.com.au",
+    "industry": "Vehicles & Parts"
+  },
+  {
+    "account_id": "0018V00002eBsCfQAK",
+    "account_name": "Telephone Wreckers",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Other",
+    "website": "telephonewreckers.com.au",
+    "industry": "Electronics & Gadgets"
+  },
+  {
+    "account_id": "001OG00000kHQMzYAO",
+    "account_name": "Rugby Australia",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Shopify Plan Advanced/Basic",
+    "website": "australia.rugby",
+    "industry": "Sports & Recreation (excl. Firearms)"
+  },
+  {
+    "account_id": "0018V00002gtb7JQAQ",
+    "account_name": "Chrisco",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Custom Build",
+    "website": "chrisco.com.au",
+    "industry": "Travel & Tourism"
+  },
+  {
+    "account_id": "0018V00002lHaLSQA0",
+    "account_name": "Sotheby's Australia",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Potential Fit",
+    "platform": "Custom Build",
+    "website": "sothebysaustralia.com.au",
+    "industry": "Art & Photography"
+  },
+  {
+    "account_id": "0018V00002qytLIQAY",
+    "account_name": "Walker Ceramics",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Other",
+    "website": "walkerceramics.com.au",
+    "industry": "Construction & Industrial"
+  },
+  {
+    "account_id": "001OG00000kHEonYAG",
+    "account_name": "The Music Place",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Odoo",
+    "website": "musicplace.com.au",
+    "industry": "Entertainment"
+  },
+  {
+    "account_id": "0018V00002lHYrsQAG",
+    "account_name": "Abco",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "abcopro.com.au",
+    "industry": "Stationery & Office Supplies"
+  },
+  {
+    "account_id": "001OG000016MwgtYAC",
+    "account_name": "Electronics Boutique Australia Pty., Ltd.",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "Custom Build",
+    "website": "http://zingpopculture.com.au",
+    "industry": "Toys & Games"
+  },
+  {
+    "account_id": "0018V00002lHOJMQA4",
+    "account_name": "Trelise Cooper Group",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "Shopify Plan Advanced/Basic",
+    "website": "trelisecooper.com",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "0018V00002czWHuQAM",
+    "account_name": "Recompute",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "BigCommerce",
+    "website": "recompute.com.au",
+    "industry": "Electronics & Gadgets"
+  },
+  {
+    "account_id": "0018V00002ecbBzQAI",
+    "account_name": "Vivace Music",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "vivacemusic.com.au",
+    "industry": "Entertainment"
+  },
+  {
+    "account_id": "0018V00002lHOJkQAO",
+    "account_name": "Caroline Eve",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "Custom Build",
+    "website": "carolineeve.co.nz",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "0018V00002d0G5kQAE",
+    "account_name": "Red Rat",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "Custom Build",
+    "website": "redrat.co.nz",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "0018V00002lHOJOQA4",
+    "account_name": "NZ Uniforms",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Custom Build",
+    "website": "nzuniforms.com",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "0018V00002ecuo8QAA",
+    "account_name": "Simply Stylish Homewares",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "http://simplystylishhomewares.com.au",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "0018V000032VodpQAC",
+    "account_name": "Mars Campers",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "http://marscampers.com.au",
+    "industry": "Vehicles & Parts"
+  },
+  {
+    "account_id": "001OG00000kHNfwYAG",
+    "account_name": "New Zealand Council for Educational Research",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Drupal",
+    "website": "nzcer.org.nz",
+    "industry": "Services"
+  },
+  {
+    "account_id": "0018V00002lHa2SQAS",
+    "account_name": "The Ginger Factory",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "http://gingerfactory.com.au",
+    "industry": "Health & Beauty (excl. Pharma)"
+  },
+  {
+    "account_id": "0018V00002czlNyQAI",
+    "account_name": "THE UPSIDE SPORT",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "BigCommerce",
+    "website": "theupsidesport.com",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "001OG00000kHW6HYAW",
+    "account_name": "KP Skincare Solutions by R+F",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "SAP Commerce Cloud (Hybris)",
+    "website": "http://rodanandfields.com.au",
+    "industry": "Construction & Industrial"
+  },
+  {
+    "account_id": "0018V00002lHaMAQA0",
+    "account_name": "Australian Gourmet Gifts",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "australiangourmetgifts.com.au",
+    "industry": "Gifts & Collectibles"
+  },
+  {
+    "account_id": "0018V00002czaQQQAY",
+    "account_name": "Zero Co",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Shopify Plan Advanced/Basic",
+    "website": "zeroco.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "0018V00002ecupGQAQ",
+    "account_name": "New Fidelity",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "newfidelity.com.au",
+    "industry": "Electronics & Gadgets"
+  },
+  {
+    "account_id": "0018V00002epfHYQAY",
+    "account_name": "The Sleep Store",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "BigCommerce",
+    "website": "the-sleep-store-5072.myshopify.com",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "0018V00002pLXZbQAO",
+    "account_name": "Brisbane Camperland",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Potential Fit",
+    "platform": "",
+    "website": "brisbanecamperland.com.au",
+    "industry": "Vehicles & Parts"
+  },
+  {
+    "account_id": "0018V00002lHaGQQA0",
+    "account_name": "Abc2000",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "http://abc2000.com.au",
+    "industry": "Services"
+  },
+  {
+    "account_id": "0018V00002lHMsOQAW",
+    "account_name": "Riccarton Florist",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "riccartonflorist.co.nz",
+    "industry": "Gifts & Collectibles"
+  },
+  {
+    "account_id": "0018V00002lHZpTQAW",
+    "account_name": "Sunstate Motorcycles",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "sunstatemotorcycles.com.au",
+    "industry": "Vehicles & Parts"
+  },
+  {
+    "account_id": "0018V00002qysKIQAY",
+    "account_name": "Chard Farm",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Other",
+    "website": "http://chardfarm.co.nz",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "0018V00002ecunfQAA",
+    "account_name": "Enko Group",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "enko.nz",
+    "industry": "Home Decor"
+  },
+  {
+    "account_id": "0018V00002lHZqHQAW",
+    "account_name": "Total Knife Care",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "totalknifecare.com.au",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "0018V00002lHTPJQA4",
+    "account_name": "Savebarn",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "OpenCart",
+    "website": "savebarn.co.nz",
+    "industry": "Other"
+  },
+  {
+    "account_id": "0018V00002lHabJQAS",
+    "account_name": "Delatite Wines Pty Ltd",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Custom Build",
+    "website": "delatitewinery.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "001OG00000kHAvLYAW",
+    "account_name": "HEARING SAVERS",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "BigCommerce",
+    "website": "hearingsavers.com.au",
+    "industry": "Electronics & Gadgets"
+  },
+  {
+    "account_id": "0018V00002qytOYQAY",
+    "account_name": "Aber Holdings",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "",
+    "website": "aberliving.co.nz",
+    "industry": "Home Decor"
+  },
+  {
+    "account_id": "0018V00002qytWWQAY",
+    "account_name": "ABP Allboards Pty Ltd",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "abpgroup.net.au",
+    "industry": "Stationery & Office Supplies"
+  },
+  {
+    "account_id": "0018V00002lHaBnQAK",
+    "account_name": "Topaz Furniture",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "topazfurniture.com.au",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "0018V00002lHZm6QAG",
+    "account_name": "The Country Brewer",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Potential Fit",
+    "platform": "Custom Build",
+    "website": "countrybrewer.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "0018V00002lHJPwQAO",
+    "account_name": "Target Furniture",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "Custom Build",
+    "website": "targetfurniture.co.nz",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "001OG000016MvT3YAK",
+    "account_name": "Stevens Homewares, Ltd.",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Custom Build",
+    "website": "http://stevens.co.nz",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "0018V00002lHMOYQA4",
+    "account_name": "Smart Marine",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Custom Build",
+    "website": "smartmarine.co.nz",
+    "industry": "Vehicles & Parts"
+  },
+  {
+    "account_id": "0018V00002lHYwyQAG",
+    "account_name": "Gascoigne Furniture",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "gascoigne.com.au",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "001OG00000kHaGNYA0",
+    "account_name": "Melbourne Global Systems Pty Ltd",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "BigCommerce",
+    "website": "http://melbourneglobal.com.au",
+    "industry": "Services"
+  },
+  {
+    "account_id": "001OG00000kHMxqYAG",
+    "account_name": "Cub Campers",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Shopify Plan Advanced/Basic",
+    "website": "cubcampers.com.au",
+    "industry": "Construction & Industrial"
+  },
+  {
+    "account_id": "0018V00002lHaL5QAK",
+    "account_name": "CH Smith Marine",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "chsmith.com.au",
+    "industry": "Vehicles & Parts"
+  },
+  {
+    "account_id": "0018V00002lHZQOQA4",
+    "account_name": "Have A Seat",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "haveaseat.com.au",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "0018V00002lHOJiQAO",
+    "account_name": "Strangely Normal",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Other",
+    "website": "strangelynormal.com",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "001OG00001DStQNYA1",
+    "account_name": "Lennox Bathroom",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "OpenCart",
+    "website": "lennoxbathroom.co.nz",
+    "industry": "Home Decor"
+  },
+  {
+    "account_id": "0018V00002lHaeMQAS",
+    "account_name": "The Sassafras Sweet",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "sweetco.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "0018V00002dyZ1tQAE",
+    "account_name": "justsunnies.com.au (Delete)",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "",
+    "website": "hubspot_duplicate_justsunnies.com.au_213553961",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "001OG00001DT1kVYAT",
+    "account_name": "SelectaDNA",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "",
+    "website": "selectadna.co.nz",
+    "industry": "Stationery & Office Supplies"
+  },
+  {
+    "account_id": "0018V00002qytPvQAI",
+    "account_name": "Balgownie Estate Yarra Valley",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Other",
+    "website": "balgownieestatewines.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "0018V00002lHK57QAG",
+    "account_name": "Shoe Clinic",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Potential Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "shoeclinic.co.nz",
+    "industry": "Sports & Recreation (excl. Firearms)"
+  },
+  {
+    "account_id": "001OG000015zSYyYAM",
+    "account_name": "JBL AU/NZ",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Other",
+    "website": "jbl.com.au",
+    "industry": "Construction & Industrial"
+  },
+  {
+    "account_id": "001OG00000kHIH7YAO",
+    "account_name": "QE Foodstores",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Custom Build",
+    "website": "http://qefoodstores.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "0018V00002dHAFQQA4",
+    "account_name": "Johnny Bigg Pty. Limited",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "johnnybigg.com.au",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "001OG00001DT07iYAD",
+    "account_name": "Artex NZ",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "redsnapr.co.nz",
+    "industry": "Home Decor"
+  },
+  {
+    "account_id": "0018V00002ebXzNQAU",
+    "account_name": "Mentone Educational Centre",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Other",
+    "website": "mentone-educational.com.au",
+    "industry": "Education"
+  },
+  {
+    "account_id": "0018V00002lHaCYQA0",
+    "account_name": "Plus 2 Clothing",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "http://plus2clothing.com",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "0018V00002fOpGbQAK",
+    "account_name": "Lollipop Cake Supplies",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Custom Build",
+    "website": "lollipopcakesupplies.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "0018V00002sP8XVQA0",
+    "account_name": "Fourth Wave Wine",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Custom Build",
+    "website": "fourthwavewine.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "0018V00002lHaDuQAK",
+    "account_name": "World Of Music",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "worldofmusic.com.au",
+    "industry": "Entertainment"
+  },
+  {
+    "account_id": "0018V00002lHJPrQAO",
+    "account_name": "Breastmates",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "BigCommerce",
+    "website": "breastmates.co.nz",
+    "industry": "Baby & Toddler"
+  },
+  {
+    "account_id": "0018V00002qys1GQAQ",
+    "account_name": "Hydr8 Custom Labelled Bottled Water",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "",
+    "website": "http://hydr8water.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "0018V00002fhLg3QAE",
+    "account_name": "RSEA",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "Custom Build",
+    "website": "rsea.com.au",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "001OG00001DSkXKYA1",
+    "account_name": "Grinding Gear Games",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "",
+    "website": "http://grindinggear.com",
+    "industry": "Toys & Games"
+  },
+  {
+    "account_id": "0018V00002lH5PEQA0",
+    "account_name": "Cheesecake Shop NZ( Napier",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "thecheesecakeshop.co.nz",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "0018V00002lHOJtQAO",
+    "account_name": "Rhodes & Beckett",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Shopify Plan Advanced/Basic",
+    "website": "rhodesbeckett.com.au",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "0018V00002lHY2PQAW",
+    "account_name": "Web Safety",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "websafety.com.au",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "001OG00001DT4qIYAT",
+    "account_name": "Think Food",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "",
+    "website": "thinkfood.co.nz",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "0018V00002lHZNWQA4",
+    "account_name": "Frame Today",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "Custom Build",
+    "website": "frametoday.com.au",
+    "industry": "Home Decor"
+  },
+  {
+    "account_id": "0018V00002lHaPlQAK",
+    "account_name": "Lamp Replacements Australia",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Custom Build",
+    "website": "http://lampreplacements.com.au",
+    "industry": "Electronics & Gadgets"
+  },
+  {
+    "account_id": "001OG00001DSrg8YAD",
+    "account_name": "Jalmac Sales and Marketing",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Prestashop",
+    "website": "http://jalmacsales.com",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "0018V00002lHaPzQAK",
+    "account_name": "Marshall Batteries",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "marshallbatteries.com.au",
+    "industry": "Electronics & Gadgets"
+  },
+  {
+    "account_id": "001OG000016MvZ3YAK",
+    "account_name": "australianvitamins",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Potential Fit",
+    "platform": "Custom Build",
+    "website": "australianvitamins.com",
+    "industry": "Health & Beauty (excl. Pharma)"
+  },
+  {
+    "account_id": "0018V00002gQWLaQAO",
+    "account_name": "Fernland",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "BigCommerce",
+    "website": "fernland.com.au",
+    "industry": "Home Decor"
+  },
+  {
+    "account_id": "0018V00002nDWapQAG",
+    "account_name": "Roll Cycles",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "rollcycles.com.au",
+    "industry": "Sports & Recreation (excl. Firearms)"
+  },
+  {
+    "account_id": "0018V00002sP7XtQAK",
+    "account_name": "SWISS GriP Non-Slip Coatings",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "swissgrip.com.au",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "0018V00002lHZtSQAW",
+    "account_name": "Cork & Chroma",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "corkandchroma.com.au",
+    "industry": "Art & Photography"
+  },
+  {
+    "account_id": "0018V00002lHZqmQAG",
+    "account_name": "Spanbilt",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "http://spanbilt.com.au",
+    "industry": "Home Decor"
+  },
+  {
+    "account_id": "0018V00002lHSKgQAO",
+    "account_name": "Rippon Vineyard & Winery",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "rippon.co.nz",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "0018V00002hEXBeQAO",
+    "account_name": "Budget Pet Products",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Custom Build",
+    "website": "budgetpetproducts.com.au",
+    "industry": "Animals & Pet Supplies"
+  },
+  {
+    "account_id": "0018V00002lHaMBQA0",
+    "account_name": "Ozwinds Brass",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "ozwinds.com.au",
+    "industry": "Art & Photography"
+  },
+  {
+    "account_id": "0018V00002gEZiXQAW",
+    "account_name": "Elizabeth Andrews Corporate Catering",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Other",
+    "website": "elizabethandrews.com.au",
+    "industry": "Services"
+  },
+  {
+    "account_id": "0018V00002lHK58QAG",
+    "account_name": "Interflora, New Zealand",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Custom Build",
+    "website": "interflora.co.nz",
+    "industry": "Other"
+  },
+  {
+    "account_id": "0018V00002fhLl1QAE",
+    "account_name": "Interbyte",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Other",
+    "website": "interbyte.com.au",
+    "industry": "Electronics & Gadgets"
+  },
+  {
+    "account_id": "001OG00001DT3VMYA1",
+    "account_name": "St Vincent De Paul Op Shop",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "",
+    "website": "stvincentdepaulopshop.business.site",
+    "industry": "Other"
+  },
+  {
+    "account_id": "0018V00002lHYsSQAW",
+    "account_name": "Perth Scientific Pty",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "perthscientific.com.au",
+    "industry": "Services"
+  },
+  {
+    "account_id": "0018V00002lHaeyQAC",
+    "account_name": "Scuba Culture",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "scubaculture.com.au",
+    "industry": "Travel & Tourism"
+  },
+  {
+    "account_id": "0018V00002qytAIQAY",
+    "account_name": "CleverPatch",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Custom Build",
+    "website": "cleverpatch.com.au",
+    "industry": "Home Decor"
+  },
+  {
+    "account_id": "0018V00002lHZ7OQAW",
+    "account_name": "Eagle Bay Brewing Co",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "eaglebaybrewing.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "0018V00002lHZNnQAO",
+    "account_name": "Landwide Satellite Solutions",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Custom Build",
+    "website": "landwide.com.au",
+    "industry": "Services"
+  },
+  {
+    "account_id": "0018V00002lHaHfQAK",
+    "account_name": "Hypersonic Industries",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "hypersonic.com.au",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "0018V00002lHZTqQAO",
+    "account_name": "Curtains on the Net",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Custom Build",
+    "website": "curtainsonthenet.com.au",
+    "industry": "Gifts & Collectibles"
+  },
+  {
+    "account_id": "001OG00001DSsctYAD",
+    "account_name": "Kiwi Seed",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "",
+    "website": "kiwiseed.co.nz",
+    "industry": "Home Decor"
+  },
+  {
+    "account_id": "001OG00001DStMbYAL",
+    "account_name": "Leedsafe",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "",
+    "website": "http://leedsafe.co.nz",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "0018V00002lIHVHQA4",
+    "account_name": "Boardcave",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "boardcave.com",
+    "industry": "Sports & Recreation (excl. Firearms)"
+  },
+  {
+    "account_id": "0018V00002qyroeQAA",
+    "account_name": "Weatherbeeta",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "weatherbeeta.com.au",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "0018V00002qwrwiQAA",
+    "account_name": "Generator Store",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Shopify Plan Advanced/Basic",
+    "website": "generatorstore.com.au",
+    "industry": "Construction & Industrial"
+  },
+  {
+    "account_id": "001OG00000kHHbCYAW",
+    "account_name": "Adore Beauty",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "BigCommerce",
+    "website": "http://adorebeauty.co.nz",
+    "industry": "Health & Beauty (excl. Pharma)"
+  },
+  {
+    "account_id": "0018V00002lHZIrQAO",
+    "account_name": "Rovert Lighting & Electrical",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "rovert.com.au",
+    "industry": "Other"
+  },
+  {
+    "account_id": "0018V00002eAnVfQAK",
+    "account_name": "Derivan",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Odoo",
+    "website": "derivan.com.au",
+    "industry": "Travel & Tourism"
+  },
+  {
+    "account_id": "0018V00002lHaOqQAK",
+    "account_name": "Tri-Sled Human Powered Vehicles",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "trisled.com.au",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "001OG00000y98rhYAA",
+    "account_name": "Macpac",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "Other",
+    "website": "http://macpac.co.nz",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "0018V00002czfZtQAI",
+    "account_name": "The Lane Vineyard",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "thelane.com.au",
+    "industry": "Alcohol"
+  },
+  {
+    "account_id": "0018V00002dNoV0QAK",
+    "account_name": "The OCAM Group",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Other",
+    "website": "ocamindustries.com.au",
+    "industry": "Construction & Industrial"
+  },
+  {
+    "account_id": "0018V00002lHZwjQAG",
+    "account_name": "Erotic Jewellery",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "eroticjewellery.com",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "0018V00002lHZR1QAO",
+    "account_name": "Dedece",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "",
+    "website": "dedece.com",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "0018V00002dGztQQAS",
+    "account_name": "Big Music Australia",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "bigmusicshop.com.au",
+    "industry": "Education"
+  },
+  {
+    "account_id": "0018V00002edP0xQAE",
+    "account_name": "Glamour Living",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Other",
+    "website": "glamourliving.com.au",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "0018V00002lHY0sQAG",
+    "account_name": "Ram Equipment",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "ramequipment.com.au",
+    "industry": "Stationery & Office Supplies"
+  },
+  {
+    "account_id": "0018V00002ecYVtQAM",
+    "account_name": "Abacus Educational Suppliers",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "abacused.com.au",
+    "industry": "Stationery & Office Supplies"
+  },
+  {
+    "account_id": "0018V00002lHZXKQA4",
+    "account_name": "Federal Workwear",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "federalworkwear.com.au",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "0018V00002dH69fQAC",
+    "account_name": "Lindy",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "lindy.com.au",
+    "industry": "Electronics & Gadgets"
+  },
+  {
+    "account_id": "0018V00002czdujQAA",
+    "account_name": "Mishkah",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "mishkah.com.au",
+    "industry": "Other"
+  },
+  {
+    "account_id": "0018V00002qytC4QAI",
+    "account_name": "Able Fix Fasteners | Ablefix Pty Ltd",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "ablefix.com.au",
+    "industry": "Other"
+  },
+  {
+    "account_id": "0018V00002qytPgQAI",
+    "account_name": "Chrismont",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Other",
+    "website": "http://chrismont.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "001OG00001DSjObYAL",
+    "account_name": "Chairs Direct",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Squarespace",
+    "website": "chairsdirect.co.nz",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "0018V00002lHaHMQA0",
+    "account_name": "ANIBOU.",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "anibou.com.au",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "0018V00002lHY0PQAW",
+    "account_name": "Terrace Floors + Furnishings",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "terracefloors.com.au",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "0018V00002qytVGQAY",
+    "account_name": "SAFCO AUSTRALIA PTY. LTD.",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "safcoaustralia.com.au",
+    "industry": "Electronics & Gadgets"
+  },
+  {
+    "account_id": "001OG00001DT0kPYAT",
+    "account_name": "Rollos Marine",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "",
+    "website": "http://rollosmarine.co.nz",
+    "industry": "Vehicles & Parts"
+  },
+  {
+    "account_id": "0018V00002dHNDNQA4",
+    "account_name": "Edisons",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "edisons.com.au",
+    "industry": "Home Decor"
+  },
+  {
+    "account_id": "0018V00002e9bKHQAY",
+    "account_name": "MobileCiti",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "mobileciti.com.au",
+    "industry": "Media & Communication"
+  },
+  {
+    "account_id": "001OG00001DSNJ7YAP",
+    "account_name": "Chatfield Engineering",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "",
+    "website": "http://chatfieldmarine.com",
+    "industry": "Vehicles & Parts"
+  },
+  {
+    "account_id": "0018V00002mfgMEQAY",
+    "account_name": "Hairco Online",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "BigCommerce",
+    "website": "shophairco.com.au",
+    "industry": "Other"
+  },
+  {
+    "account_id": "0018V00002lHZMkQAO",
+    "account_name": "Oak Barrel",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "oakbarrel.com.au",
+    "industry": "Other"
+  },
+  {
+    "account_id": "0018V00002lHLbnQAG",
+    "account_name": "Canterbury Office Furniture",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "http://cof.co.nz",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "0018V00002lHZQrQAO",
+    "account_name": "Time 4 Timber",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "",
+    "website": "time4timber.com.au",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "001OG0000197VLzYAM",
+    "account_name": "au.callawaygolf.com",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Other",
+    "website": "au.callawaygolf.com",
+    "industry": "Art & Photography"
+  },
+  {
+    "account_id": "001OG00001DSMDiYAP",
+    "account_name": "Epicure Trading",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "",
+    "website": "http://epicuretrading.co.nz",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "0018V00002lHaHuQAK",
+    "account_name": "Melbournians Furniture",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "OpenCart",
+    "website": "melbourniansfurniture.com.au",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "0018V00002qyt7RQAQ",
+    "account_name": "thebakerywitch.com",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Other",
+    "website": "thebakerywitch.com",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "001OG00001DSZHaYAP",
+    "account_name": "Goodbye Sandfly",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "http://goodbyesandfly.co.nz",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "0018V00002eeMQ4QAM",
+    "account_name": "Outdoor Elegance",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "outdoor-elegance-prod.myshopify.com",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "0018V00002fLirwQAC",
+    "account_name": "Fox Creek Wines",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "foxcreekwines.com",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "0018V00002qytSHQAY",
+    "account_name": "Ride The Tide",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "BigCommerce",
+    "website": "ridethetide.com.au",
+    "industry": "Home Decor"
+  },
+  {
+    "account_id": "001OG00001DSsDcYAL",
+    "account_name": "Kakama Kayaks",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "",
+    "website": "kakama-kayaks.business.site",
+    "industry": "Vehicles & Parts"
+  },
+  {
+    "account_id": "0018V00002lnpg9QAA",
+    "account_name": "The Seed Collection",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Other",
+    "website": "theseedcollection.com.au",
+    "industry": "Home Decor"
+  },
+  {
+    "account_id": "0018V00002lHZl6QAG",
+    "account_name": "Caffe Cherry Beans",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "cherrybeans.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "0018V00002lHaPdQAK",
+    "account_name": "Switches Plus Components",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Custom Build",
+    "website": "switchesplus.com.au",
+    "industry": "Electronics & Gadgets"
+  },
+  {
+    "account_id": "0018V00002lHY0jQAG",
+    "account_name": "Badger Australia",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "badgeraustralia.com.au",
+    "industry": "Stationery & Office Supplies"
+  },
+  {
+    "account_id": "0018V00002gFJKTQA4",
+    "account_name": "Proquip",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "proquipnz.co.nz",
+    "industry": "Stationery & Office Supplies"
+  },
+  {
+    "account_id": "0018V00002gFJKIQA4",
+    "account_name": "Instant Toilets & Showers",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "instanttoilets.com.au",
+    "industry": "Stationery & Office Supplies"
+  },
+  {
+    "account_id": "0018V00002lHZQJQA4",
+    "account_name": "Corrimal Lounges",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "corrimallounges.com.au",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "0018V00002lHYrhQAG",
+    "account_name": "J & K Hopkins",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "http://jkhopkins.com.au",
+    "industry": "Stationery & Office Supplies"
+  },
+  {
+    "account_id": "0018V00002lHZqOQAW",
+    "account_name": "Chairco",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "chairco.com.au",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "0018V00002czj3tQAA",
+    "account_name": "Blossom Costumes",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "blossomcostumes.com.au",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "001OG00000kHIycYAG",
+    "account_name": "Christies Jewellery (2006)",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "OpenCart",
+    "website": "christies.co.nz",
+    "industry": "Jewelry"
+  },
+  {
+    "account_id": "0018V00002czFoJQAU",
+    "account_name": "My Foodie Box Pty Ltd",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Custom Build",
+    "website": "myfoodiebox.com.au",
+    "industry": "Services"
+  },
+  {
+    "account_id": "0018V00002czh4mQAA",
+    "account_name": "WT Hardware",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "",
+    "website": "wthardware.com.au",
+    "industry": "Construction & Industrial"
+  },
+  {
+    "account_id": "0018V00002lHaHXQA0",
+    "account_name": "Fresco Frames Australia",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "frescoframes.com.au",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "0018V00002czBrcQAE",
+    "account_name": "Motackle",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "motackle.com.au",
+    "industry": "Sports & Recreation (excl. Firearms)"
+  },
+  {
+    "account_id": "001OG00000kHGc2YAG",
+    "account_name": "LEISURE TIME SUNBEDS LIMITED",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "leisuretimesunbeds.com",
+    "industry": "Health & Beauty (excl. Pharma)"
+  },
+  {
+    "account_id": "001OG00000kHCJNYA4",
+    "account_name": "Australia Piano World",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "australiapianoworld.com.au",
+    "industry": "Entertainment"
+  },
+  {
+    "account_id": "0018V00002d0If8QAE",
+    "account_name": "PCByte",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "Custom Build",
+    "website": "pcbyte.com.au",
+    "industry": "Electronics & Gadgets"
+  },
+  {
+    "account_id": "001OG00000kHSilYAG",
+    "account_name": "Coastal Labels",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "coastallabels.com.au",
+    "industry": "Services"
+  },
+  {
+    "account_id": "0018V00002kYJEPQA4",
+    "account_name": "Andrews Corporate Clothing",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Other",
+    "website": "http://andrewsclothing.com.au",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "001OG00000kHXmHYAW",
+    "account_name": "Guildford Garden Centre",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "http://guildfordgardencentre.com.au",
+    "industry": "Other"
+  },
+  {
+    "account_id": "0018V00002kYJEiQAO",
+    "account_name": "Poynters",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "BigCommerce",
+    "website": "poynters.co.nz",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "0018V00002d0IpsQAE",
+    "account_name": "Bloombox Co",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "bloomboxco.com.au",
+    "industry": "Gifts & Collectibles"
+  },
+  {
+    "account_id": "001OG00000kHFnbYAG",
+    "account_name": "Clearview Accessories",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "clearviewaccessories.com.au",
+    "industry": "Vehicles & Parts"
+  },
+  {
+    "account_id": "0018V00002lHZoLQAW",
+    "account_name": "1 Stop Spas & SpaTech Training",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "1stopspas.com",
+    "industry": "Other"
+  },
+  {
+    "account_id": "0018V00002lHaHKQA0",
+    "account_name": "Remodern",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Other",
+    "website": "http://remodern.com.au",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "001OG00000kHEW2YAO",
+    "account_name": "Roof Rack and Box Dandy South",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "roofrackandbox.com.au",
+    "industry": "Vehicles & Parts"
+  },
+  {
+    "account_id": "001OG00000kGychYAC",
+    "account_name": "Sound And Music",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "http://sound-music.com",
+    "industry": "Entertainment"
+  },
+  {
+    "account_id": "001OG00000kHmJlYAK",
+    "account_name": "Print Storm",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Custom Build",
+    "website": "printstorm.com.au",
+    "industry": "Services"
+  },
+  {
+    "account_id": "0018V00002kYGHnQAO",
+    "account_name": "Koala Clothing",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "koalaclothing.com.au",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "001OG00000kHEPKYA4",
+    "account_name": "Chiefs Son Distillery",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "chiefsson.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "001OG00000kHPUQYA4",
+    "account_name": "Bodhi's Bakehouse",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "http://bodhi.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "0018V00002kYGLmQAO",
+    "account_name": "Kovacs",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "http://kovacs.co.nz",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "001OG00000y98qaYAA",
+    "account_name": "Industrial Procurement Services Limited",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Other",
+    "website": "industrialprocurement.co.nz",
+    "industry": "Stationery & Office Supplies"
+  },
+  {
+    "account_id": "0018V00002czWYBQA2",
+    "account_name": "Van Dyks",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "BigCommerce",
+    "website": "vandyks.co.nz",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "0018V00002cz6QIQAY",
+    "account_name": "Huskee Pty Ltd",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "BigCommerce",
+    "website": "huskee.co",
+    "industry": "Services"
+  },
+  {
+    "account_id": "0018V00002dGtgpQAC",
+    "account_name": "skdesignerliving.com.au",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "skdesignerliving.com.au",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "0018V00002kYJC3QAO",
+    "account_name": "Volle Jewellery",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "",
+    "website": "vollejewellery.com",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "0018V00002lHaV4QAK",
+    "account_name": "Next Level Elevators",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "http://nextlevelelevators.com.au",
+    "industry": "Construction & Industrial"
+  },
+  {
+    "account_id": "001OG00000kHM8qYAG",
+    "account_name": "Hercules Instant Shelter",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "herculesgazebo.co.nz",
+    "industry": "Other"
+  },
+  {
+    "account_id": "0018V00002kYJFWQA4",
+    "account_name": "Jarrimber Furniture",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "jarrimber.com.au",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "0018V00002lHZnSQAW",
+    "account_name": "Escapin Tackle",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "escapin.com.au",
+    "industry": "Other"
+  },
+  {
+    "account_id": "001OG00000kHOcbYAG",
+    "account_name": "Designer Suits Direct Pty",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "adelaidesuitsdirect.com.au",
+    "industry": "Other"
+  },
+  {
+    "account_id": "001OG00000kHOdtYAG",
+    "account_name": "Ecotech Print Solutions",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "http://ecotechprintsolutions.com.au",
+    "industry": "Services"
+  },
+  {
+    "account_id": "001OG00000kHjamYAC",
+    "account_name": "Australian Footwear",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Custom Build",
+    "website": "australian-footwear.com",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "0018V00002lHabbQAC",
+    "account_name": "Gippsland Cheese",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "http://gippslandcheese.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "0018V00002lHaOnQAK",
+    "account_name": "Romano Napoli",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "romanonapoli.com",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "001OG00000kHSiQYAW",
+    "account_name": "The Olive Press",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "theolivepress.co.nz",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "001OG00000kHQPUYA4",
+    "account_name": "All States Trailer Spares Pty Ltd",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Custom Build",
+    "website": "http://astss.com.au",
+    "industry": "Vehicles & Parts"
+  },
+  {
+    "account_id": "0018V00002czIHiQAM",
+    "account_name": "Dr Gear Guitars",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Other",
+    "website": "drgear.com.au",
+    "industry": "Entertainment"
+  },
+  {
+    "account_id": "0018V00002lHZnrQAG",
+    "account_name": "Jtagz\u00ae Pty Ltd",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "http://jtagz.com",
+    "industry": "Stationery & Office Supplies"
+  },
+  {
+    "account_id": "0018V00002kYJE6QAO",
+    "account_name": "Hair & Beauty Warehouse",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Custom Build",
+    "website": "hbwarehouse.com.au",
+    "industry": "Health & Beauty (excl. Pharma)"
+  },
+  {
+    "account_id": "0018V00002lHZwVQAW",
+    "account_name": "Diamonds On Broadbeach",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "diamondsonbroadbeach.com.au",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "001OG00000kHJx2YAG",
+    "account_name": "Wakefields Digital",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "",
+    "website": "http://wakefields.co.nz",
+    "industry": "Services"
+  },
+  {
+    "account_id": "0018V00002d0IjjQAE",
+    "account_name": "Gold Coast Music",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Other",
+    "website": "gcmusic.com.au",
+    "industry": "Sports & Recreation (excl. Firearms)"
+  },
+  {
+    "account_id": "0018V00002czffFQAQ",
+    "account_name": "Optics Central",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "opticscentral.com.au",
+    "industry": "Stationery & Office Supplies"
+  },
+  {
+    "account_id": "0018V00002d0IW5QAM",
+    "account_name": "digiDIRECT",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "digidirect-com-au.myshopify.com",
+    "industry": "Electronics & Gadgets"
+  },
+  {
+    "account_id": "001OG00000kHcqFYAS",
+    "account_name": "Your Body Hub",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "yourbodyhub.com.au",
+    "industry": "Health & Beauty (excl. Pharma)"
+  },
+  {
+    "account_id": "0018V00002czh1EQAQ",
+    "account_name": "Custom Mustangs",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Other",
+    "website": "custommustangs.com.au",
+    "industry": "Vehicles & Parts"
+  },
+  {
+    "account_id": "001OG00000kHPTYYA4",
+    "account_name": "Cybershop",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Other",
+    "website": "cybershop.com.au",
+    "industry": "Other"
+  },
+  {
+    "account_id": "0018V00002lHa0BQAS",
+    "account_name": "Hylec Energy Solutions Pty Ltd",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "hylec.com.au",
+    "industry": "Construction & Industrial"
+  },
+  {
+    "account_id": "0018V00002lHaP1QAK",
+    "account_name": "RENATO Diamonds",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "renatojewellers.com",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "0018V00002dGxytQAC",
+    "account_name": "DO NOT USE | Global Retail Brands",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "globalretailbrands.net",
+    "industry": "Home Decor"
+  },
+  {
+    "account_id": "0018V00002lHZqEQAW",
+    "account_name": "Buywood Custom Furniture",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "buywoodfurniture.com.au",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "0018V00002czFFCQA2",
+    "account_name": "New Aim Pty",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "newaim.com.au",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "001OG00000kHLDvYAO",
+    "account_name": "JA Davey Pty Ltd",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "jadavey.com.au",
+    "industry": "Services"
+  },
+  {
+    "account_id": "001OG00000kHdkKYAS",
+    "account_name": "Rylefoot Pty Ltd",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "http://parramattacameras.com.au",
+    "industry": "Electronics & Gadgets"
+  },
+  {
+    "account_id": "001OG00000kHT5SYAW",
+    "account_name": "ARNOLD'S - CFD PTY.",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Custom Build",
+    "website": "http://arnoldsonline.com.au",
+    "industry": "Other"
+  },
+  {
+    "account_id": "0018V00002lHa47QAC",
+    "account_name": "King of Cakes",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "kingofcakes.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "0018V00002kYGEyQAO",
+    "account_name": "Aussie Blokes Clothes Pty Ltd",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "aussieblokesclothes.com.au",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "0018V00002lHZeVQAW",
+    "account_name": "Pinnacle Health Clinic",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "High",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "pinnacleclinic.com",
+    "industry": "Health & Beauty (excl. Pharma)"
+  },
+  {
+    "account_id": "0018V00002cz3HPQAY",
+    "account_name": "Len Wallis Audio Pty Ltd",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "lenwallisaudio.com",
+    "industry": "Electronics & Gadgets"
+  },
+  {
+    "account_id": "0018V00002kYJC6QAO",
+    "account_name": "Demir Leather & Furniture",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "Custom Build",
+    "website": "demirleather.com.au",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "0018V00002cyzoqQAA",
+    "account_name": "Gr8 Health",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Custom Build",
+    "website": "gr8health.com.au",
+    "industry": "Health & Beauty (excl. Pharma)"
+  },
+  {
+    "account_id": "0018V00002d0KMhQAM",
+    "account_name": "placemakers.co.nz",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "SAP Commerce Cloud (Hybris)",
+    "website": "placemakers.co.nz",
+    "industry": "Construction & Industrial"
+  },
+  {
+    "account_id": "001OG00000kHQ57YAG",
+    "account_name": "Smiths Office Solutions",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "http://smithsoffice.com.au",
+    "industry": "Stationery & Office Supplies"
+  },
+  {
+    "account_id": "0018V00002czk5hQAA",
+    "account_name": "Wireless 1",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "wireless1.com.au",
+    "industry": "Electronics & Gadgets"
+  },
+  {
+    "account_id": "0018V00002lHJQdQAO",
+    "account_name": "Combat Australia",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "BigCommerce",
+    "website": "combataustralia.com.au",
+    "industry": "Sports & Recreation (excl. Firearms)"
+  },
+  {
+    "account_id": "001OG00000y95w9YAA",
+    "account_name": "Music Workshop",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Custom Build",
+    "website": "musicworkshop.com.au",
+    "industry": "Entertainment"
+  },
+  {
+    "account_id": "0018V00002kYGIKQA4",
+    "account_name": "Atelier Zolotas SA",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "http://atelierzolotas.gr",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "0018V00002lHaHDQA0",
+    "account_name": "Innovation living Melbourne",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "innovationsofabeds.com.au",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "0018V00002lHZqbQAG",
+    "account_name": "Samsara Furniture and Homewares",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "samsarafurniture.com.au",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "001OG0000197a4jYAA",
+    "account_name": "Te Puia | NZMACI",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "http://tepuia.com",
+    "industry": "Travel & Tourism"
+  },
+  {
+    "account_id": "0018V00002lHaC0QAK",
+    "account_name": "Australian Treated Pine Pty Ltd",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "atpine.com.au",
+    "industry": "Other"
+  },
+  {
+    "account_id": "0018V00002cz5zAQAQ",
+    "account_name": "GS Diamonds",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "Custom Build",
+    "website": "gsdiamonds.com.au",
+    "industry": "Jewelry"
+  },
+  {
+    "account_id": "0018V00002kYJEGQA4",
+    "account_name": "Ke-zu",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "kezu.com.au",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "0018V00002d0FIkQAM",
+    "account_name": "Postie",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "Custom Build",
+    "website": "postie.co.nz",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "0018V00002lHZtQQAW",
+    "account_name": "Honey Ant Gallery",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "http://honeyantgallery.com",
+    "industry": "Art & Photography"
+  },
+  {
+    "account_id": "0018V00002czbwUQAQ",
+    "account_name": "Queen Bee Maternity Pty Ltd",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Custom Build",
+    "website": "queenbee.com.au",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "0018V00002lHZ7UQAW",
+    "account_name": "McLoughlin Butchers",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "http://mcloughlinbutchers.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "0018V00002lHKEHQA4",
+    "account_name": "Batch Winery",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Wix",
+    "website": "batchwinery.com",
+    "industry": "Alcohol"
+  },
+  {
+    "account_id": "0018V00002kYGI6QAO",
+    "account_name": "Race Promotions",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "promotionwear.com.au",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "0018V00002cz60hQAA",
+    "account_name": "Bourke and Travers Wine",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Custom Build",
+    "website": "bourkeandtravers.com",
+    "industry": "Other"
+  },
+  {
+    "account_id": "001OG00000kHHe0YAG",
+    "account_name": "Townsville & Districts Mendi Blackhawks RLFC",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "blackhawkstsv.com.au",
+    "industry": "Sports & Recreation (excl. Firearms)"
+  },
+  {
+    "account_id": "001OG00000kHOELYA4",
+    "account_name": "ARCIS",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "shoparcis.com",
+    "industry": "Jewelry"
+  },
+  {
+    "account_id": "0018V00002lHaXlQAK",
+    "account_name": "KidzAid Australia",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "kidzaid.com.au",
+    "industry": "Health & Beauty (excl. Pharma)"
+  },
+  {
+    "account_id": "0018V00002lHZ0jQAG",
+    "account_name": "Kailis Jewellery",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "kailisjewellery.com.au",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "0018V00002czaQPQAY",
+    "account_name": "World Of Whisky",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "BigCommerce",
+    "website": "worldofwhisky.com.au",
+    "industry": "Other"
+  },
+  {
+    "account_id": "0018V00002lHacRQAS",
+    "account_name": "red duck",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "redduckbeer.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "001OG00000kHZf1YAG",
+    "account_name": "Speed Rack",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "http://speedrack.com.au",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "0018V00002lHZgJQAW",
+    "account_name": "Yoga Synergy",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "yogasynergy.com",
+    "industry": "Health & Beauty (excl. Pharma)"
+  },
+  {
+    "account_id": "001OG00000kHj3aYAC",
+    "account_name": "Croft & Company",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Custom Build",
+    "website": "http://croft.net.au",
+    "industry": "Stationery & Office Supplies"
+  },
+  {
+    "account_id": "001OG0000197a4HYAQ",
+    "account_name": "Sewing Machine Warehouse",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "",
+    "website": "sewingmachinewarehouse.com.au",
+    "industry": "Other"
+  },
+  {
+    "account_id": "0018V00002lHRFUQA4",
+    "account_name": "Aspiring Enterprises",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "aspiring.co.nz",
+    "industry": "Health & Beauty (excl. Pharma)"
+  },
+  {
+    "account_id": "001OG00000kHE6TYAW",
+    "account_name": "Northcote City Football Club 'HERCULES'",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Custom Build",
+    "website": "northcotecity.com.au",
+    "industry": "Sports & Recreation (excl. Firearms)"
+  },
+  {
+    "account_id": "0018V00002kYJC7QAO",
+    "account_name": "Robert Cliff Master Jewellers",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "robertcliffmasterjewellers.com.au",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "001OG00000kHJGtYAO",
+    "account_name": "Gilbert's Fresh",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "http://gilbertsfresh.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "0018V00002lHY3zQAG",
+    "account_name": "Zinulin Pty Ltd",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "zinulin.com",
+    "industry": "Health & Beauty (excl. Pharma)"
+  },
+  {
+    "account_id": "001OG00000kHXWKYA4",
+    "account_name": "Quizzic Alley",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "http://quizzicalley.com",
+    "industry": "Gifts & Collectibles"
+  },
+  {
+    "account_id": "001OG00000kHL1zYAG",
+    "account_name": "CupcakesDelivered.com.au",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Drupal",
+    "website": "cupcakesdelivered.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "0018V00002lHSKrQAO",
+    "account_name": "Festive Foods",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "festivefoods.co.nz",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "001OG00000kHegnYAC",
+    "account_name": "Ever Australia UGG",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "http://everaustralia.com.au",
+    "industry": "Other"
+  },
+  {
+    "account_id": "001OG00000kHDZ3YAO",
+    "account_name": "Villa Thalgo Day Spa",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "http://villathalgo.com.au",
+    "industry": "Health & Beauty (excl. Pharma)"
+  },
+  {
+    "account_id": "001OG00000kHf35YAC",
+    "account_name": "Yarra Valley Hilltop",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "http://yarravalleyhilltop.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "001OG00000kHHI0YAO",
+    "account_name": "Harvey Galleries",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "http://harveygalleries.com.au",
+    "industry": "Art & Photography"
+  },
+  {
+    "account_id": "001OG00000y95roYAA",
+    "account_name": "Porter Paint",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Custom Build",
+    "website": "porterspaints.com",
+    "industry": "Construction & Industrial"
+  },
+  {
+    "account_id": "001OG00000kHY0RYAW",
+    "account_name": "Aimwell Pty Ltd",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "aimwellbreathing.com",
+    "industry": "Health & Beauty (excl. Pharma)"
+  },
+  {
+    "account_id": "0018V00002d0IfuQAE",
+    "account_name": "Boardstore",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Other",
+    "website": "boardstore.com.au",
+    "industry": "Construction & Industrial"
+  },
+  {
+    "account_id": "001OG00000kHlBzYAK",
+    "account_name": "House of Supplements",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "http://houseofsupplements.com.au",
+    "industry": "Health & Beauty (excl. Pharma)"
+  },
+  {
+    "account_id": "0018V00002lHZSZQA4",
+    "account_name": "Candyss Crosby Gallery",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "candysscrosby.com",
+    "industry": "Art & Photography"
+  },
+  {
+    "account_id": "001OG00000kHX4KYAW",
+    "account_name": "Body Sanctum Day Spa",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "bodysanctum.co.nz",
+    "industry": "Health & Beauty (excl. Pharma)"
+  },
+  {
+    "account_id": "0018V00002lHa2HQAS",
+    "account_name": "CardioTech",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "cardiotech.com.au",
+    "industry": "Health & Beauty (excl. Pharma)"
+  },
+  {
+    "account_id": "0018V00002lHLGRQA4",
+    "account_name": "Design Concepts",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "designconcepts.co.nz",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "0018V00002lHSaOQAW",
+    "account_name": "Lighting Direct",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "Other",
+    "website": "lightingdirectdesign.co.nz",
+    "industry": "Home Decor"
+  },
+  {
+    "account_id": "001OG00000kHgWIYA0",
+    "account_name": "Twin Loop Binding",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "twinloop.com.au",
+    "industry": "Services"
+  },
+  {
+    "account_id": "0018V00002czJNCQA2",
+    "account_name": "Superior Engineering",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "OpenCart",
+    "website": "superiorengineering.com.au",
+    "industry": "Vehicles & Parts"
+  },
+  {
+    "account_id": "001OG00000kHPtaYAG",
+    "account_name": "Melba Recordings Pty",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Custom Build",
+    "website": "melbarecordings.com.au",
+    "industry": "Entertainment"
+  },
+  {
+    "account_id": "001OG00000kHZOTYA4",
+    "account_name": "Element Bazaar",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "elementbazaar.com.au",
+    "industry": "Home Decor"
+  },
+  {
+    "account_id": "0018V00002czYhEQAU",
+    "account_name": "Art Shed Online",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Other",
+    "website": "artshedonline.com.au",
+    "industry": "Art & Photography"
+  },
+  {
+    "account_id": "0018V00002kYJElQAO",
+    "account_name": "My Wicker",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "mywicker.com.au",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "0018V00002lHLGTQA4",
+    "account_name": "derlook",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "derlook.co.nz",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "0018V00002lHa2oQAC",
+    "account_name": "Cocolife Australia",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "thecocolife.com.au",
+    "industry": "Health & Beauty (excl. Pharma)"
+  },
+  {
+    "account_id": "0018V00002lHaBxQAK",
+    "account_name": "Amby Baby Hammocks",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "babyhammocks.com",
+    "industry": "Other"
+  },
+  {
+    "account_id": "001OG00000kHHCuYAO",
+    "account_name": "Thank Tommi",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Shopify Plan Advanced/Basic",
+    "website": "tommiskin.co",
+    "industry": "Health & Beauty (excl. Pharma)"
+  },
+  {
+    "account_id": "0018V00002kYJFJQA4",
+    "account_name": "Naturally Cane",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "naturallycane.com.au",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "0018V00002lHZQcQAO",
+    "account_name": "cedar magic",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "BigCommerce",
+    "website": "cedarmagic.com.au",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "0018V00002czbV4QAI",
+    "account_name": "Vinotopia",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Squarespace",
+    "website": "vinotopia.com.au",
+    "industry": "Other"
+  },
+  {
+    "account_id": "001OG00000kHMf3YAG",
+    "account_name": "Bharat Traders",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "bharattraders.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "0018V00002lHK5BQAW",
+    "account_name": "Danske M\u00f8bler",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Custom Build",
+    "website": "danskemobler.co.nz",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "0018V00002lHP1kQAG",
+    "account_name": "Betta Electrical",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "BigCommerce",
+    "website": "bettaelectrical.co.nz",
+    "industry": "Electronics & Gadgets"
+  },
+  {
+    "account_id": "0018V00002kYGHOQA4",
+    "account_name": "Stewart & Heaton",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "shcc.com.au",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "001OG00000kH1jlYAC",
+    "account_name": "Primivo Group",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Other",
+    "website": "http://primivo.com.au",
+    "industry": "Health & Beauty (excl. Pharma)"
+  },
+  {
+    "account_id": "001OG00000kHdamYAC",
+    "account_name": "Kay Brothers Pty Ltd",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Other",
+    "website": "http://kaybrothers.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "001OG00000kHjneYAC",
+    "account_name": "Australian National Discovery Pty Ltd",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "http://fantasycaravan.com.au",
+    "industry": "Other"
+  },
+  {
+    "account_id": "0018V00002lHJQDQA4",
+    "account_name": "Artia Cornall Nz",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "http://artia.co.nz",
+    "industry": "Other"
+  },
+  {
+    "account_id": "001OG00000kH4DBYA0",
+    "account_name": "Hazara Trade Centre",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "hazaratradeshop.com.au",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "0018V00002lHabxQAC",
+    "account_name": "MacPhee's Wine Cellaring Specialists",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "macphees.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "001OG00000kHQSuYAO",
+    "account_name": "Wohlers",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "http://wohlers.com.au",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "0018V00002kYGKeQAO",
+    "account_name": "The Furniture Trader - Dandenong South",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "furnituretrader.com.au",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "0018V00002lHZQKQA4",
+    "account_name": "DJC Furniture",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "BigCommerce",
+    "website": "djcfurniture.com.au",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "0018V00002lHYsMQAW",
+    "account_name": "Ellis Guitars",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "ellisguitars.com",
+    "industry": "Other"
+  },
+  {
+    "account_id": "0018V00002lHY1LQAW",
+    "account_name": "Aussie Swings",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "aussieswings.com.au",
+    "industry": "Education"
+  },
+  {
+    "account_id": "001OG00000kHgnyYAC",
+    "account_name": "Essence Of My Heart",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "essenceofmyheart.com.au",
+    "industry": "Health & Beauty (excl. Pharma)"
+  },
+  {
+    "account_id": "0018V00002d0IkqQAE",
+    "account_name": "J&M Communications",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Custom Build",
+    "website": "jmcomm.com.au",
+    "industry": "Electronics & Gadgets"
+  },
+  {
+    "account_id": "0018V00002kYJEdQAO",
+    "account_name": "SKM Furniture",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "skmfurniture.com.au",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "0018V00002kYJEoQAO",
+    "account_name": "Naturally Timber",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "naturallytimber.com.au",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "0018V00002lHaHZQA0",
+    "account_name": "Ellie's Upholstery",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "elliesupholstery.com.au",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "001OG00000kHD1QYAW",
+    "account_name": "GERALDTON FRUIT & VEGETABLE SUPPLY PTY",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "geraldtonfruitandvege.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "0018V00002kYGF9QAO",
+    "account_name": "Hera Couture Ltd",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "heracouture.co.nz",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "0018V00002czKMvQAM",
+    "account_name": "Motorcycle Accessories Supermarket",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Other",
+    "website": "mcas.com.au",
+    "industry": "Vehicles & Parts"
+  },
+  {
+    "account_id": "001OG0000197a98YAA",
+    "account_name": "Brisbane Junior Rugby Union Inc.",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Other",
+    "website": "http://bjru.com.au",
+    "industry": "Sports & Recreation (excl. Firearms)"
+  },
+  {
+    "account_id": "001OG00000kH9TAYA0",
+    "account_name": "Sunne Printing Services P/L",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "http://sunne.com.au",
+    "industry": "Services"
+  },
+  {
+    "account_id": "0018V00002lHaWUQA0",
+    "account_name": "Leimo Australia",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "leimo.com.au",
+    "industry": "Health & Beauty (excl. Pharma)"
+  },
+  {
+    "account_id": "001OG0000197Zu1YAE",
+    "account_name": "Kirrihill",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "",
+    "website": "kirrihillwines.com.au",
+    "industry": "Food & Beverage (excl. Alcohol)"
+  },
+  {
+    "account_id": "0018V00002lHZQWQA4",
+    "account_name": "Collectika",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "collectika.com.au",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "0018V00002d0IaJQAU",
+    "account_name": "Bikebiz",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Custom Build",
+    "website": "bikebiz.com.au",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "001OG00000kHQS5YAO",
+    "account_name": "Barcode Australia Pty Ltd",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Other",
+    "website": "barcodeaustralia.com.au",
+    "industry": "Services"
+  },
+  {
+    "account_id": "0018V00002d0IowQAE",
+    "account_name": "Tennis Warehouse Australia",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "tenniswarehouse.com.au",
+    "industry": "Construction & Industrial"
+  },
+  {
+    "account_id": "001OG00000kHaWJYA0",
+    "account_name": "Bolts Galore",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "boltsgalore.com.au",
+    "industry": "Other"
+  },
+  {
+    "account_id": "001OG00000kHIbhYAG",
+    "account_name": "StyleTemple",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "WooCommerce",
+    "website": "styletemple.ng",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "0018V00002lHaOlQAK",
+    "account_name": "Curtis Australia",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_04",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "Odoo",
+    "website": "curtisaustralia.com",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "001OG00000kHlVXYA0",
+    "account_name": "Australian Oztag",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Potential Fit",
+    "platform": "WooCommerce",
+    "website": "oztag.com.au",
+    "industry": "Sports & Recreation (excl. Firearms)"
+  },
+  {
+    "account_id": "001OG00000kHhU3YAK",
+    "account_name": "The New Pistol Clothing",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "OpenCart",
+    "website": "pistolclothing.com.au",
+    "industry": "Services"
+  },
+  {
+    "account_id": "0018V00002t6T3NQAU",
+    "account_name": "Ecosa Mattress",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "ecosa.com.au",
+    "industry": "Furniture"
+  },
+  {
+    "account_id": "0018V00002dH10UQAS",
+    "account_name": "Knog",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "Medium",
+    "fit_score": "Excellent Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "knog.com.au",
+    "industry": "Construction & Industrial"
+  },
+  {
+    "account_id": "0018V00002lH5HUQA0",
+    "account_name": "Blooming Wear",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "Adobe Commerce (Magento)",
+    "website": "bloomingwear.com",
+    "industry": "Apparel & Accessories"
+  },
+  {
+    "account_id": "001OG00000yA4PbYAK",
+    "account_name": "Maggie Marilyn",
+    "territory": "APAC_Mid-Mkt_ANZ_All_A_D2CRetail_02",
+    "priority": "High",
+    "fit_score": "Excellent Fit",
+    "platform": "Custom Build",
+    "website": "maggiemarilyn.myshopify.com",
+    "industry": "Apparel & Accessories"
+  }
+]
