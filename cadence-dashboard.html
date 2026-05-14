@@ -731,7 +731,7 @@
 
 <!-- ===== CHACHI'S ACTIVITY ===== -->
 <div class="section-header" style="margin-top: 28px;">Chachi's Activity</div>
-<div class="plays-grid-4" style="margin-bottom: 14px;">
+<div class="plays-grid-4" style="margin-bottom: 14px; grid-template-columns: repeat(3, 1fr);">
 
   <div class="play-box">
     <div class="play-box-header">
@@ -817,39 +817,11 @@
     </div>
   </div>
 
-  <div class="play-box">
-    <div class="play-box-header">
-      <div class="play-icon icon-purple">🎯</div>
-      <div>
-        <div class="play-title">Workable BoB activity match</div>
-        <span class="play-cadence-tag">How much of your activity is hitting priority accounts</span>
-      </div>
-    </div>
-    <div class="play-body">
-      <div class="metric-row">
-        <span class="metric-label">Q2 High workable touched via SF</span>
-        <span class="metric-value active">6 of 105 (5.7%)</span>
-      </div>
-      <div class="metric-row">
-        <span class="metric-label">Q2 Medium workable touched via SF</span>
-        <span class="metric-value active">5 of 411 (1.2%)</span>
-      </div>
-      <div class="metric-row">
-        <span class="metric-label">YTD High touched (SF)</span>
-        <span class="metric-value">19 of 105 (18%)</span>
-      </div>
-      <div class="metric-row">
-        <span class="metric-label">YTD Medium touched (SF)</span>
-        <span class="metric-value">13 of 411 (3%)</span>
-      </div>
-    </div>
-  </div>
 
 </div>
 
 <div class="data-note">
-  <strong>Activity definition:</strong> a "touch" on a High or Medium account is any of: a one-off email to the account (Salesforce Task TaskSubtype=Email OR Vault CRM activity log), a partner-led interaction (referrals, joint outreach), an event interaction (invite, attendance, Shopify Connect, webinar), an active cadence/sequence enrollment (Vault CRM), or a logged dial. Pulled from BOTH Salesforce AND Vault CRM on each weekly /cadence-review run.<br><br>
-  <strong>Note on the activity vs workable mismatch:</strong> You've logged 1,627 tasks against 108 distinct accounts, but only 32 of those accounts are in your priority workable BoB (19 High + 13 Medium). The remaining 76 accounts are either Low priority, Poor Fit, or not in BoB. The ~480 Shopify Connect Sydney invites went broad — useful pipeline-warming but not concentrated on your workable book.
+  <strong>Activity definition:</strong> a "touch" on a High or Medium account is any of: a one-off email to the account (Salesforce Task TaskSubtype=Email OR Vault CRM activity log), a partner-led interaction (referrals, joint outreach), an event interaction (invite, attendance, Shopify Connect, webinar), an active cadence/sequence enrollment (Vault CRM), or a logged dial. Pulled from BOTH Salesforce AND Vault CRM on each weekly /cadence-review run.
 </div>
 
 
